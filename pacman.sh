@@ -117,7 +117,9 @@ else
   fi
 fi
 garbage=`find . -maxdepth 1 -not -name "*.sh" -not -name "results" -type f`
-mkdir sideProducts
+if [ ! -d "sideProducts" ]; then
+  mkdir sideProducts
+fi
 for file in $garbage
 do
   mv ${file:2} sideProducts
