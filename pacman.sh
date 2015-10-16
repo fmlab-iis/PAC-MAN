@@ -64,7 +64,9 @@ echo 'unsigned short __VERIFIER_nondet_ushort() { unsigned short ret; CREST_unsi
 echo 'unsigned char __VERIFIER_nondet_uchar() { unsigned char ret; CREST_unsigned_char(ret); return ret; }' >> $mod_file
 echo 'unsigned long __VERIFIER_nondet_ulong() { unsigned long ret; CREST_unsigned_long(ret); return ret; }' >> $mod_file
 echo 'void *__VERIFIER_nondet_pointer() { }' >> $mod_file
-echo 'void __VERIFIER_assume(int cond) { if (!(cond)) exit(0); }' >> $mod_file
+if grep -q "extern void __VERIFIER_assume" $mod_file; then
+  echo 'void __VERIFIER_assume(int cond) { if (!(cond)) exit(0); }' >> $mod_file
+fi
 echo 'void __VERIFIER_error(){ fprintf(stdout, "Reached __VERIFIER_error\n"); exit(1); }' >> $mod_file
 
 # Run crestc
@@ -92,7 +94,7 @@ if grep "Reached __VERIFIER_error" $crest_log > /dev/null; then
     raw_file="$temp.c"
   fi
   gp_1=$(date +"%s")
-  timeout $tr1 ./ocaml/pac.native -c 2 -s -t decisions -f main $raw_file > path.c
+  timeout $tr1 ./ocaml/pac.native -c 2 -t decisions -f main $raw_file > path.c
   gp_2=$(date +"%s")
   gp_d=$(($gp_2-$gp_1))
   #echo "*** Error Path Generation: $(($gp_d / 60)) minutes and $(($gp_d % 60)) seconds elapsed."
@@ -115,6 +117,7 @@ else
   fi
 fi
 garbage=`find . -maxdepth 1 -not -name "*.sh" -not -name "results" -type f`
+mkdir sideProducts
 for file in $garbage
 do
   mv ${file:2} sideProducts
