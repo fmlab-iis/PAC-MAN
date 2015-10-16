@@ -1,0 +1,2174 @@
+"badUtil.ml" 6 94 98 "badUtil.ml" 6 94 109
+type(
+  Cil.global list -> Cil.fundec list
+)
+ident(
+  def get_fundecs "badUtil.ml" 15 327 327 "badUtil.ml" 1 0 -1
+)
+"badUtil.ml" 6 94 110 "badUtil.ml" 6 94 117
+type(
+  Cil.global list
+)
+ident(
+  def globals "badUtil.ml" 7 120 122 "badUtil.ml" 11 226 273
+)
+"badUtil.ml" 7 120 126 "badUtil.ml" 7 120 134
+type(
+  Cil.fundec list -> Cil.global -> Cil.fundec list
+)
+ident(
+  def fundec_h "badUtil.ml" 11 226 228 "badUtil.ml" 11 226 273
+)
+"badUtil.ml" 7 120 135 "badUtil.ml" 7 120 138
+type(
+  Cil.fundec list
+)
+ident(
+  def res "badUtil.ml" 7 120 139 "badUtil.ml" 10 208 222
+)
+"badUtil.ml" 7 120 139 "badUtil.ml" 7 120 145
+type(
+  Cil.global
+)
+ident(
+  def global "badUtil.ml" 8 148 152 "badUtil.ml" 10 208 222
+)
+"badUtil.ml" 8 148 158 "badUtil.ml" 8 148 164
+type(
+  Cil.global
+)
+ident(
+  int_ref global "badUtil.ml" 7 120 139 "badUtil.ml" 7 120 145
+)
+"badUtil.ml" 9 170 186 "badUtil.ml" 9 170 190
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "badUtil.ml" 9 170 198 "badUtil.ml" 9 170 207
+)
+"badUtil.ml" 9 170 192 "badUtil.ml" 9 170 193
+type(
+  Cil.location
+)
+"badUtil.ml" 9 170 176 "badUtil.ml" 9 170 194
+type(
+  Cil.global
+)
+"badUtil.ml" 9 170 198 "badUtil.ml" 9 170 202
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badUtil.ml" 9 170 186 "badUtil.ml" 9 170 190
+)
+"badUtil.ml" 9 170 204 "badUtil.ml" 9 170 207
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref res "badUtil.ml" 7 120 135 "badUtil.ml" 7 120 138
+)
+"badUtil.ml" 9 170 198 "badUtil.ml" 9 170 207
+type(
+  Cil.fundec list
+)
+"badUtil.ml" 10 208 214 "badUtil.ml" 10 208 215
+type(
+  Cil.global
+)
+"badUtil.ml" 10 208 219 "badUtil.ml" 10 208 222
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref res "badUtil.ml" 7 120 135 "badUtil.ml" 7 120 138
+)
+"badUtil.ml" 8 148 152 "badUtil.ml" 10 208 222
+type(
+  Cil.fundec list
+)
+"badUtil.ml" 11 226 228 "badUtil.ml" 11 226 236
+type(
+  Cil.fundec list -> Cil.fundec list
+)
+ident(
+  ext_ref List.rev
+)
+"badUtil.ml" 11 226 238 "badUtil.ml" 11 226 252
+type(
+  (Cil.fundec list -> Cil.global -> Cil.fundec list) ->
+  Cil.fundec list -> Cil.global list -> Cil.fundec list
+)
+ident(
+  ext_ref List.fold_left
+)
+"badUtil.ml" 11 226 253 "badUtil.ml" 11 226 261
+type(
+  Cil.fundec list -> Cil.global -> Cil.fundec list
+)
+ident(
+  int_ref fundec_h "badUtil.ml" 7 120 126 "badUtil.ml" 7 120 134
+)
+"badUtil.ml" 11 226 262 "badUtil.ml" 11 226 264
+type(
+  Cil.fundec list
+)
+"badUtil.ml" 11 226 265 "badUtil.ml" 11 226 272
+type(
+  Cil.global list
+)
+ident(
+  int_ref globals "badUtil.ml" 6 94 110 "badUtil.ml" 6 94 117
+)
+"badUtil.ml" 11 226 237 "badUtil.ml" 11 226 273
+call(
+  stack
+)
+type(
+  Cil.fundec list
+)
+"badUtil.ml" 11 226 228 "badUtil.ml" 11 226 273
+call(
+  tail
+)
+type(
+  Cil.fundec list
+)
+"badUtil.ml" 7 120 122 "badUtil.ml" 11 226 273
+type(
+  Cil.fundec list
+)
+"badUtil.ml" 15 327 331 "badUtil.ml" 15 327 345
+type(
+  Cil.stmt -> bool
+)
+ident(
+  def stmt_is_branch "badUtil.ml" 22 461 461 "badUtil.ml" 1 0 -1
+)
+"badUtil.ml" 15 327 346 "badUtil.ml" 15 327 350
+type(
+  Cil.stmt
+)
+ident(
+  def stmt "badUtil.ml" 16 353 355 "badUtil.ml" 18 402 416
+)
+"badUtil.ml" 16 353 361 "badUtil.ml" 16 353 365
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "badUtil.ml" 15 327 346 "badUtil.ml" 15 327 350
+)
+"badUtil.ml" 16 353 361 "badUtil.ml" 16 353 375
+type(
+  Cil.stmtkind
+)
+"badUtil.ml" 17 381 392 "badUtil.ml" 17 381 393
+type(
+  Cil.location
+)
+type(
+  Cil.block
+)
+type(
+  Cil.block
+)
+type(
+  Cil.exp
+)
+"badUtil.ml" 17 381 385 "badUtil.ml" 17 381 393
+type(
+  Cil.stmtkind
+)
+"badUtil.ml" 17 381 397 "badUtil.ml" 17 381 401
+type(
+  bool
+)
+"badUtil.ml" 18 402 406 "badUtil.ml" 18 402 407
+type(
+  Cil.stmtkind
+)
+"badUtil.ml" 18 402 411 "badUtil.ml" 18 402 416
+type(
+  bool
+)
+"badUtil.ml" 16 353 355 "badUtil.ml" 18 402 416
+type(
+  bool
+)
+"badUtil.ml" 22 461 465 "badUtil.ml" 22 461 478
+type(
+  Cil.stmt list -> int list
+)
+ident(
+  def stmts_to_sids "badUtil.ml" 28 652 652 "badUtil.ml" 1 0 -1
+)
+"badUtil.ml" 22 461 479 "badUtil.ml" 22 461 484
+type(
+  Cil.stmt list
+)
+ident(
+  def stmts "badUtil.ml" 23 487 489 "badUtil.ml" 24 532 579
+)
+"badUtil.ml" 23 487 493 "badUtil.ml" 23 487 508
+type(
+  Cil.stmt -> int
+)
+ident(
+  def stmts_to_sids_h "badUtil.ml" 24 532 534 "badUtil.ml" 24 532 579
+)
+"badUtil.ml" 23 487 509 "badUtil.ml" 23 487 513
+type(
+  Cil.stmt
+)
+ident(
+  def stmt "badUtil.ml" 23 487 516 "badUtil.ml" 23 487 528
+)
+"badUtil.ml" 23 487 516 "badUtil.ml" 23 487 520
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "badUtil.ml" 23 487 509 "badUtil.ml" 23 487 513
+)
+"badUtil.ml" 23 487 516 "badUtil.ml" 23 487 528
+type(
+  int
+)
+"badUtil.ml" 24 532 534 "badUtil.ml" 24 532 542
+type(
+  int list -> int list
+)
+ident(
+  ext_ref List.rev
+)
+"badUtil.ml" 24 532 544 "badUtil.ml" 24 532 556
+type(
+  (Cil.stmt -> int) -> Cil.stmt list -> int list
+)
+ident(
+  ext_ref List.rev_map
+)
+"badUtil.ml" 24 532 557 "badUtil.ml" 24 532 572
+type(
+  Cil.stmt -> int
+)
+ident(
+  int_ref stmts_to_sids_h "badUtil.ml" 23 487 493 "badUtil.ml" 23 487 508
+)
+"badUtil.ml" 24 532 573 "badUtil.ml" 24 532 578
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref stmts "badUtil.ml" 22 461 479 "badUtil.ml" 22 461 484
+)
+"badUtil.ml" 24 532 543 "badUtil.ml" 24 532 579
+call(
+  stack
+)
+type(
+  int list
+)
+"badUtil.ml" 24 532 534 "badUtil.ml" 24 532 579
+call(
+  tail
+)
+type(
+  int list
+)
+"badUtil.ml" 23 487 489 "badUtil.ml" 24 532 579
+type(
+  int list
+)
+"badUtil.ml" 28 652 656 "badUtil.ml" 28 652 676
+type(
+  Cil.fundec -> int * int
+)
+ident(
+  def first_and_last_stids "badUtil.ml" 43 1270 1270 "badUtil.ml" 1 0 -1
+)
+"badUtil.ml" 28 652 677 "badUtil.ml" 28 652 681
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "badUtil.ml" 30 744 746 "badUtil.ml" 39 1163 1204
+)
+"badUtil.ml" 30 744 750 "badUtil.ml" 30 744 760
+type(
+  Cil.stmt
+)
+ident(
+  def first_stmt "badUtil.ml" 36 984 986 "badUtil.ml" 39 1163 1204
+)
+"badUtil.ml" 30 744 763 "badUtil.ml" 30 744 770
+type(
+  Cil.stmt list -> Cil.stmt
+)
+ident(
+  ext_ref List.hd
+)
+"badUtil.ml" 30 744 771 "badUtil.ml" 30 744 775
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badUtil.ml" 28 652 677 "badUtil.ml" 28 652 681
+)
+"badUtil.ml" 30 744 771 "badUtil.ml" 30 744 785
+type(
+  Cil.block
+)
+"badUtil.ml" 30 744 771 "badUtil.ml" 30 744 796
+type(
+  Cil.stmt list
+)
+"badUtil.ml" 30 744 763 "badUtil.ml" 30 744 796
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"badUtil.ml" 36 984 990 "badUtil.ml" 36 984 999
+type(
+  Cil.stmt
+)
+ident(
+  def last_stmt "badUtil.ml" 38 1116 1118 "badUtil.ml" 39 1163 1204
+)
+"badUtil.ml" 36 984 1002 "badUtil.ml" 36 984 1009
+type(
+  Cil.stmt list -> Cil.stmt
+)
+ident(
+  ext_ref List.hd
+)
+"badUtil.ml" 36 984 1011 "badUtil.ml" 36 984 1019
+type(
+  Cil.stmt list -> Cil.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"badUtil.ml" 36 984 1020 "badUtil.ml" 36 984 1024
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badUtil.ml" 28 652 677 "badUtil.ml" 28 652 681
+)
+"badUtil.ml" 36 984 1020 "badUtil.ml" 36 984 1034
+type(
+  Cil.block
+)
+"badUtil.ml" 36 984 1020 "badUtil.ml" 36 984 1045
+type(
+  Cil.stmt list
+)
+"badUtil.ml" 36 984 1010 "badUtil.ml" 36 984 1046
+call(
+  stack
+)
+type(
+  Cil.stmt list
+)
+"badUtil.ml" 36 984 1002 "badUtil.ml" 36 984 1046
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"badUtil.ml" 38 1116 1122 "badUtil.ml" 38 1116 1123
+type(
+  unit
+)
+"badUtil.ml" 38 1116 1134 "badUtil.ml" 38 1116 1143
+type(
+  Cil.stmt
+)
+ident(
+  int_ref last_stmt "badUtil.ml" 36 984 990 "badUtil.ml" 36 984 999
+)
+"badUtil.ml" 38 1116 1134 "badUtil.ml" 38 1116 1153
+type(
+  Cil.stmt list
+)
+"badUtil.ml" 38 1116 1154 "badUtil.ml" 38 1116 1155
+type(
+  Cil.stmt list -> Cil.stmt list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"badUtil.ml" 38 1116 1156 "badUtil.ml" 38 1116 1158
+type(
+  Cil.stmt list
+)
+"badUtil.ml" 38 1116 1133 "badUtil.ml" 38 1116 1159
+type(
+  bool
+)
+"badUtil.ml" 38 1116 1126 "badUtil.ml" 38 1116 1159
+type(
+  unit
+)
+"badUtil.ml" 39 1163 1166 "badUtil.ml" 39 1163 1176
+type(
+  Cil.stmt
+)
+ident(
+  int_ref first_stmt "badUtil.ml" 30 744 750 "badUtil.ml" 30 744 760
+)
+"badUtil.ml" 39 1163 1166 "badUtil.ml" 39 1163 1184
+type(
+  int
+)
+"badUtil.ml" 39 1163 1186 "badUtil.ml" 39 1163 1195
+type(
+  Cil.stmt
+)
+ident(
+  int_ref last_stmt "badUtil.ml" 36 984 990 "badUtil.ml" 36 984 999
+)
+"badUtil.ml" 39 1163 1186 "badUtil.ml" 39 1163 1203
+type(
+  int
+)
+"badUtil.ml" 39 1163 1165 "badUtil.ml" 39 1163 1204
+type(
+  int * int
+)
+"badUtil.ml" 38 1116 1118 "badUtil.ml" 39 1163 1204
+type(
+  int * int
+)
+"badUtil.ml" 36 984 986 "badUtil.ml" 39 1163 1204
+type(
+  int * int
+)
+"badUtil.ml" 30 744 746 "badUtil.ml" 39 1163 1204
+type(
+  int * int
+)
+"badUtil.ml" 43 1270 1278 "badUtil.ml" 43 1270 1297
+type(
+  Cil.exp -> string option
+)
+ident(
+  def collect_call_in_exp "badUtil.ml" 43 1270 1270 "badUtil.ml" 1 0 -1
+)
+"badUtil.ml" 43 1270 1298 "badUtil.ml" 43 1270 1301
+type(
+  Cil.exp
+)
+ident(
+  def exp "badUtil.ml" 47 1367 1369 "badUtil.ml" 52 1522 1535
+)
+"badUtil.ml" 47 1367 1375 "badUtil.ml" 47 1367 1378
+type(
+  Cil.exp
+)
+ident(
+  int_ref exp "badUtil.ml" 43 1270 1298 "badUtil.ml" 43 1270 1301
+)
+"badUtil.ml" 48 1384 1398 "badUtil.ml" 48 1384 1402
+type(
+  Cil.lhost
+)
+ident(
+  def host "badUtil.ml" 49 1410 1415 "badUtil.ml" 51 1478 1521
+)
+"badUtil.ml" 48 1384 1404 "badUtil.ml" 48 1384 1405
+type(
+  Cil.offset
+)
+"badUtil.ml" 48 1384 1397 "badUtil.ml" 48 1384 1406
+type(
+  Cil.lval
+)
+"badUtil.ml" 48 1384 1388 "badUtil.ml" 48 1384 1406
+type(
+  Cil.exp
+)
+"badUtil.ml" 49 1410 1422 "badUtil.ml" 49 1410 1426
+type(
+  Cil.lhost
+)
+ident(
+  int_ref host "badUtil.ml" 48 1384 1398 "badUtil.ml" 48 1384 1402
+)
+"badUtil.ml" 50 1432 1448 "badUtil.ml" 50 1432 1453
+type(
+  Cil.varinfo
+)
+ident(
+  def vinfo "badUtil.ml" 50 1432 1457 "badUtil.ml" 50 1432 1477
+)
+"badUtil.ml" 50 1432 1440 "badUtil.ml" 50 1432 1453
+type(
+  Cil.lhost
+)
+"badUtil.ml" 50 1432 1462 "badUtil.ml" 50 1432 1467
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vinfo "badUtil.ml" 50 1432 1448 "badUtil.ml" 50 1432 1453
+)
+"badUtil.ml" 50 1432 1462 "badUtil.ml" 50 1432 1477
+type(
+  string
+)
+"badUtil.ml" 50 1432 1457 "badUtil.ml" 50 1432 1477
+type(
+  string option
+)
+"badUtil.ml" 51 1478 1494 "badUtil.ml" 51 1478 1495
+type(
+  Cil.exp
+)
+ident(
+  def e "badUtil.ml" 51 1478 1499 "badUtil.ml" 51 1478 1520
+)
+"badUtil.ml" 51 1478 1486 "badUtil.ml" 51 1478 1495
+type(
+  Cil.lhost
+)
+"badUtil.ml" 51 1478 1499 "badUtil.ml" 51 1478 1518
+type(
+  Cil.exp -> string option
+)
+ident(
+  int_ref collect_call_in_exp "badUtil.ml" 43 1270 1278 "badUtil.ml" 43 1270 1297
+)
+"badUtil.ml" 51 1478 1519 "badUtil.ml" 51 1478 1520
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "badUtil.ml" 51 1478 1494 "badUtil.ml" 51 1478 1495
+)
+"badUtil.ml" 51 1478 1499 "badUtil.ml" 51 1478 1520
+call(
+  tail
+)
+type(
+  string option
+)
+"badUtil.ml" 49 1410 1415 "badUtil.ml" 51 1478 1521
+type(
+  string option
+)
+"badUtil.ml" 52 1522 1526 "badUtil.ml" 52 1522 1527
+type(
+  Cil.exp
+)
+"badUtil.ml" 52 1522 1531 "badUtil.ml" 52 1522 1535
+type(
+  string option
+)
+"badUtil.ml" 47 1367 1369 "badUtil.ml" 52 1522 1535
+type(
+  string option
+)
+"badUtil.ml" 56 1599 1603 "badUtil.ml" 56 1599 1622
+type(
+  'a -> 'b list -> ('a * BadT.symbol_t * 'b) list
+)
+ident(
+  def epsilon_transitions "badUtil.ml" 62 1832 1832 "badUtil.ml" 1 0 -1
+)
+"badUtil.ml" 56 1599 1623 "badUtil.ml" 56 1599 1626
+type(
+  'a
+)
+ident(
+  def sid "badUtil.ml" 56 1599 1627 "badUtil.ml" 58 1711 1768
+)
+"badUtil.ml" 56 1599 1627 "badUtil.ml" 56 1599 1636
+type(
+  'b list
+)
+ident(
+  def succ_sids "badUtil.ml" 57 1639 1641 "badUtil.ml" 58 1711 1768
+)
+"badUtil.ml" 57 1639 1645 "badUtil.ml" 57 1639 1666
+type(
+  'c -> 'a * BadT.symbol_t * 'c
+)
+ident(
+  def epsilon_transitions_h "badUtil.ml" 58 1711 1713 "badUtil.ml" 58 1711 1768
+)
+"badUtil.ml" 57 1639 1667 "badUtil.ml" 57 1639 1675
+type(
+  'c
+)
+ident(
+  def succ_sid "badUtil.ml" 57 1639 1678 "badUtil.ml" 57 1639 1707
+)
+"badUtil.ml" 57 1639 1679 "badUtil.ml" 57 1639 1682
+type(
+  'a
+)
+ident(
+  int_ref sid "badUtil.ml" 56 1599 1623 "badUtil.ml" 56 1599 1626
+)
+"badUtil.ml" 57 1639 1684 "badUtil.ml" 57 1639 1696
+type(
+  BadT.symbol_t
+)
+"badUtil.ml" 57 1639 1698 "badUtil.ml" 57 1639 1706
+type(
+  'c
+)
+ident(
+  int_ref succ_sid "badUtil.ml" 57 1639 1667 "badUtil.ml" 57 1639 1675
+)
+"badUtil.ml" 57 1639 1678 "badUtil.ml" 57 1639 1707
+type(
+  'a * BadT.symbol_t * 'c
+)
+"badUtil.ml" 58 1711 1713 "badUtil.ml" 58 1711 1721
+type(
+  ('a * BadT.symbol_t * 'b) list -> ('a * BadT.symbol_t * 'b) list
+)
+ident(
+  ext_ref List.rev
+)
+"badUtil.ml" 58 1711 1723 "badUtil.ml" 58 1711 1735
+type(
+  ('b -> 'a * BadT.symbol_t * 'b) ->
+  'b list -> ('a * BadT.symbol_t * 'b) list
+)
+ident(
+  ext_ref List.rev_map
+)
+"badUtil.ml" 58 1711 1736 "badUtil.ml" 58 1711 1757
+type(
+  'b -> 'a * BadT.symbol_t * 'b
+)
+ident(
+  int_ref epsilon_transitions_h "badUtil.ml" 57 1639 1645 "badUtil.ml" 57 1639 1666
+)
+"badUtil.ml" 58 1711 1758 "badUtil.ml" 58 1711 1767
+type(
+  'b list
+)
+ident(
+  int_ref succ_sids "badUtil.ml" 56 1599 1627 "badUtil.ml" 56 1599 1636
+)
+"badUtil.ml" 58 1711 1722 "badUtil.ml" 58 1711 1768
+call(
+  stack
+)
+type(
+  ('a * BadT.symbol_t * 'b) list
+)
+"badUtil.ml" 58 1711 1713 "badUtil.ml" 58 1711 1768
+call(
+  tail
+)
+type(
+  ('a * BadT.symbol_t * 'b) list
+)
+"badUtil.ml" 57 1639 1641 "badUtil.ml" 58 1711 1768
+type(
+  ('a * BadT.symbol_t * 'b) list
+)
+"badUtil.ml" 62 1832 1836 "badUtil.ml" 62 1832 1858
+type(
+  (string, 'a) Hashtbl.t -> Cil.instr list -> 'a list -> 'a list
+)
+ident(
+  def collect_call_in_instrs "badUtil.ml" 79 2360 2360 "badUtil.ml" 1 0 -1
+)
+"badUtil.ml" 62 1832 1859 "badUtil.ml" 62 1832 1868
+type(
+  (string, 'a) Hashtbl.t
+)
+ident(
+  def fdec_hash "badUtil.ml" 62 1832 1869 "badUtil.ml" 75 2244 2297
+)
+"badUtil.ml" 62 1832 1869 "badUtil.ml" 62 1832 1875
+type(
+  Cil.instr list
+)
+ident(
+  def instrs "badUtil.ml" 62 1832 1876 "badUtil.ml" 75 2244 2297
+)
+"badUtil.ml" 62 1832 1876 "badUtil.ml" 62 1832 1880
+type(
+  'a list
+)
+ident(
+  def rest "badUtil.ml" 63 1883 1885 "badUtil.ml" 75 2244 2297
+)
+"badUtil.ml" 63 1883 1889 "badUtil.ml" 63 1883 1913
+type(
+  'a list -> Cil.instr -> 'a list
+)
+ident(
+  def collect_call_in_instrs_h "badUtil.ml" 75 2244 2246 "badUtil.ml" 75 2244 2297
+)
+"badUtil.ml" 63 1883 1914 "badUtil.ml" 63 1883 1917
+type(
+  'a list
+)
+ident(
+  def ret "badUtil.ml" 63 1883 1918 "badUtil.ml" 74 2226 2240
+)
+"badUtil.ml" 63 1883 1918 "badUtil.ml" 63 1883 1923
+type(
+  Cil.instr
+)
+ident(
+  def instr "badUtil.ml" 64 1926 1930 "badUtil.ml" 74 2226 2240
+)
+"badUtil.ml" 64 1926 1936 "badUtil.ml" 64 1926 1941
+type(
+  Cil.instr
+)
+ident(
+  int_ref instr "badUtil.ml" 63 1883 1918 "badUtil.ml" 63 1883 1923
+)
+"badUtil.ml" 65 1947 1963 "badUtil.ml" 65 1947 1964
+type(
+  Cil.lval option
+)
+"badUtil.ml" 65 1947 1966 "badUtil.ml" 65 1947 1969
+type(
+  Cil.exp
+)
+ident(
+  def exp "badUtil.ml" 67 2007 2014 "badUtil.ml" 73 2208 2225
+)
+"badUtil.ml" 65 1947 1971 "badUtil.ml" 65 1947 1972
+type(
+  Cil.exp list
+)
+"badUtil.ml" 65 1947 1974 "badUtil.ml" 65 1947 1975
+type(
+  Cil.location
+)
+"badUtil.ml" 65 1947 1953 "badUtil.ml" 65 1947 1976
+type(
+  Cil.instr
+)
+"badUtil.ml" 66 1978 1993 "badUtil.ml" 66 1978 1994
+type(
+  Cil.lval
+)
+"badUtil.ml" 66 1978 1996 "badUtil.ml" 66 1978 1999
+type(
+  Cil.exp
+)
+ident(
+  def exp "badUtil.ml" 67 2007 2014 "badUtil.ml" 73 2208 2225
+)
+"badUtil.ml" 66 1978 2001 "badUtil.ml" 66 1978 2002
+type(
+  Cil.location
+)
+"badUtil.ml" 66 1978 1984 "badUtil.ml" 66 1978 2003
+type(
+  Cil.instr
+)
+"badUtil.ml" 65 1947 1953 "badUtil.ml" 66 1978 2003
+type(
+  Cil.instr
+)
+"badUtil.ml" 67 2007 2021 "badUtil.ml" 67 2007 2040
+type(
+  Cil.exp -> string option
+)
+ident(
+  int_ref collect_call_in_exp "badUtil.ml" 43 1270 1278 "badUtil.ml" 43 1270 1297
+)
+"badUtil.ml" 67 2007 2041 "badUtil.ml" 67 2007 2044
+type(
+  Cil.exp
+)
+ident(
+  int_ref exp "badUtil.ml" 65 1947 1966 "badUtil.ml" 65 1947 1969
+)
+"badUtil.ml" 67 2007 2021 "badUtil.ml" 67 2007 2044
+call(
+  stack
+)
+type(
+  string option
+)
+"badUtil.ml" 68 2050 2060 "badUtil.ml" 68 2050 2064
+type(
+  string option
+)
+"badUtil.ml" 68 2050 2068 "badUtil.ml" 68 2050 2071
+type(
+  'a list
+)
+ident(
+  int_ref ret "badUtil.ml" 63 1883 1914 "badUtil.ml" 63 1883 1917
+)
+"badUtil.ml" 69 2072 2087 "badUtil.ml" 69 2072 2092
+type(
+  string
+)
+ident(
+  def fname "badUtil.ml" 70 2096 2107 "badUtil.ml" 73 2208 2224
+)
+"badUtil.ml" 69 2072 2082 "badUtil.ml" 69 2072 2092
+type(
+  string option
+)
+"badUtil.ml" 70 2096 2110 "badUtil.ml" 70 2096 2121
+type(
+  (string, 'a) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"badUtil.ml" 70 2096 2122 "badUtil.ml" 70 2096 2131
+type(
+  (string, 'a) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badUtil.ml" 62 1832 1859 "badUtil.ml" 62 1832 1868
+)
+"badUtil.ml" 70 2096 2132 "badUtil.ml" 70 2096 2137
+type(
+  string
+)
+ident(
+  int_ref fname "badUtil.ml" 69 2072 2087 "badUtil.ml" 69 2072 2092
+)
+"badUtil.ml" 70 2096 2110 "badUtil.ml" 70 2096 2137
+call(
+  stack
+)
+type(
+  bool
+)
+"badUtil.ml" 71 2143 2157 "badUtil.ml" 71 2143 2169
+type(
+  (string, 'a) Hashtbl.t -> string -> 'a
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"badUtil.ml" 71 2143 2170 "badUtil.ml" 71 2143 2179
+type(
+  (string, 'a) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badUtil.ml" 62 1832 1859 "badUtil.ml" 62 1832 1868
+)
+"badUtil.ml" 71 2143 2180 "badUtil.ml" 71 2143 2185
+type(
+  string
+)
+ident(
+  int_ref fname "badUtil.ml" 69 2072 2087 "badUtil.ml" 69 2072 2092
+)
+"badUtil.ml" 71 2143 2156 "badUtil.ml" 71 2143 2186
+call(
+  stack
+)
+type(
+  'a
+)
+"badUtil.ml" 71 2143 2188 "badUtil.ml" 71 2143 2191
+type(
+  'a list
+)
+ident(
+  int_ref ret "badUtil.ml" 63 1883 1914 "badUtil.ml" 63 1883 1917
+)
+"badUtil.ml" 71 2143 2156 "badUtil.ml" 71 2143 2191
+type(
+  'a list
+)
+"badUtil.ml" 73 2208 2221 "badUtil.ml" 73 2208 2224
+type(
+  'a list
+)
+ident(
+  int_ref ret "badUtil.ml" 63 1883 1914 "badUtil.ml" 63 1883 1917
+)
+"badUtil.ml" 70 2096 2107 "badUtil.ml" 73 2208 2224
+type(
+  'a list
+)
+"badUtil.ml" 67 2007 2014 "badUtil.ml" 73 2208 2225
+type(
+  'a list
+)
+"badUtil.ml" 74 2226 2232 "badUtil.ml" 74 2226 2233
+type(
+  Cil.instr
+)
+"badUtil.ml" 74 2226 2237 "badUtil.ml" 74 2226 2240
+type(
+  'a list
+)
+ident(
+  int_ref ret "badUtil.ml" 63 1883 1914 "badUtil.ml" 63 1883 1917
+)
+"badUtil.ml" 64 1926 1930 "badUtil.ml" 74 2226 2240
+type(
+  'a list
+)
+"badUtil.ml" 75 2244 2246 "badUtil.ml" 75 2244 2260
+type(
+  ('a list -> Cil.instr -> 'a list) -> 'a list -> Cil.instr list -> 'a list
+)
+ident(
+  ext_ref List.fold_left
+)
+"badUtil.ml" 75 2244 2261 "badUtil.ml" 75 2244 2285
+type(
+  'a list -> Cil.instr -> 'a list
+)
+ident(
+  int_ref collect_call_in_instrs_h "badUtil.ml" 63 1883 1889 "badUtil.ml" 63 1883 1913
+)
+"badUtil.ml" 75 2244 2286 "badUtil.ml" 75 2244 2290
+type(
+  'a list
+)
+ident(
+  int_ref rest "badUtil.ml" 62 1832 1876 "badUtil.ml" 62 1832 1880
+)
+"badUtil.ml" 75 2244 2291 "badUtil.ml" 75 2244 2297
+type(
+  Cil.instr list
+)
+ident(
+  int_ref instrs "badUtil.ml" 62 1832 1869 "badUtil.ml" 62 1832 1875
+)
+"badUtil.ml" 75 2244 2246 "badUtil.ml" 75 2244 2297
+call(
+  tail
+)
+type(
+  'a list
+)
+"badUtil.ml" 63 1883 1885 "badUtil.ml" 75 2244 2297
+type(
+  'a list
+)
+"badUtil.ml" 79 2360 2364 "badUtil.ml" 79 2360 2387
+type(
+  (string, 'a) Hashtbl.t -> Cil.stmt list -> 'a list -> 'a list
+)
+ident(
+  def collect_callee_in_stmts "badUtil.ml" 88 2686 2686 "badUtil.ml" 1 0 -1
+)
+"badUtil.ml" 79 2360 2388 "badUtil.ml" 79 2360 2397
+type(
+  (string, 'a) Hashtbl.t
+)
+ident(
+  def fdec_hash "badUtil.ml" 79 2360 2398 "badUtil.ml" 84 2572 2625
+)
+"badUtil.ml" 79 2360 2398 "badUtil.ml" 79 2360 2403
+type(
+  Cil.stmt list
+)
+ident(
+  def stmts "badUtil.ml" 79 2360 2404 "badUtil.ml" 84 2572 2625
+)
+"badUtil.ml" 79 2360 2404 "badUtil.ml" 79 2360 2408
+type(
+  'a list
+)
+ident(
+  def rest "badUtil.ml" 80 2411 2413 "badUtil.ml" 84 2572 2625
+)
+"badUtil.ml" 80 2411 2417 "badUtil.ml" 80 2411 2442
+type(
+  'a list -> Cil.stmt -> 'a list
+)
+ident(
+  def collect_callee_in_stmts_h "badUtil.ml" 84 2572 2574 "badUtil.ml" 84 2572 2625
+)
+"badUtil.ml" 80 2411 2443 "badUtil.ml" 80 2411 2446
+type(
+  'a list
+)
+ident(
+  def ret "badUtil.ml" 80 2411 2447 "badUtil.ml" 83 2554 2568
+)
+"badUtil.ml" 80 2411 2447 "badUtil.ml" 80 2411 2451
+type(
+  Cil.stmt
+)
+ident(
+  def stmt "badUtil.ml" 81 2454 2458 "badUtil.ml" 83 2554 2568
+)
+"badUtil.ml" 81 2454 2464 "badUtil.ml" 81 2454 2468
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "badUtil.ml" 80 2411 2447 "badUtil.ml" 80 2411 2451
+)
+"badUtil.ml" 81 2454 2464 "badUtil.ml" 81 2454 2478
+type(
+  Cil.stmtkind
+)
+"badUtil.ml" 82 2484 2500 "badUtil.ml" 82 2484 2506
+type(
+  Cil.instr list
+)
+ident(
+  def instrs "badUtil.ml" 82 2484 2510 "badUtil.ml" 82 2484 2553
+)
+"badUtil.ml" 82 2484 2490 "badUtil.ml" 82 2484 2506
+type(
+  Cil.stmtkind
+)
+"badUtil.ml" 82 2484 2510 "badUtil.ml" 82 2484 2532
+type(
+  (string, 'a) Hashtbl.t -> Cil.instr list -> 'a list -> 'a list
+)
+ident(
+  int_ref collect_call_in_instrs "badUtil.ml" 62 1832 1836 "badUtil.ml" 62 1832 1858
+)
+"badUtil.ml" 82 2484 2533 "badUtil.ml" 82 2484 2542
+type(
+  (string, 'a) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badUtil.ml" 79 2360 2388 "badUtil.ml" 79 2360 2397
+)
+"badUtil.ml" 82 2484 2543 "badUtil.ml" 82 2484 2549
+type(
+  Cil.instr list
+)
+ident(
+  int_ref instrs "badUtil.ml" 82 2484 2500 "badUtil.ml" 82 2484 2506
+)
+"badUtil.ml" 82 2484 2550 "badUtil.ml" 82 2484 2553
+type(
+  'a list
+)
+ident(
+  int_ref ret "badUtil.ml" 80 2411 2443 "badUtil.ml" 80 2411 2446
+)
+"badUtil.ml" 82 2484 2510 "badUtil.ml" 82 2484 2553
+call(
+  tail
+)
+type(
+  'a list
+)
+"badUtil.ml" 83 2554 2560 "badUtil.ml" 83 2554 2561
+type(
+  Cil.stmtkind
+)
+"badUtil.ml" 83 2554 2565 "badUtil.ml" 83 2554 2568
+type(
+  'a list
+)
+ident(
+  int_ref ret "badUtil.ml" 80 2411 2443 "badUtil.ml" 80 2411 2446
+)
+"badUtil.ml" 81 2454 2458 "badUtil.ml" 83 2554 2568
+type(
+  'a list
+)
+"badUtil.ml" 84 2572 2574 "badUtil.ml" 84 2572 2588
+type(
+  ('a list -> Cil.stmt -> 'a list) -> 'a list -> Cil.stmt list -> 'a list
+)
+ident(
+  ext_ref List.fold_left
+)
+"badUtil.ml" 84 2572 2589 "badUtil.ml" 84 2572 2614
+type(
+  'a list -> Cil.stmt -> 'a list
+)
+ident(
+  int_ref collect_callee_in_stmts_h "badUtil.ml" 80 2411 2417 "badUtil.ml" 80 2411 2442
+)
+"badUtil.ml" 84 2572 2615 "badUtil.ml" 84 2572 2619
+type(
+  'a list
+)
+ident(
+  int_ref rest "badUtil.ml" 79 2360 2404 "badUtil.ml" 79 2360 2408
+)
+"badUtil.ml" 84 2572 2620 "badUtil.ml" 84 2572 2625
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref stmts "badUtil.ml" 79 2360 2398 "badUtil.ml" 79 2360 2403
+)
+"badUtil.ml" 84 2572 2574 "badUtil.ml" 84 2572 2625
+call(
+  tail
+)
+type(
+  'a list
+)
+"badUtil.ml" 80 2411 2413 "badUtil.ml" 84 2572 2625
+type(
+  'a list
+)
+"badUtil.ml" 88 2686 2690 "badUtil.ml" 88 2686 2713
+type(
+  (string, Cil.fundec) Hashtbl.t -> Cil.fundec -> Cil.fundec list * int
+)
+ident(
+  def compute_invoked_fundecs "badUtil.ml" 108 3494 3494 "badUtil.ml" 1 0 -1
+)
+"badUtil.ml" 88 2686 2714 "badUtil.ml" 88 2686 2723
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def fdec_hash "badUtil.ml" 88 2686 2724 "badUtil.ml" 103 3348 3392
+)
+"badUtil.ml" 88 2686 2724 "badUtil.ml" 88 2686 2730
+type(
+  Cil.fundec
+)
+ident(
+  def fundec "badUtil.ml" 89 2733 2735 "badUtil.ml" 103 3348 3392
+)
+"badUtil.ml" 89 2733 2739 "badUtil.ml" 89 2733 2746
+type(
+  (Cil.fundec, unit) Hashtbl.t
+)
+ident(
+  def visited "badUtil.ml" 90 2770 2772 "badUtil.ml" 103 3348 3392
+)
+"badUtil.ml" 89 2733 2749 "badUtil.ml" 89 2733 2763
+type(
+  ?random:bool -> int -> (Cil.fundec, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"badUtil.ml" 89 2733 2764 "badUtil.ml" 89 2733 2766
+type(
+  int
+)
+"badUtil.ml" 89 2733 2749 "badUtil.ml" 89 2733 2766
+call(
+  stack
+)
+type(
+  (Cil.fundec, unit) Hashtbl.t
+)
+"badUtil.ml" 90 2770 2780 "badUtil.ml" 90 2770 2805
+type(
+  Cil.fundec list -> Cil.fundec list * int -> Cil.fundec list * int
+)
+ident(
+  def compute_invoked_fundecs_h "badUtil.ml" 90 2770 2772 "badUtil.ml" 103 3348 3392
+)
+"badUtil.ml" 90 2770 2806 "badUtil.ml" 90 2770 2811
+type(
+  Cil.fundec list
+)
+ident(
+  def fdecs "badUtil.ml" 90 2770 2812 "badUtil.ml" 102 3315 3344
+)
+"badUtil.ml" 90 2770 2813 "badUtil.ml" 90 2770 2816
+type(
+  Cil.fundec list
+)
+ident(
+  def ret "badUtil.ml" 91 2832 2836 "badUtil.ml" 102 3315 3344
+)
+"badUtil.ml" 90 2770 2818 "badUtil.ml" 90 2770 2828
+type(
+  int
+)
+ident(
+  def max_stmtid "badUtil.ml" 91 2832 2836 "badUtil.ml" 102 3315 3344
+)
+"badUtil.ml" 90 2770 2812 "badUtil.ml" 90 2770 2829
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 91 2832 2842 "badUtil.ml" 91 2832 2847
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fdecs "badUtil.ml" 90 2770 2806 "badUtil.ml" 90 2770 2811
+)
+"badUtil.ml" 92 2853 2859 "badUtil.ml" 92 2853 2863
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "badUtil.ml" 93 2873 2880 "badUtil.ml" 101 3249 3314
+)
+"badUtil.ml" 92 2853 2865 "badUtil.ml" 92 2853 2869
+type(
+  Cil.fundec list
+)
+ident(
+  def rest "badUtil.ml" 93 2873 2880 "badUtil.ml" 101 3249 3314
+)
+"badUtil.ml" 92 2853 2859 "badUtil.ml" 92 2853 2869
+type(
+  Cil.fundec list
+)
+"badUtil.ml" 93 2873 2883 "badUtil.ml" 93 2873 2894
+type(
+  (Cil.fundec, unit) Hashtbl.t -> Cil.fundec -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"badUtil.ml" 93 2873 2895 "badUtil.ml" 93 2873 2902
+type(
+  (Cil.fundec, unit) Hashtbl.t
+)
+ident(
+  int_ref visited "badUtil.ml" 89 2733 2739 "badUtil.ml" 89 2733 2746
+)
+"badUtil.ml" 93 2873 2903 "badUtil.ml" 93 2873 2907
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badUtil.ml" 92 2853 2859 "badUtil.ml" 92 2853 2863
+)
+"badUtil.ml" 93 2873 2883 "badUtil.ml" 93 2873 2907
+call(
+  stack
+)
+type(
+  bool
+)
+"badUtil.ml" 94 2913 2922 "badUtil.ml" 94 2913 2947
+type(
+  Cil.fundec list -> Cil.fundec list * int -> Cil.fundec list * int
+)
+ident(
+  int_ref compute_invoked_fundecs_h "badUtil.ml" 90 2770 2780 "badUtil.ml" 90 2770 2805
+)
+"badUtil.ml" 94 2913 2948 "badUtil.ml" 94 2913 2952
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref rest "badUtil.ml" 92 2853 2865 "badUtil.ml" 92 2853 2869
+)
+"badUtil.ml" 94 2913 2954 "badUtil.ml" 94 2913 2957
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref ret "badUtil.ml" 90 2770 2813 "badUtil.ml" 90 2770 2816
+)
+"badUtil.ml" 94 2913 2959 "badUtil.ml" 94 2913 2969
+type(
+  int
+)
+ident(
+  int_ref max_stmtid "badUtil.ml" 90 2770 2818 "badUtil.ml" 90 2770 2828
+)
+"badUtil.ml" 94 2913 2953 "badUtil.ml" 94 2913 2970
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 94 2913 2922 "badUtil.ml" 94 2913 2970
+call(
+  tail
+)
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 96 2983 2996 "badUtil.ml" 96 2983 2997
+type(
+  unit
+)
+"badUtil.ml" 96 2983 3000 "badUtil.ml" 96 2983 3011
+type(
+  (Cil.fundec, unit) Hashtbl.t -> Cil.fundec -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"badUtil.ml" 96 2983 3012 "badUtil.ml" 96 2983 3019
+type(
+  (Cil.fundec, unit) Hashtbl.t
+)
+ident(
+  int_ref visited "badUtil.ml" 89 2733 2739 "badUtil.ml" 89 2733 2746
+)
+"badUtil.ml" 96 2983 3020 "badUtil.ml" 96 2983 3024
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badUtil.ml" 92 2853 2859 "badUtil.ml" 92 2853 2863
+)
+"badUtil.ml" 96 2983 3025 "badUtil.ml" 96 2983 3027
+type(
+  unit
+)
+"badUtil.ml" 96 2983 3000 "badUtil.ml" 96 2983 3027
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 97 3031 3044 "badUtil.ml" 97 3031 3055
+type(
+  int
+)
+ident(
+  def max_stmtid' "badUtil.ml" 99 3155 3164 "badUtil.ml" 101 3249 3314
+)
+"badUtil.ml" 97 3031 3064 "badUtil.ml" 97 3031 3068
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badUtil.ml" 92 2853 2859 "badUtil.ml" 92 2853 2863
+)
+"badUtil.ml" 97 3031 3064 "badUtil.ml" 97 3031 3083
+type(
+  int option
+)
+"badUtil.ml" 98 3089 3107 "badUtil.ml" 98 3089 3108
+type(
+  int
+)
+ident(
+  def i "badUtil.ml" 98 3089 3112 "badUtil.ml" 98 3089 3128
+)
+"badUtil.ml" 98 3089 3102 "badUtil.ml" 98 3089 3108
+type(
+  int option
+)
+"badUtil.ml" 98 3089 3112 "badUtil.ml" 98 3089 3115
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"badUtil.ml" 98 3089 3116 "badUtil.ml" 98 3089 3126
+type(
+  int
+)
+ident(
+  int_ref max_stmtid "badUtil.ml" 90 2770 2818 "badUtil.ml" 90 2770 2828
+)
+"badUtil.ml" 98 3089 3127 "badUtil.ml" 98 3089 3128
+type(
+  int
+)
+ident(
+  int_ref i "badUtil.ml" 98 3089 3107 "badUtil.ml" 98 3089 3108
+)
+"badUtil.ml" 98 3089 3112 "badUtil.ml" 98 3089 3128
+call(
+  stack
+)
+type(
+  int
+)
+"badUtil.ml" 98 3089 3131 "badUtil.ml" 98 3089 3135
+type(
+  int option
+)
+"badUtil.ml" 98 3089 3139 "badUtil.ml" 98 3089 3151
+type(
+  int
+)
+"badUtil.ml" 97 3031 3058 "badUtil.ml" 98 3089 3151
+type(
+  int
+)
+"badUtil.ml" 99 3155 3168 "badUtil.ml" 99 3155 3173
+type(
+  Cil.fundec list
+)
+ident(
+  def rest' "badUtil.ml" 101 3249 3258 "badUtil.ml" 101 3249 3314
+)
+"badUtil.ml" 100 3177 3188 "badUtil.ml" 100 3177 3211
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  Cil.stmt list -> Cil.fundec list -> Cil.fundec list
+)
+ident(
+  int_ref collect_callee_in_stmts "badUtil.ml" 79 2360 2364 "badUtil.ml" 79 2360 2387
+)
+"badUtil.ml" 100 3177 3212 "badUtil.ml" 100 3177 3221
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badUtil.ml" 88 2686 2714 "badUtil.ml" 88 2686 2723
+)
+"badUtil.ml" 100 3177 3222 "badUtil.ml" 100 3177 3226
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badUtil.ml" 92 2853 2859 "badUtil.ml" 92 2853 2863
+)
+"badUtil.ml" 100 3177 3222 "badUtil.ml" 100 3177 3240
+type(
+  Cil.stmt list
+)
+"badUtil.ml" 100 3177 3241 "badUtil.ml" 100 3177 3245
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref rest "badUtil.ml" 92 2853 2865 "badUtil.ml" 92 2853 2869
+)
+"badUtil.ml" 100 3177 3188 "badUtil.ml" 100 3177 3245
+call(
+  stack
+)
+type(
+  Cil.fundec list
+)
+"badUtil.ml" 101 3249 3258 "badUtil.ml" 101 3249 3283
+type(
+  Cil.fundec list -> Cil.fundec list * int -> Cil.fundec list * int
+)
+ident(
+  int_ref compute_invoked_fundecs_h "badUtil.ml" 90 2770 2780 "badUtil.ml" 90 2770 2805
+)
+"badUtil.ml" 101 3249 3284 "badUtil.ml" 101 3249 3289
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref rest' "badUtil.ml" 99 3155 3168 "badUtil.ml" 99 3155 3173
+)
+"badUtil.ml" 101 3249 3291 "badUtil.ml" 101 3249 3295
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badUtil.ml" 92 2853 2859 "badUtil.ml" 92 2853 2863
+)
+"badUtil.ml" 101 3249 3297 "badUtil.ml" 101 3249 3300
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref ret "badUtil.ml" 90 2770 2813 "badUtil.ml" 90 2770 2816
+)
+"badUtil.ml" 101 3249 3291 "badUtil.ml" 101 3249 3300
+type(
+  Cil.fundec list
+)
+"badUtil.ml" 101 3249 3302 "badUtil.ml" 101 3249 3313
+type(
+  int
+)
+ident(
+  int_ref max_stmtid' "badUtil.ml" 97 3031 3044 "badUtil.ml" 97 3031 3055
+)
+"badUtil.ml" 101 3249 3290 "badUtil.ml" 101 3249 3314
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 101 3249 3258 "badUtil.ml" 101 3249 3314
+call(
+  tail
+)
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 99 3155 3164 "badUtil.ml" 101 3249 3314
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 97 3031 3040 "badUtil.ml" 101 3249 3314
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 96 2983 2992 "badUtil.ml" 101 3249 3314
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 93 2873 2880 "badUtil.ml" 101 3249 3314
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 102 3315 3321 "badUtil.ml" 102 3315 3323
+type(
+  Cil.fundec list
+)
+"badUtil.ml" 102 3315 3328 "badUtil.ml" 102 3315 3331
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref ret "badUtil.ml" 90 2770 2813 "badUtil.ml" 90 2770 2816
+)
+"badUtil.ml" 102 3315 3333 "badUtil.ml" 102 3315 3343
+type(
+  int
+)
+ident(
+  int_ref max_stmtid "badUtil.ml" 90 2770 2818 "badUtil.ml" 90 2770 2828
+)
+"badUtil.ml" 102 3315 3327 "badUtil.ml" 102 3315 3344
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 91 2832 2836 "badUtil.ml" 102 3315 3344
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 103 3348 3350 "badUtil.ml" 103 3348 3375
+type(
+  Cil.fundec list -> Cil.fundec list * int -> Cil.fundec list * int
+)
+ident(
+  int_ref compute_invoked_fundecs_h "badUtil.ml" 90 2770 2780 "badUtil.ml" 90 2770 2805
+)
+"badUtil.ml" 103 3348 3377 "badUtil.ml" 103 3348 3383
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fundec "badUtil.ml" 88 2686 2724 "badUtil.ml" 88 2686 2730
+)
+"badUtil.ml" 103 3348 3376 "badUtil.ml" 103 3348 3384
+type(
+  Cil.fundec list
+)
+"badUtil.ml" 103 3348 3386 "badUtil.ml" 103 3348 3388
+type(
+  Cil.fundec list
+)
+"badUtil.ml" 103 3348 3390 "badUtil.ml" 103 3348 3391
+type(
+  int
+)
+"badUtil.ml" 103 3348 3385 "badUtil.ml" 103 3348 3392
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 103 3348 3350 "badUtil.ml" 103 3348 3392
+call(
+  tail
+)
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 90 2770 2772 "badUtil.ml" 103 3348 3392
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 89 2733 2735 "badUtil.ml" 103 3348 3392
+type(
+  Cil.fundec list * int
+)
+"badUtil.ml" 108 3494 3498 "badUtil.ml" 108 3494 3515
+type(
+  Cil.fundec list -> (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def build_fundec_hash "badUtil.ml" 120 3809 3809 "badUtil.ml" 1 0 -1
+)
+"badUtil.ml" 108 3494 3516 "badUtil.ml" 108 3494 3521
+type(
+  Cil.fundec list
+)
+ident(
+  def fdecs "badUtil.ml" 109 3524 3526 "badUtil.ml" 115 3771 3777
+)
+"badUtil.ml" 109 3524 3530 "badUtil.ml" 109 3524 3534
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def hash "badUtil.ml" 110 3558 3560 "badUtil.ml" 115 3771 3777
+)
+"badUtil.ml" 109 3524 3537 "badUtil.ml" 109 3524 3551
+type(
+  ?random:bool -> int -> (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"badUtil.ml" 109 3524 3552 "badUtil.ml" 109 3524 3554
+type(
+  int
+)
+"badUtil.ml" 109 3524 3537 "badUtil.ml" 109 3524 3554
+call(
+  stack
+)
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+"badUtil.ml" 110 3558 3564 "badUtil.ml" 110 3558 3583
+type(
+  Cil.fundec -> unit
+)
+ident(
+  def build_fundec_hash_h "badUtil.ml" 114 3722 3724 "badUtil.ml" 115 3771 3777
+)
+"badUtil.ml" 110 3558 3584 "badUtil.ml" 110 3558 3588
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "badUtil.ml" 111 3591 3595 "badUtil.ml" 113 3687 3718
+)
+"badUtil.ml" 111 3591 3599 "badUtil.ml" 111 3591 3604
+type(
+  string
+)
+ident(
+  def fname "badUtil.ml" 112 3634 3638 "badUtil.ml" 113 3687 3718
+)
+"badUtil.ml" 111 3591 3607 "badUtil.ml" 111 3591 3611
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badUtil.ml" 110 3558 3584 "badUtil.ml" 110 3558 3588
+)
+"badUtil.ml" 111 3591 3607 "badUtil.ml" 111 3591 3620
+type(
+  Cil.varinfo
+)
+"badUtil.ml" 111 3591 3607 "badUtil.ml" 111 3591 3630
+type(
+  string
+)
+"badUtil.ml" 112 3634 3642 "badUtil.ml" 112 3634 3643
+type(
+  unit
+)
+"badUtil.ml" 112 3634 3654 "badUtil.ml" 112 3634 3657
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"badUtil.ml" 112 3634 3659 "badUtil.ml" 112 3634 3670
+type(
+  (string, Cil.fundec) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"badUtil.ml" 112 3634 3671 "badUtil.ml" 112 3634 3675
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref hash "badUtil.ml" 109 3524 3530 "badUtil.ml" 109 3524 3534
+)
+"badUtil.ml" 112 3634 3676 "badUtil.ml" 112 3634 3681
+type(
+  string
+)
+ident(
+  int_ref fname "badUtil.ml" 111 3591 3599 "badUtil.ml" 111 3591 3604
+)
+"badUtil.ml" 112 3634 3658 "badUtil.ml" 112 3634 3682
+call(
+  stack
+)
+type(
+  bool
+)
+"badUtil.ml" 112 3634 3653 "badUtil.ml" 112 3634 3683
+type(
+  bool
+)
+"badUtil.ml" 112 3634 3646 "badUtil.ml" 112 3634 3683
+type(
+  unit
+)
+"badUtil.ml" 113 3687 3691 "badUtil.ml" 113 3687 3702
+type(
+  (string, Cil.fundec) Hashtbl.t -> string -> Cil.fundec -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"badUtil.ml" 113 3687 3703 "badUtil.ml" 113 3687 3707
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref hash "badUtil.ml" 109 3524 3530 "badUtil.ml" 109 3524 3534
+)
+"badUtil.ml" 113 3687 3708 "badUtil.ml" 113 3687 3713
+type(
+  string
+)
+ident(
+  int_ref fname "badUtil.ml" 111 3591 3599 "badUtil.ml" 111 3591 3604
+)
+"badUtil.ml" 113 3687 3714 "badUtil.ml" 113 3687 3718
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badUtil.ml" 110 3558 3584 "badUtil.ml" 110 3558 3588
+)
+"badUtil.ml" 113 3687 3691 "badUtil.ml" 113 3687 3718
+call(
+  tail
+)
+type(
+  unit
+)
+"badUtil.ml" 112 3634 3638 "badUtil.ml" 113 3687 3718
+type(
+  unit
+)
+"badUtil.ml" 111 3591 3595 "badUtil.ml" 113 3687 3718
+type(
+  unit
+)
+"badUtil.ml" 114 3722 3728 "badUtil.ml" 114 3722 3729
+type(
+  unit
+)
+"badUtil.ml" 114 3722 3732 "badUtil.ml" 114 3722 3741
+type(
+  (Cil.fundec -> unit) -> Cil.fundec list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"badUtil.ml" 114 3722 3742 "badUtil.ml" 114 3722 3761
+type(
+  Cil.fundec -> unit
+)
+ident(
+  int_ref build_fundec_hash_h "badUtil.ml" 110 3558 3564 "badUtil.ml" 110 3558 3583
+)
+"badUtil.ml" 114 3722 3762 "badUtil.ml" 114 3722 3767
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fdecs "badUtil.ml" 108 3494 3516 "badUtil.ml" 108 3494 3521
+)
+"badUtil.ml" 114 3722 3732 "badUtil.ml" 114 3722 3767
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 115 3771 3773 "badUtil.ml" 115 3771 3777
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref hash "badUtil.ml" 109 3524 3530 "badUtil.ml" 109 3524 3534
+)
+"badUtil.ml" 114 3722 3724 "badUtil.ml" 115 3771 3777
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+"badUtil.ml" 110 3558 3560 "badUtil.ml" 115 3771 3777
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+"badUtil.ml" 109 3524 3526 "badUtil.ml" 115 3771 3777
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+"badUtil.ml" 120 3809 3813 "badUtil.ml" 120 3809 3829
+type(
+  int * BadT.symbol_t * int -> unit
+)
+ident(
+  def print_transition "badUtil.ml" 131 4210 4228 "badUtil.ml" 1 0 -1
+)
+"badUtil.ml" 120 3809 3831 "badUtil.ml" 120 3809 3834
+type(
+  int
+)
+ident(
+  def sid "badUtil.ml" 121 3856 3858 "badUtil.ml" 131 4210 4228
+)
+"badUtil.ml" 120 3809 3836 "badUtil.ml" 120 3809 3842
+type(
+  BadT.symbol_t
+)
+ident(
+  def symbol "badUtil.ml" 121 3856 3858 "badUtil.ml" 131 4210 4228
+)
+"badUtil.ml" 120 3809 3844 "badUtil.ml" 120 3809 3852
+type(
+  int
+)
+ident(
+  def succ_sid "badUtil.ml" 121 3856 3858 "badUtil.ml" 131 4210 4228
+)
+"badUtil.ml" 120 3809 3830 "badUtil.ml" 120 3809 3853
+type(
+  int * BadT.symbol_t * int
+)
+"badUtil.ml" 121 3856 3858 "badUtil.ml" 121 3856 3867
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badUtil.ml" 121 3856 3868 "badUtil.ml" 121 3856 3871
+type(
+  int
+)
+ident(
+  int_ref sid "badUtil.ml" 120 3809 3831 "badUtil.ml" 120 3809 3834
+)
+"badUtil.ml" 121 3856 3858 "badUtil.ml" 121 3856 3871
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 121 3856 3873 "badUtil.ml" 121 3856 3885
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badUtil.ml" 121 3856 3886 "badUtil.ml" 121 3856 3891
+type(
+  string
+)
+"badUtil.ml" 121 3856 3873 "badUtil.ml" 121 3856 3891
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 122 3893 3902 "badUtil.ml" 122 3893 3908
+type(
+  BadT.symbol_t
+)
+ident(
+  int_ref symbol "badUtil.ml" 120 3809 3836 "badUtil.ml" 120 3809 3842
+)
+"badUtil.ml" 123 3914 3919 "badUtil.ml" 123 3914 3929
+type(
+  BadT.symbol_t
+)
+"badUtil.ml" 123 3914 3933 "badUtil.ml" 123 3914 3945
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badUtil.ml" 123 3914 3946 "badUtil.ml" 123 3914 3949
+type(
+  string
+)
+"badUtil.ml" 123 3914 3933 "badUtil.ml" 123 3914 3949
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 124 3950 3955 "badUtil.ml" 124 3950 3964
+type(
+  BadT.symbol_t
+)
+"badUtil.ml" 124 3950 3968 "badUtil.ml" 124 3950 3980
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badUtil.ml" 124 3950 3981 "badUtil.ml" 124 3950 3984
+type(
+  string
+)
+"badUtil.ml" 124 3950 3968 "badUtil.ml" 124 3950 3984
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 125 3985 3990 "badUtil.ml" 125 3985 4002
+type(
+  BadT.symbol_t
+)
+"badUtil.ml" 125 3985 4006 "badUtil.ml" 125 3985 4018
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badUtil.ml" 125 3985 4019 "badUtil.ml" 125 3985 4022
+type(
+  string
+)
+"badUtil.ml" 125 3985 4006 "badUtil.ml" 125 3985 4022
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 126 4023 4038 "badUtil.ml" 126 4023 4039
+type(
+  int
+)
+ident(
+  def i "badUtil.ml" 126 4023 4043 "badUtil.ml" 126 4023 4091
+)
+"badUtil.ml" 126 4023 4028 "badUtil.ml" 126 4023 4039
+type(
+  BadT.symbol_t
+)
+"badUtil.ml" 126 4023 4043 "badUtil.ml" 126 4023 4055
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badUtil.ml" 126 4023 4056 "badUtil.ml" 126 4023 4060
+type(
+  string
+)
+"badUtil.ml" 126 4023 4043 "badUtil.ml" 126 4023 4060
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 126 4023 4062 "badUtil.ml" 126 4023 4071
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badUtil.ml" 126 4023 4072 "badUtil.ml" 126 4023 4073
+type(
+  int
+)
+ident(
+  int_ref i "badUtil.ml" 126 4023 4038 "badUtil.ml" 126 4023 4039
+)
+"badUtil.ml" 126 4023 4062 "badUtil.ml" 126 4023 4073
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 126 4023 4075 "badUtil.ml" 126 4023 4087
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badUtil.ml" 126 4023 4088 "badUtil.ml" 126 4023 4091
+type(
+  string
+)
+"badUtil.ml" 126 4023 4075 "badUtil.ml" 126 4023 4091
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 126 4023 4062 "badUtil.ml" 126 4023 4091
+type(
+  unit
+)
+"badUtil.ml" 126 4023 4043 "badUtil.ml" 126 4023 4091
+type(
+  unit
+)
+"badUtil.ml" 127 4092 4106 "badUtil.ml" 127 4092 4107
+type(
+  int
+)
+ident(
+  def i "badUtil.ml" 127 4092 4111 "badUtil.ml" 127 4092 4159
+)
+"badUtil.ml" 127 4092 4097 "badUtil.ml" 127 4092 4107
+type(
+  BadT.symbol_t
+)
+"badUtil.ml" 127 4092 4111 "badUtil.ml" 127 4092 4123
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badUtil.ml" 127 4092 4124 "badUtil.ml" 127 4092 4128
+type(
+  string
+)
+"badUtil.ml" 127 4092 4111 "badUtil.ml" 127 4092 4128
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 127 4092 4130 "badUtil.ml" 127 4092 4139
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badUtil.ml" 127 4092 4140 "badUtil.ml" 127 4092 4141
+type(
+  int
+)
+ident(
+  int_ref i "badUtil.ml" 127 4092 4106 "badUtil.ml" 127 4092 4107
+)
+"badUtil.ml" 127 4092 4130 "badUtil.ml" 127 4092 4141
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 127 4092 4143 "badUtil.ml" 127 4092 4155
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badUtil.ml" 127 4092 4156 "badUtil.ml" 127 4092 4159
+type(
+  string
+)
+"badUtil.ml" 127 4092 4143 "badUtil.ml" 127 4092 4159
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 127 4092 4130 "badUtil.ml" 127 4092 4159
+type(
+  unit
+)
+"badUtil.ml" 127 4092 4111 "badUtil.ml" 127 4092 4159
+type(
+  unit
+)
+"badUtil.ml" 122 3893 3895 "badUtil.ml" 128 4160 4163
+type(
+  unit
+)
+"badUtil.ml" 129 4165 4167 "badUtil.ml" 129 4165 4179
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badUtil.ml" 129 4165 4180 "badUtil.ml" 129 4165 4186
+type(
+  string
+)
+"badUtil.ml" 129 4165 4167 "badUtil.ml" 129 4165 4186
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 130 4188 4190 "badUtil.ml" 130 4188 4199
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badUtil.ml" 130 4188 4200 "badUtil.ml" 130 4188 4208
+type(
+  int
+)
+ident(
+  int_ref succ_sid "badUtil.ml" 120 3809 3844 "badUtil.ml" 120 3809 3852
+)
+"badUtil.ml" 130 4188 4190 "badUtil.ml" 130 4188 4208
+call(
+  stack
+)
+type(
+  unit
+)
+"badUtil.ml" 131 4210 4212 "badUtil.ml" 131 4210 4225
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"badUtil.ml" 131 4210 4226 "badUtil.ml" 131 4210 4228
+type(
+  unit
+)
+"badUtil.ml" 131 4210 4212 "badUtil.ml" 131 4210 4228
+call(
+  tail
+)
+type(
+  unit
+)
+"badUtil.ml" 130 4188 4190 "badUtil.ml" 131 4210 4228
+type(
+  unit
+)
+"badUtil.ml" 129 4165 4167 "badUtil.ml" 131 4210 4228
+type(
+  unit
+)
+"badUtil.ml" 122 3893 3895 "badUtil.ml" 131 4210 4228
+type(
+  unit
+)
+"badUtil.ml" 121 3856 3873 "badUtil.ml" 131 4210 4228
+type(
+  unit
+)
+"badUtil.ml" 121 3856 3858 "badUtil.ml" 131 4210 4228
+type(
+  unit
+)

@@ -1,0 +1,1842 @@
+"maybe.ml" 5 91 95 "maybe.ml" 5 91 118
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  Cil.fundec list ->
+  int -> (int * BadT.symbol_t * int) list * int list * 'a list * int
+)
+ident(
+  def compute_nfa_transitions "maybe.ml" 16 617 617 "maybe.ml" 1 0 -1
+)
+"maybe.ml" 5 91 119 "maybe.ml" 5 91 128
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def fdec_hash "maybe.ml" 5 91 129 "maybe.ml" 14 544 615
+)
+"maybe.ml" 5 91 129 "maybe.ml" 5 91 136
+type(
+  Cil.fundec list
+)
+ident(
+  def fundecs "maybe.ml" 5 91 137 "maybe.ml" 14 544 615
+)
+"maybe.ml" 5 91 137 "maybe.ml" 5 91 143
+type(
+  int
+)
+ident(
+  def stmtid "maybe.ml" 6 146 148 "maybe.ml" 14 544 615
+)
+"maybe.ml" 6 146 152 "maybe.ml" 6 146 173
+type(
+  (int * BadT.symbol_t * int) list list * int list * int ->
+  Cil.fundec -> (int * BadT.symbol_t * int) list list * int list * int
+)
+ident(
+  def compute_transitions_h "maybe.ml" 10 333 335 "maybe.ml" 14 544 615
+)
+"maybe.ml" 6 146 175 "maybe.ml" 6 146 178
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  def res "maybe.ml" 6 146 191 "maybe.ml" 9 296 329
+)
+"maybe.ml" 6 146 180 "maybe.ml" 6 146 183
+type(
+  int list
+)
+ident(
+  def fin "maybe.ml" 6 146 191 "maybe.ml" 9 296 329
+)
+"maybe.ml" 6 146 185 "maybe.ml" 6 146 189
+type(
+  int
+)
+ident(
+  def stid "maybe.ml" 6 146 191 "maybe.ml" 9 296 329
+)
+"maybe.ml" 6 146 174 "maybe.ml" 6 146 190
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"maybe.ml" 6 146 191 "maybe.ml" 6 146 195
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "maybe.ml" 7 198 202 "maybe.ml" 9 296 329
+)
+"maybe.ml" 7 198 206 "maybe.ml" 7 198 217
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def transitions "maybe.ml" 9 296 300 "maybe.ml" 9 296 329
+)
+"maybe.ml" 7 198 219 "maybe.ml" 7 198 223
+type(
+  int list
+)
+ident(
+  def fin' "maybe.ml" 9 296 300 "maybe.ml" 9 296 329
+)
+"maybe.ml" 7 198 225 "maybe.ml" 7 198 230
+type(
+  int
+)
+ident(
+  def stid' "maybe.ml" 9 296 300 "maybe.ml" 9 296 329
+)
+"maybe.ml" 7 198 206 "maybe.ml" 7 198 230
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"maybe.ml" 8 234 240 "maybe.ml" 8 234 268
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  Cil.fundec -> int -> (int * BadT.symbol_t * int) list * int list * int
+)
+ident(
+  ext_ref BadNFA.fundec_to_transitions
+)
+"maybe.ml" 8 234 269 "maybe.ml" 8 234 278
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "maybe.ml" 5 91 119 "maybe.ml" 5 91 128
+)
+"maybe.ml" 8 234 279 "maybe.ml" 8 234 282
+type(
+  int list
+)
+ident(
+  int_ref fin "maybe.ml" 6 146 180 "maybe.ml" 6 146 183
+)
+"maybe.ml" 8 234 283 "maybe.ml" 8 234 287
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "maybe.ml" 6 146 191 "maybe.ml" 6 146 195
+)
+"maybe.ml" 8 234 288 "maybe.ml" 8 234 292
+type(
+  int
+)
+ident(
+  int_ref stid "maybe.ml" 6 146 185 "maybe.ml" 6 146 189
+)
+"maybe.ml" 8 234 240 "maybe.ml" 8 234 292
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"maybe.ml" 9 296 300 "maybe.ml" 9 296 311
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref transitions "maybe.ml" 7 198 206 "maybe.ml" 7 198 217
+)
+"maybe.ml" 9 296 313 "maybe.ml" 9 296 316
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  int_ref res "maybe.ml" 6 146 175 "maybe.ml" 6 146 178
+)
+"maybe.ml" 9 296 300 "maybe.ml" 9 296 316
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"maybe.ml" 9 296 318 "maybe.ml" 9 296 322
+type(
+  int list
+)
+ident(
+  int_ref fin' "maybe.ml" 7 198 219 "maybe.ml" 7 198 223
+)
+"maybe.ml" 9 296 324 "maybe.ml" 9 296 329
+type(
+  int
+)
+ident(
+  int_ref stid' "maybe.ml" 7 198 225 "maybe.ml" 7 198 230
+)
+"maybe.ml" 9 296 300 "maybe.ml" 9 296 329
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"maybe.ml" 7 198 202 "maybe.ml" 9 296 329
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"maybe.ml" 10 333 339 "maybe.ml" 10 333 351
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  def transitionss "maybe.ml" 12 441 443 "maybe.ml" 14 544 615
+)
+"maybe.ml" 10 333 353 "maybe.ml" 10 333 359
+type(
+  int list
+)
+ident(
+  def finals "maybe.ml" 12 441 443 "maybe.ml" 14 544 615
+)
+"maybe.ml" 10 333 361 "maybe.ml" 10 333 368
+type(
+  int
+)
+ident(
+  def stmtid' "maybe.ml" 12 441 443 "maybe.ml" 14 544 615
+)
+"maybe.ml" 10 333 339 "maybe.ml" 10 333 368
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"maybe.ml" 11 372 376 "maybe.ml" 11 372 390
+type(
+  ((int * BadT.symbol_t * int) list list * int list * int ->
+   Cil.fundec -> (int * BadT.symbol_t * int) list list * int list * int) ->
+  (int * BadT.symbol_t * int) list list * int list * int ->
+  Cil.fundec list -> (int * BadT.symbol_t * int) list list * int list * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"maybe.ml" 11 372 391 "maybe.ml" 11 372 412
+type(
+  (int * BadT.symbol_t * int) list list * int list * int ->
+  Cil.fundec -> (int * BadT.symbol_t * int) list list * int list * int
+)
+ident(
+  int_ref compute_transitions_h "maybe.ml" 6 146 152 "maybe.ml" 6 146 173
+)
+"maybe.ml" 11 372 414 "maybe.ml" 11 372 416
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"maybe.ml" 11 372 418 "maybe.ml" 11 372 420
+type(
+  int list
+)
+"maybe.ml" 11 372 422 "maybe.ml" 11 372 428
+type(
+  int
+)
+ident(
+  int_ref stmtid "maybe.ml" 5 91 137 "maybe.ml" 5 91 143
+)
+"maybe.ml" 11 372 413 "maybe.ml" 11 372 429
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"maybe.ml" 11 372 430 "maybe.ml" 11 372 437
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fundecs "maybe.ml" 5 91 129 "maybe.ml" 5 91 136
+)
+"maybe.ml" 11 372 376 "maybe.ml" 11 372 437
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"maybe.ml" 12 441 447 "maybe.ml" 12 441 461
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def final_epsilons "maybe.ml" 14 544 546 "maybe.ml" 14 544 615
+)
+"maybe.ml" 12 441 463 "maybe.ml" 12 441 464
+type(
+  (int * BadT.symbol_t * int) list
+)
+"maybe.ml" 12 441 466 "maybe.ml" 12 441 473
+type(
+  int list
+)
+ident(
+  def finals' "maybe.ml" 14 544 546 "maybe.ml" 14 544 615
+)
+"maybe.ml" 12 441 475 "maybe.ml" 12 441 486
+type(
+  int
+)
+ident(
+  def last_stmtid "maybe.ml" 14 544 546 "maybe.ml" 14 544 615
+)
+"maybe.ml" 12 441 447 "maybe.ml" 12 441 486
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"maybe.ml" 13 489 493 "maybe.ml" 13 489 525
+type(
+  int list ->
+  int ->
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+ident(
+  ext_ref BadNFA.epsilon_final_transitions
+)
+"maybe.ml" 13 489 526 "maybe.ml" 13 489 532
+type(
+  int list
+)
+ident(
+  int_ref finals "maybe.ml" 10 333 353 "maybe.ml" 10 333 359
+)
+"maybe.ml" 13 489 533 "maybe.ml" 13 489 540
+type(
+  int
+)
+ident(
+  int_ref stmtid' "maybe.ml" 10 333 361 "maybe.ml" 10 333 368
+)
+"maybe.ml" 13 489 493 "maybe.ml" 13 489 540
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"maybe.ml" 14 544 546 "maybe.ml" 14 544 558
+type(
+  (int * BadT.symbol_t * int) list list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.flatten
+)
+"maybe.ml" 14 544 560 "maybe.ml" 14 544 574
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref final_epsilons "maybe.ml" 12 441 447 "maybe.ml" 12 441 461
+)
+"maybe.ml" 14 544 576 "maybe.ml" 14 544 588
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  int_ref transitionss "maybe.ml" 10 333 339 "maybe.ml" 10 333 351
+)
+"maybe.ml" 14 544 559 "maybe.ml" 14 544 589
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"maybe.ml" 14 544 546 "maybe.ml" 14 544 589
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"maybe.ml" 14 544 591 "maybe.ml" 14 544 598
+type(
+  int list
+)
+ident(
+  int_ref finals' "maybe.ml" 12 441 466 "maybe.ml" 12 441 473
+)
+"maybe.ml" 14 544 600 "maybe.ml" 14 544 602
+type(
+  'a list
+)
+"maybe.ml" 14 544 604 "maybe.ml" 14 544 615
+type(
+  int
+)
+ident(
+  int_ref last_stmtid "maybe.ml" 12 441 475 "maybe.ml" 12 441 486
+)
+"maybe.ml" 14 544 546 "maybe.ml" 14 544 615
+type(
+  (int * BadT.symbol_t * int) list * int list * 'a list * int
+)
+"maybe.ml" 12 441 443 "maybe.ml" 14 544 615
+type(
+  (int * BadT.symbol_t * int) list * int list * 'a list * int
+)
+"maybe.ml" 10 333 335 "maybe.ml" 14 544 615
+type(
+  (int * BadT.symbol_t * int) list * int list * 'a list * int
+)
+"maybe.ml" 6 146 148 "maybe.ml" 14 544 615
+type(
+  (int * BadT.symbol_t * int) list * int list * 'a list * int
+)
+"maybe.ml" 16 617 621 "maybe.ml" 16 617 644
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  Cil.fundec list ->
+  int -> (int * BadT.symbol_t * int) list * int list * int list * int
+)
+ident(
+  def compute_pda_transitions "maybe.ml" 30 1336 1336 "maybe.ml" 1 0 -1
+)
+"maybe.ml" 16 617 645 "maybe.ml" 16 617 654
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def fdec_hash "maybe.ml" 16 617 655 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 16 617 655 "maybe.ml" 16 617 662
+type(
+  Cil.fundec list
+)
+ident(
+  def fundecs "maybe.ml" 16 617 663 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 16 617 663 "maybe.ml" 16 617 669
+type(
+  int
+)
+ident(
+  def stmtid "maybe.ml" 17 672 674 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 17 672 678 "maybe.ml" 17 672 699
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int ->
+  Cil.fundec ->
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+ident(
+  def compute_transitions_h "maybe.ml" 21 880 882 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 17 672 701 "maybe.ml" 17 672 704
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  def res "maybe.ml" 17 672 722 "maybe.ml" 20 837 876
+)
+"maybe.ml" 17 672 706 "maybe.ml" 17 672 709
+type(
+  int list
+)
+ident(
+  def fin "maybe.ml" 17 672 722 "maybe.ml" 20 837 876
+)
+"maybe.ml" 17 672 711 "maybe.ml" 17 672 714
+type(
+  int list
+)
+ident(
+  def ret "maybe.ml" 17 672 722 "maybe.ml" 20 837 876
+)
+"maybe.ml" 17 672 716 "maybe.ml" 17 672 720
+type(
+  int
+)
+ident(
+  def stid "maybe.ml" 17 672 722 "maybe.ml" 20 837 876
+)
+"maybe.ml" 17 672 700 "maybe.ml" 17 672 721
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"maybe.ml" 17 672 722 "maybe.ml" 17 672 726
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "maybe.ml" 18 729 733 "maybe.ml" 20 837 876
+)
+"maybe.ml" 18 729 737 "maybe.ml" 18 729 748
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def transitions "maybe.ml" 20 837 841 "maybe.ml" 20 837 876
+)
+"maybe.ml" 18 729 750 "maybe.ml" 18 729 754
+type(
+  int list
+)
+ident(
+  def fin' "maybe.ml" 20 837 841 "maybe.ml" 20 837 876
+)
+"maybe.ml" 18 729 756 "maybe.ml" 18 729 760
+type(
+  int list
+)
+ident(
+  def ret' "maybe.ml" 20 837 841 "maybe.ml" 20 837 876
+)
+"maybe.ml" 18 729 762 "maybe.ml" 18 729 767
+type(
+  int
+)
+ident(
+  def stid' "maybe.ml" 20 837 841 "maybe.ml" 20 837 876
+)
+"maybe.ml" 18 729 737 "maybe.ml" 18 729 767
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"maybe.ml" 19 771 777 "maybe.ml" 19 771 805
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  int list ->
+  Cil.fundec ->
+  int -> (int * BadT.symbol_t * int) list * int list * int list * int
+)
+ident(
+  ext_ref BadPDA.fundec_to_transitions
+)
+"maybe.ml" 19 771 806 "maybe.ml" 19 771 815
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "maybe.ml" 16 617 645 "maybe.ml" 16 617 654
+)
+"maybe.ml" 19 771 816 "maybe.ml" 19 771 819
+type(
+  int list
+)
+ident(
+  int_ref fin "maybe.ml" 17 672 706 "maybe.ml" 17 672 709
+)
+"maybe.ml" 19 771 820 "maybe.ml" 19 771 823
+type(
+  int list
+)
+ident(
+  int_ref ret "maybe.ml" 17 672 711 "maybe.ml" 17 672 714
+)
+"maybe.ml" 19 771 824 "maybe.ml" 19 771 828
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "maybe.ml" 17 672 722 "maybe.ml" 17 672 726
+)
+"maybe.ml" 19 771 829 "maybe.ml" 19 771 833
+type(
+  int
+)
+ident(
+  int_ref stid "maybe.ml" 17 672 716 "maybe.ml" 17 672 720
+)
+"maybe.ml" 19 771 777 "maybe.ml" 19 771 833
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"maybe.ml" 20 837 841 "maybe.ml" 20 837 852
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref transitions "maybe.ml" 18 729 737 "maybe.ml" 18 729 748
+)
+"maybe.ml" 20 837 854 "maybe.ml" 20 837 857
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  int_ref res "maybe.ml" 17 672 701 "maybe.ml" 17 672 704
+)
+"maybe.ml" 20 837 841 "maybe.ml" 20 837 857
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"maybe.ml" 20 837 859 "maybe.ml" 20 837 863
+type(
+  int list
+)
+ident(
+  int_ref fin' "maybe.ml" 18 729 750 "maybe.ml" 18 729 754
+)
+"maybe.ml" 20 837 865 "maybe.ml" 20 837 869
+type(
+  int list
+)
+ident(
+  int_ref ret' "maybe.ml" 18 729 756 "maybe.ml" 18 729 760
+)
+"maybe.ml" 20 837 871 "maybe.ml" 20 837 876
+type(
+  int
+)
+ident(
+  int_ref stid' "maybe.ml" 18 729 762 "maybe.ml" 18 729 767
+)
+"maybe.ml" 20 837 841 "maybe.ml" 20 837 876
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"maybe.ml" 18 729 733 "maybe.ml" 20 837 876
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"maybe.ml" 21 880 886 "maybe.ml" 21 880 898
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  def transitionss "maybe.ml" 23 1001 1003 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 21 880 900 "maybe.ml" 21 880 906
+type(
+  int list
+)
+ident(
+  def finals "maybe.ml" 23 1001 1003 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 21 880 908 "maybe.ml" 21 880 915
+type(
+  int list
+)
+ident(
+  def returns "maybe.ml" 23 1001 1003 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 21 880 917 "maybe.ml" 21 880 924
+type(
+  int
+)
+ident(
+  def stmtid' "maybe.ml" 23 1001 1003 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 21 880 886 "maybe.ml" 21 880 924
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"maybe.ml" 22 928 932 "maybe.ml" 22 928 946
+type(
+  ((int * BadT.symbol_t * int) list list * int list * int list * int ->
+   Cil.fundec ->
+   (int * BadT.symbol_t * int) list list * int list * int list * int) ->
+  (int * BadT.symbol_t * int) list list * int list * int list * int ->
+  Cil.fundec list ->
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"maybe.ml" 22 928 947 "maybe.ml" 22 928 968
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int ->
+  Cil.fundec ->
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+ident(
+  int_ref compute_transitions_h "maybe.ml" 17 672 678 "maybe.ml" 17 672 699
+)
+"maybe.ml" 22 928 970 "maybe.ml" 22 928 972
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"maybe.ml" 22 928 974 "maybe.ml" 22 928 976
+type(
+  int list
+)
+"maybe.ml" 22 928 978 "maybe.ml" 22 928 980
+type(
+  int list
+)
+"maybe.ml" 22 928 982 "maybe.ml" 22 928 988
+type(
+  int
+)
+ident(
+  int_ref stmtid "maybe.ml" 16 617 663 "maybe.ml" 16 617 669
+)
+"maybe.ml" 22 928 969 "maybe.ml" 22 928 989
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"maybe.ml" 22 928 990 "maybe.ml" 22 928 997
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fundecs "maybe.ml" 16 617 655 "maybe.ml" 16 617 662
+)
+"maybe.ml" 22 928 932 "maybe.ml" 22 928 997
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"maybe.ml" 23 1001 1007 "maybe.ml" 23 1001 1020
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def last_epsilons "maybe.ml" 25 1112 1114 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 23 1001 1022 "maybe.ml" 23 1001 1037
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def pop_transitions "maybe.ml" 25 1112 1114 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 23 1001 1039 "maybe.ml" 23 1001 1047
+type(
+  int
+)
+ident(
+  def stmtid'' "maybe.ml" 25 1112 1114 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 23 1001 1007 "maybe.ml" 23 1001 1047
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list * int
+)
+"maybe.ml" 24 1050 1054 "maybe.ml" 24 1050 1084
+type(
+  int list ->
+  Cil.fundec list ->
+  int ->
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list * int
+)
+ident(
+  ext_ref BadPDA.epsilon_pop_transitions
+)
+"maybe.ml" 24 1050 1085 "maybe.ml" 24 1050 1092
+type(
+  int list
+)
+ident(
+  int_ref returns "maybe.ml" 21 880 908 "maybe.ml" 21 880 915
+)
+"maybe.ml" 24 1050 1093 "maybe.ml" 24 1050 1100
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fundecs "maybe.ml" 16 617 655 "maybe.ml" 16 617 662
+)
+"maybe.ml" 24 1050 1101 "maybe.ml" 24 1050 1108
+type(
+  int
+)
+ident(
+  int_ref stmtid' "maybe.ml" 21 880 917 "maybe.ml" 21 880 924
+)
+"maybe.ml" 24 1050 1054 "maybe.ml" 24 1050 1108
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list * int
+)
+"maybe.ml" 25 1112 1118 "maybe.ml" 25 1112 1132
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def final_epsilons "maybe.ml" 27 1224 1226 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 25 1112 1134 "maybe.ml" 25 1112 1135
+type(
+  (int * BadT.symbol_t * int) list
+)
+"maybe.ml" 25 1112 1137 "maybe.ml" 25 1112 1144
+type(
+  int list
+)
+ident(
+  def finals' "maybe.ml" 27 1224 1226 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 25 1112 1146 "maybe.ml" 25 1112 1157
+type(
+  int
+)
+ident(
+  def last_stmtid "maybe.ml" 27 1224 1226 "maybe.ml" 28 1303 1334
+)
+"maybe.ml" 25 1112 1118 "maybe.ml" 25 1112 1157
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"maybe.ml" 26 1160 1164 "maybe.ml" 26 1160 1196
+type(
+  int list ->
+  int list ->
+  int ->
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+ident(
+  ext_ref BadPDA.epsilon_final_transitions
+)
+"maybe.ml" 26 1160 1197 "maybe.ml" 26 1160 1203
+type(
+  int list
+)
+ident(
+  int_ref finals "maybe.ml" 21 880 900 "maybe.ml" 21 880 906
+)
+"maybe.ml" 26 1160 1204 "maybe.ml" 26 1160 1211
+type(
+  int list
+)
+ident(
+  int_ref returns "maybe.ml" 21 880 908 "maybe.ml" 21 880 915
+)
+"maybe.ml" 26 1160 1212 "maybe.ml" 26 1160 1220
+type(
+  int
+)
+ident(
+  int_ref stmtid'' "maybe.ml" 23 1001 1039 "maybe.ml" 23 1001 1047
+)
+"maybe.ml" 26 1160 1164 "maybe.ml" 26 1160 1220
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"maybe.ml" 27 1224 1226 "maybe.ml" 27 1224 1238
+type(
+  (int * BadT.symbol_t * int) list list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.flatten
+)
+"maybe.ml" 27 1224 1240 "maybe.ml" 27 1224 1254
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref final_epsilons "maybe.ml" 25 1112 1118 "maybe.ml" 25 1112 1132
+)
+"maybe.ml" 27 1224 1256 "maybe.ml" 27 1224 1269
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref last_epsilons "maybe.ml" 23 1001 1007 "maybe.ml" 23 1001 1020
+)
+"maybe.ml" 27 1224 1271 "maybe.ml" 27 1224 1286
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref pop_transitions "maybe.ml" 23 1001 1022 "maybe.ml" 23 1001 1037
+)
+"maybe.ml" 27 1224 1288 "maybe.ml" 27 1224 1300
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  int_ref transitionss "maybe.ml" 21 880 886 "maybe.ml" 21 880 898
+)
+"maybe.ml" 27 1224 1271 "maybe.ml" 27 1224 1300
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"maybe.ml" 27 1224 1256 "maybe.ml" 27 1224 1300
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"maybe.ml" 27 1224 1239 "maybe.ml" 27 1224 1301
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"maybe.ml" 27 1224 1226 "maybe.ml" 27 1224 1301
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"maybe.ml" 28 1303 1305 "maybe.ml" 28 1303 1312
+type(
+  int list
+)
+ident(
+  int_ref finals' "maybe.ml" 25 1112 1137 "maybe.ml" 25 1112 1144
+)
+"maybe.ml" 28 1303 1314 "maybe.ml" 28 1303 1321
+type(
+  int list
+)
+ident(
+  int_ref returns "maybe.ml" 21 880 908 "maybe.ml" 21 880 915
+)
+"maybe.ml" 28 1303 1323 "maybe.ml" 28 1303 1334
+type(
+  int
+)
+ident(
+  int_ref last_stmtid "maybe.ml" 25 1112 1146 "maybe.ml" 25 1112 1157
+)
+"maybe.ml" 27 1224 1226 "maybe.ml" 28 1303 1334
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"maybe.ml" 25 1112 1114 "maybe.ml" 28 1303 1334
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"maybe.ml" 23 1001 1003 "maybe.ml" 28 1303 1334
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"maybe.ml" 21 880 882 "maybe.ml" 28 1303 1334
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"maybe.ml" 17 672 674 "maybe.ml" 28 1303 1334
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"maybe.ml" 30 1336 1340 "maybe.ml" 30 1336 1342
+type(
+  bool -> Cil.file -> string -> unit
+)
+ident(
+  def go "maybe.ml" 63 2644 2648 "maybe.ml" 1 0 -1
+)
+"maybe.ml" 30 1336 1343 "maybe.ml" 30 1336 1348
+type(
+  bool
+)
+ident(
+  def isPDA "maybe.ml" 30 1336 1349 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 30 1336 1349 "maybe.ml" 30 1336 1353
+type(
+  Cil.file
+)
+ident(
+  def file "maybe.ml" 30 1336 1354 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 30 1336 1354 "maybe.ml" 30 1336 1359
+type(
+  string
+)
+ident(
+  def fname "maybe.ml" 31 1362 1364 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 31 1362 1368 "maybe.ml" 31 1362 1375
+type(
+  Cil.fundec list
+)
+ident(
+  def fundecs "maybe.ml" 33 1419 1421 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 31 1362 1378 "maybe.ml" 31 1362 1397
+type(
+  Cil.global list -> Cil.fundec list
+)
+ident(
+  ext_ref BadUtil.get_fundecs
+)
+"maybe.ml" 31 1362 1398 "maybe.ml" 31 1362 1402
+type(
+  Cil.file
+)
+ident(
+  int_ref file "maybe.ml" 30 1336 1349 "maybe.ml" 30 1336 1353
+)
+"maybe.ml" 31 1362 1398 "maybe.ml" 31 1362 1414
+type(
+  Cil.global list
+)
+"maybe.ml" 31 1362 1378 "maybe.ml" 31 1362 1414
+call(
+  stack
+)
+type(
+  Cil.fundec list
+)
+"maybe.ml" 33 1419 1425 "maybe.ml" 33 1419 1434
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def fdec_hash "maybe.ml" 34 1474 1476 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 33 1419 1437 "maybe.ml" 33 1419 1462
+type(
+  Cil.fundec list -> (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  ext_ref BadUtil.build_fundec_hash
+)
+"maybe.ml" 33 1419 1463 "maybe.ml" 33 1419 1470
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fundecs "maybe.ml" 31 1362 1368 "maybe.ml" 31 1362 1375
+)
+"maybe.ml" 33 1419 1437 "maybe.ml" 33 1419 1470
+call(
+  stack
+)
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+"maybe.ml" 34 1474 1480 "maybe.ml" 34 1474 1484
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "maybe.ml" 38 1612 1614 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 35 1488 1496 "maybe.ml" 35 1488 1508
+type(
+  (string, Cil.fundec) Hashtbl.t -> string -> Cil.fundec
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"maybe.ml" 35 1488 1509 "maybe.ml" 35 1488 1518
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "maybe.ml" 33 1419 1425 "maybe.ml" 33 1419 1434
+)
+"maybe.ml" 35 1488 1519 "maybe.ml" 35 1488 1524
+type(
+  string
+)
+ident(
+  int_ref fname "maybe.ml" 30 1336 1354 "maybe.ml" 30 1336 1359
+)
+"maybe.ml" 35 1488 1496 "maybe.ml" 35 1488 1524
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"maybe.ml" 36 1526 1535 "maybe.ml" 36 1526 1544
+type(
+  exn
+)
+"maybe.ml" 37 1549 1555 "maybe.ml" 37 1549 1563
+type(
+  string -> Cil.fundec
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"maybe.ml" 37 1549 1565 "maybe.ml" 37 1549 1580
+type(
+  string
+)
+"maybe.ml" 37 1549 1581 "maybe.ml" 37 1549 1582
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"maybe.ml" 37 1549 1583 "maybe.ml" 37 1549 1588
+type(
+  string
+)
+ident(
+  int_ref fname "maybe.ml" 30 1336 1354 "maybe.ml" 30 1336 1359
+)
+"maybe.ml" 37 1549 1589 "maybe.ml" 37 1549 1590
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"maybe.ml" 37 1549 1591 "maybe.ml" 37 1549 1607
+type(
+  string
+)
+"maybe.ml" 37 1549 1583 "maybe.ml" 37 1549 1607
+call(
+  stack
+)
+type(
+  string
+)
+"maybe.ml" 37 1549 1564 "maybe.ml" 37 1549 1608
+call(
+  stack
+)
+type(
+  string
+)
+"maybe.ml" 37 1549 1555 "maybe.ml" 37 1549 1608
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"maybe.ml" 35 1488 1492 "maybe.ml" 37 1549 1608
+type(
+  Cil.fundec
+)
+"maybe.ml" 38 1612 1618 "maybe.ml" 38 1612 1626
+type(
+  int list
+)
+ident(
+  def initials "maybe.ml" 42 1766 1768 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 40 1688 1696 "maybe.ml" 40 1688 1701
+type(
+  Cil.stmt
+)
+ident(
+  def first "maybe.ml" 41 1741 1745 "maybe.ml" 41 1741 1762
+)
+"maybe.ml" 40 1688 1704 "maybe.ml" 40 1688 1711
+type(
+  Cil.stmt list -> Cil.stmt
+)
+ident(
+  ext_ref List.hd
+)
+"maybe.ml" 40 1688 1712 "maybe.ml" 40 1688 1716
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "maybe.ml" 34 1474 1480 "maybe.ml" 34 1474 1484
+)
+"maybe.ml" 40 1688 1712 "maybe.ml" 40 1688 1726
+type(
+  Cil.block
+)
+"maybe.ml" 40 1688 1712 "maybe.ml" 40 1688 1737
+type(
+  Cil.stmt list
+)
+"maybe.ml" 40 1688 1704 "maybe.ml" 40 1688 1737
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"maybe.ml" 41 1741 1747 "maybe.ml" 41 1741 1752
+type(
+  Cil.stmt
+)
+ident(
+  int_ref first "maybe.ml" 40 1688 1696 "maybe.ml" 40 1688 1701
+)
+"maybe.ml" 41 1741 1747 "maybe.ml" 41 1741 1760
+type(
+  int
+)
+"maybe.ml" 41 1741 1745 "maybe.ml" 41 1741 1762
+type(
+  int list
+)
+"maybe.ml" 40 1688 1692 "maybe.ml" 41 1741 1762
+type(
+  int list
+)
+"maybe.ml" 42 1766 1772 "maybe.ml" 42 1766 1777
+type(
+  Cil.fundec list
+)
+ident(
+  def fdecs "maybe.ml" 43 1842 1844 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 42 1766 1779 "maybe.ml" 42 1766 1789
+type(
+  int
+)
+ident(
+  def max_stmtid "maybe.ml" 43 1842 1844 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 42 1766 1772 "maybe.ml" 42 1766 1789
+type(
+  Cil.fundec list * int
+)
+"maybe.ml" 42 1766 1792 "maybe.ml" 42 1766 1823
+type(
+  (string, Cil.fundec) Hashtbl.t -> Cil.fundec -> Cil.fundec list * int
+)
+ident(
+  ext_ref BadUtil.compute_invoked_fundecs
+)
+"maybe.ml" 42 1766 1824 "maybe.ml" 42 1766 1833
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "maybe.ml" 33 1419 1425 "maybe.ml" 33 1419 1434
+)
+"maybe.ml" 42 1766 1834 "maybe.ml" 42 1766 1838
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "maybe.ml" 34 1474 1480 "maybe.ml" 34 1474 1484
+)
+"maybe.ml" 42 1766 1792 "maybe.ml" 42 1766 1838
+call(
+  stack
+)
+type(
+  Cil.fundec list * int
+)
+"maybe.ml" 43 1842 1848 "maybe.ml" 43 1842 1859
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def transitions "maybe.ml" 48 2026 2028 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 43 1842 1861 "maybe.ml" 43 1842 1862
+type(
+  int list
+)
+"maybe.ml" 43 1842 1864 "maybe.ml" 43 1842 1871
+type(
+  int list
+)
+ident(
+  def returns "maybe.ml" 48 2026 2028 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 43 1842 1873 "maybe.ml" 43 1842 1878
+type(
+  int
+)
+ident(
+  def maxst "maybe.ml" 48 2026 2028 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 43 1842 1848 "maybe.ml" 43 1842 1878
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"maybe.ml" 44 1882 1889 "maybe.ml" 44 1882 1894
+type(
+  bool
+)
+ident(
+  int_ref isPDA "maybe.ml" 30 1336 1343 "maybe.ml" 30 1336 1348
+)
+"maybe.ml" 45 1900 1906 "maybe.ml" 45 1900 1929
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  Cil.fundec list ->
+  int -> (int * BadT.symbol_t * int) list * int list * int list * int
+)
+ident(
+  int_ref compute_pda_transitions "maybe.ml" 16 617 621 "maybe.ml" 16 617 644
+)
+"maybe.ml" 45 1900 1930 "maybe.ml" 45 1900 1939
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "maybe.ml" 33 1419 1425 "maybe.ml" 33 1419 1434
+)
+"maybe.ml" 45 1900 1940 "maybe.ml" 45 1900 1945
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fdecs "maybe.ml" 42 1766 1772 "maybe.ml" 42 1766 1777
+)
+"maybe.ml" 45 1900 1946 "maybe.ml" 45 1900 1956
+type(
+  int
+)
+ident(
+  int_ref max_stmtid "maybe.ml" 42 1766 1779 "maybe.ml" 42 1766 1789
+)
+"maybe.ml" 45 1900 1906 "maybe.ml" 45 1900 1956
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"maybe.ml" 47 1966 1972 "maybe.ml" 47 1966 1995
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  Cil.fundec list ->
+  int -> (int * BadT.symbol_t * int) list * int list * int list * int
+)
+ident(
+  int_ref compute_nfa_transitions "maybe.ml" 5 91 95 "maybe.ml" 5 91 118
+)
+"maybe.ml" 47 1966 1996 "maybe.ml" 47 1966 2005
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "maybe.ml" 33 1419 1425 "maybe.ml" 33 1419 1434
+)
+"maybe.ml" 47 1966 2006 "maybe.ml" 47 1966 2011
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fdecs "maybe.ml" 42 1766 1772 "maybe.ml" 42 1766 1777
+)
+"maybe.ml" 47 1966 2012 "maybe.ml" 47 1966 2022
+type(
+  int
+)
+ident(
+  int_ref max_stmtid "maybe.ml" 42 1766 1779 "maybe.ml" 42 1766 1789
+)
+"maybe.ml" 47 1966 1972 "maybe.ml" 47 1966 2022
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"maybe.ml" 44 1882 1886 "maybe.ml" 47 1966 2022
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"maybe.ml" 48 2026 2032 "maybe.ml" 48 2026 2038
+type(
+  int list
+)
+ident(
+  def finals "maybe.ml" 52 2156 2158 "maybe.ml" 63 2644 2648
+)
+"maybe.ml" 49 2042 2054 "maybe.ml" 49 2042 2062
+type(
+  int list -> int -> int list
+)
+ident(
+  def finals_h "maybe.ml" 49 2042 2046 "maybe.ml" 51 2131 2152
+)
+"maybe.ml" 49 2042 2063 "maybe.ml" 49 2042 2066
+type(
+  int list
+)
+ident(
+  def res "maybe.ml" 49 2042 2067 "maybe.ml" 50 2072 2127
+)
+"maybe.ml" 49 2042 2067 "maybe.ml" 49 2042 2068
+type(
+  int
+)
+ident(
+  def i "maybe.ml" 50 2072 2078 "maybe.ml" 50 2072 2127
+)
+"maybe.ml" 50 2072 2081 "maybe.ml" 50 2072 2082
+type(
+  int
+)
+ident(
+  int_ref i "maybe.ml" 49 2042 2067 "maybe.ml" 49 2042 2068
+)
+"maybe.ml" 50 2072 2083 "maybe.ml" 50 2072 2084
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"maybe.ml" 50 2072 2085 "maybe.ml" 50 2072 2086
+type(
+  int
+)
+"maybe.ml" 50 2072 2081 "maybe.ml" 50 2072 2086
+type(
+  bool
+)
+"maybe.ml" 50 2072 2092 "maybe.ml" 50 2072 2095
+type(
+  int list
+)
+ident(
+  int_ref res "maybe.ml" 49 2042 2063 "maybe.ml" 49 2042 2066
+)
+"maybe.ml" 50 2072 2101 "maybe.ml" 50 2072 2109
+type(
+  int list -> int -> int list
+)
+ident(
+  int_ref finals_h "maybe.ml" 49 2042 2054 "maybe.ml" 49 2042 2062
+)
+"maybe.ml" 50 2072 2111 "maybe.ml" 50 2072 2112
+type(
+  int
+)
+ident(
+  int_ref i "maybe.ml" 49 2042 2067 "maybe.ml" 49 2042 2068
+)
+"maybe.ml" 50 2072 2114 "maybe.ml" 50 2072 2117
+type(
+  int list
+)
+ident(
+  int_ref res "maybe.ml" 49 2042 2063 "maybe.ml" 49 2042 2066
+)
+"maybe.ml" 50 2072 2110 "maybe.ml" 50 2072 2118
+type(
+  int list
+)
+"maybe.ml" 50 2072 2120 "maybe.ml" 50 2072 2124
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"maybe.ml" 50 2072 2125 "maybe.ml" 50 2072 2126
+type(
+  int
+)
+ident(
+  int_ref i "maybe.ml" 49 2042 2067 "maybe.ml" 49 2042 2068
+)
+"maybe.ml" 50 2072 2119 "maybe.ml" 50 2072 2127
+type(
+  int
+)
+"maybe.ml" 50 2072 2101 "maybe.ml" 50 2072 2127
+call(
+  tail
+)
+type(
+  int list
+)
+"maybe.ml" 50 2072 2078 "maybe.ml" 50 2072 2127
+type(
+  int list
+)
+"maybe.ml" 51 2131 2135 "maybe.ml" 51 2131 2143
+type(
+  int list -> int -> int list
+)
+ident(
+  int_ref finals_h "maybe.ml" 49 2042 2054 "maybe.ml" 49 2042 2062
+)
+"maybe.ml" 51 2131 2144 "maybe.ml" 51 2131 2146
+type(
+  int list
+)
+"maybe.ml" 51 2131 2147 "maybe.ml" 51 2131 2152
+type(
+  int
+)
+ident(
+  int_ref maxst "maybe.ml" 43 1842 1873 "maybe.ml" 43 1842 1878
+)
+"maybe.ml" 51 2131 2135 "maybe.ml" 51 2131 2152
+call(
+  stack
+)
+type(
+  int list
+)
+"maybe.ml" 49 2042 2046 "maybe.ml" 51 2131 2152
+type(
+  int list
+)
+"maybe.ml" 52 2156 2162 "maybe.ml" 52 2156 2163
+type(
+  unit
+)
+"maybe.ml" 53 2167 2174 "maybe.ml" 53 2167 2179
+type(
+  bool
+)
+ident(
+  int_ref isPDA "maybe.ml" 30 1336 1343 "maybe.ml" 30 1336 1348
+)
+"maybe.ml" 54 2185 2195 "maybe.ml" 54 2185 2206
+type(
+  'a -> int list -> ('a * BadT.symbol_t * 'a) list
+)
+ident(
+  def pop_returns "maybe.ml" 56 2281 2287 "maybe.ml" 60 2508 2571
+)
+"maybe.ml" 54 2185 2207 "maybe.ml" 54 2185 2208
+type(
+  'a
+)
+ident(
+  def f "maybe.ml" 54 2185 2209 "maybe.ml" 55 2219 2277
+)
+"maybe.ml" 54 2185 2209 "maybe.ml" 54 2185 2216
+type(
+  int list
+)
+ident(
+  def returns "maybe.ml" 55 2219 2227 "maybe.ml" 55 2219 2277
+)
+"maybe.ml" 55 2219 2227 "maybe.ml" 55 2219 2239
+type(
+  (int -> 'a * BadT.symbol_t * 'a) ->
+  int list -> ('a * BadT.symbol_t * 'a) list
+)
+ident(
+  ext_ref List.rev_map
+)
+"maybe.ml" 55 2219 2245 "maybe.ml" 55 2219 2246
+type(
+  int
+)
+ident(
+  def r "maybe.ml" 55 2219 2250 "maybe.ml" 55 2219 2268
+)
+"maybe.ml" 55 2219 2251 "maybe.ml" 55 2219 2252
+type(
+  'a
+)
+ident(
+  int_ref f "maybe.ml" 54 2185 2207 "maybe.ml" 54 2185 2208
+)
+"maybe.ml" 55 2219 2263 "maybe.ml" 55 2219 2264
+type(
+  int
+)
+ident(
+  int_ref r "maybe.ml" 55 2219 2245 "maybe.ml" 55 2219 2246
+)
+"maybe.ml" 55 2219 2254 "maybe.ml" 55 2219 2264
+type(
+  BadT.symbol_t
+)
+"maybe.ml" 55 2219 2266 "maybe.ml" 55 2219 2267
+type(
+  'a
+)
+ident(
+  int_ref f "maybe.ml" 54 2185 2207 "maybe.ml" 54 2185 2208
+)
+"maybe.ml" 55 2219 2250 "maybe.ml" 55 2219 2268
+type(
+  'a * BadT.symbol_t * 'a
+)
+"maybe.ml" 55 2219 2240 "maybe.ml" 55 2219 2269
+type(
+  int -> 'a * BadT.symbol_t * 'a
+)
+"maybe.ml" 55 2219 2270 "maybe.ml" 55 2219 2277
+type(
+  int list
+)
+ident(
+  int_ref returns "maybe.ml" 54 2185 2209 "maybe.ml" 54 2185 2216
+)
+"maybe.ml" 55 2219 2227 "maybe.ml" 55 2219 2277
+call(
+  tail
+)
+type(
+  ('a * BadT.symbol_t * 'a) list
+)
+"maybe.ml" 56 2281 2291 "maybe.ml" 56 2281 2301
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def final_pops "maybe.ml" 59 2462 2468 "maybe.ml" 60 2508 2571
+)
+"maybe.ml" 56 2281 2304 "maybe.ml" 56 2281 2318
+type(
+  ((int * BadT.symbol_t * int) list ->
+   int -> (int * BadT.symbol_t * int) list) ->
+  (int * BadT.symbol_t * int) list ->
+  int list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"maybe.ml" 56 2281 2324 "maybe.ml" 56 2281 2327
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def ret "maybe.ml" 56 2281 2328 "maybe.ml" 57 2333 2409
+)
+"maybe.ml" 56 2281 2328 "maybe.ml" 56 2281 2329
+type(
+  int
+)
+ident(
+  def f "maybe.ml" 57 2333 2341 "maybe.ml" 57 2333 2409
+)
+"maybe.ml" 57 2333 2341 "maybe.ml" 57 2333 2356
+type(
+  (int * BadT.symbol_t * int) list ->
+  (int * BadT.symbol_t * int) list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.rev_append
+)
+"maybe.ml" 57 2333 2359 "maybe.ml" 57 2333 2360
+type(
+  int
+)
+ident(
+  int_ref f "maybe.ml" 56 2281 2328 "maybe.ml" 56 2281 2329
+)
+"maybe.ml" 57 2333 2371 "maybe.ml" 57 2333 2375
+type(
+  int
+)
+"maybe.ml" 57 2333 2362 "maybe.ml" 57 2333 2375
+type(
+  BadT.symbol_t
+)
+"maybe.ml" 57 2333 2377 "maybe.ml" 57 2333 2378
+type(
+  int
+)
+ident(
+  int_ref f "maybe.ml" 56 2281 2328 "maybe.ml" 56 2281 2329
+)
+"maybe.ml" 57 2333 2358 "maybe.ml" 57 2333 2379
+type(
+  int * BadT.symbol_t * int
+)
+"maybe.ml" 57 2333 2382 "maybe.ml" 57 2333 2393
+type(
+  int -> int list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref pop_returns "maybe.ml" 54 2185 2195 "maybe.ml" 54 2185 2206
+)
+"maybe.ml" 57 2333 2394 "maybe.ml" 57 2333 2395
+type(
+  int
+)
+ident(
+  int_ref f "maybe.ml" 56 2281 2328 "maybe.ml" 56 2281 2329
+)
+"maybe.ml" 57 2333 2396 "maybe.ml" 57 2333 2403
+type(
+  int list
+)
+ident(
+  int_ref returns "maybe.ml" 43 1842 1864 "maybe.ml" 43 1842 1871
+)
+"maybe.ml" 57 2333 2381 "maybe.ml" 57 2333 2404
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"maybe.ml" 57 2333 2357 "maybe.ml" 57 2333 2405
+type(
+  (int * BadT.symbol_t * int) list
+)
+"maybe.ml" 57 2333 2406 "maybe.ml" 57 2333 2409
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref ret "maybe.ml" 56 2281 2324 "maybe.ml" 56 2281 2327
+)
+"maybe.ml" 57 2333 2341 "maybe.ml" 57 2333 2409
+call(
+  tail
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"maybe.ml" 56 2281 2319 "maybe.ml" 57 2333 2410
+type(
+  (int * BadT.symbol_t * int) list -> int -> (int * BadT.symbol_t * int) list
+)
+"maybe.ml" 58 2411 2449 "maybe.ml" 58 2411 2451
+type(
+  (int * BadT.symbol_t * int) list
+)
+"maybe.ml" 58 2411 2452 "maybe.ml" 58 2411 2458
+type(
+  int list
+)
+ident(
+  int_ref finals "maybe.ml" 48 2026 2032 "maybe.ml" 48 2026 2038
+)
+"maybe.ml" 56 2281 2304 "maybe.ml" 58 2411 2458
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"maybe.ml" 59 2462 2468 "maybe.ml" 59 2462 2484
+type(
+  int -> int list -> int list -> (int * BadT.symbol_t * int) list -> unit
+)
+ident(
+  ext_ref BadPDA.print_pda
+)
+"maybe.ml" 59 2462 2485 "maybe.ml" 59 2462 2490
+type(
+  int
+)
+ident(
+  int_ref maxst "maybe.ml" 43 1842 1873 "maybe.ml" 43 1842 1878
+)
+"maybe.ml" 59 2462 2491 "maybe.ml" 59 2462 2499
+type(
+  int list
+)
+ident(
+  int_ref initials "maybe.ml" 38 1612 1618 "maybe.ml" 38 1612 1626
+)
+"maybe.ml" 59 2462 2500 "maybe.ml" 59 2462 2506
+type(
+  int list
+)
+ident(
+  int_ref finals "maybe.ml" 48 2026 2032 "maybe.ml" 48 2026 2038
+)
+"maybe.ml" 60 2508 2532 "maybe.ml" 60 2508 2547
+type(
+  (int * BadT.symbol_t * int) list ->
+  (int * BadT.symbol_t * int) list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.rev_append
+)
+"maybe.ml" 60 2508 2548 "maybe.ml" 60 2508 2558
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref final_pops "maybe.ml" 56 2281 2291 "maybe.ml" 56 2281 2301
+)
+"maybe.ml" 60 2508 2559 "maybe.ml" 60 2508 2570
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref transitions "maybe.ml" 43 1842 1848 "maybe.ml" 43 1842 1859
+)
+"maybe.ml" 60 2508 2531 "maybe.ml" 60 2508 2571
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"maybe.ml" 59 2462 2468 "maybe.ml" 60 2508 2571
+call(
+  stack
+)
+type(
+  unit
+)
+"maybe.ml" 56 2281 2287 "maybe.ml" 60 2508 2571
+type(
+  unit
+)
+"maybe.ml" 54 2185 2191 "maybe.ml" 60 2508 2571
+type(
+  unit
+)
+"maybe.ml" 62 2581 2587 "maybe.ml" 62 2581 2606
+type(
+  int -> int list -> int list -> (int * BadT.symbol_t * int) list -> unit
+)
+ident(
+  ext_ref BadNFA.print_libalf
+)
+"maybe.ml" 62 2581 2607 "maybe.ml" 62 2581 2612
+type(
+  int
+)
+ident(
+  int_ref maxst "maybe.ml" 43 1842 1873 "maybe.ml" 43 1842 1878
+)
+"maybe.ml" 62 2581 2613 "maybe.ml" 62 2581 2621
+type(
+  int list
+)
+ident(
+  int_ref initials "maybe.ml" 38 1612 1618 "maybe.ml" 38 1612 1626
+)
+"maybe.ml" 62 2581 2622 "maybe.ml" 62 2581 2628
+type(
+  int list
+)
+ident(
+  int_ref finals "maybe.ml" 48 2026 2032 "maybe.ml" 48 2026 2038
+)
+"maybe.ml" 62 2581 2629 "maybe.ml" 62 2581 2640
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref transitions "maybe.ml" 43 1842 1848 "maybe.ml" 43 1842 1859
+)
+"maybe.ml" 62 2581 2587 "maybe.ml" 62 2581 2640
+call(
+  stack
+)
+type(
+  unit
+)
+"maybe.ml" 53 2167 2171 "maybe.ml" 62 2581 2640
+type(
+  unit
+)
+"maybe.ml" 63 2644 2646 "maybe.ml" 63 2644 2648
+type(
+  unit
+)
+"maybe.ml" 52 2156 2158 "maybe.ml" 63 2644 2648
+type(
+  unit
+)
+"maybe.ml" 48 2026 2028 "maybe.ml" 63 2644 2648
+type(
+  unit
+)
+"maybe.ml" 43 1842 1844 "maybe.ml" 63 2644 2648
+type(
+  unit
+)
+"maybe.ml" 42 1766 1768 "maybe.ml" 63 2644 2648
+type(
+  unit
+)
+"maybe.ml" 38 1612 1614 "maybe.ml" 63 2644 2648
+type(
+  unit
+)
+"maybe.ml" 34 1474 1476 "maybe.ml" 63 2644 2648
+type(
+  unit
+)
+"maybe.ml" 33 1419 1421 "maybe.ml" 63 2644 2648
+type(
+  unit
+)
+"maybe.ml" 31 1362 1364 "maybe.ml" 63 2644 2648
+type(
+  unit
+)

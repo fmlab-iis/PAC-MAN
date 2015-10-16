@@ -1,0 +1,692 @@
+"hash.ml" 2 1 5 "hash.ml" 2 1 9
+type(
+  ('a, 'b) Hashtbl.t -> 'a list
+)
+ident(
+  def keys "hash.ml" 4 57 57 "hash.ml" 1 0 -1
+)
+"hash.ml" 2 1 10 "hash.ml" 2 1 11
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  def m "hash.ml" 2 1 14 "hash.ml" 2 1 55
+)
+"hash.ml" 2 1 14 "hash.ml" 2 1 26
+type(
+  ('a -> 'b -> 'a list -> 'a list) ->
+  ('a, 'b) Hashtbl.t -> 'a list -> 'a list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"hash.ml" 2 1 32 "hash.ml" 2 1 33
+type(
+  'a
+)
+ident(
+  def k "hash.ml" 2 1 34 "hash.ml" 2 1 49
+)
+"hash.ml" 2 1 34 "hash.ml" 2 1 35
+type(
+  'b
+)
+ident(
+  def v "hash.ml" 2 1 36 "hash.ml" 2 1 49
+)
+"hash.ml" 2 1 36 "hash.ml" 2 1 39
+type(
+  'a list
+)
+ident(
+  def res "hash.ml" 2 1 43 "hash.ml" 2 1 49
+)
+"hash.ml" 2 1 43 "hash.ml" 2 1 44
+type(
+  'a
+)
+ident(
+  int_ref k "hash.ml" 2 1 32 "hash.ml" 2 1 33
+)
+"hash.ml" 2 1 46 "hash.ml" 2 1 49
+type(
+  'a list
+)
+ident(
+  int_ref res "hash.ml" 2 1 36 "hash.ml" 2 1 39
+)
+"hash.ml" 2 1 43 "hash.ml" 2 1 49
+type(
+  'a list
+)
+"hash.ml" 2 1 27 "hash.ml" 2 1 50
+type(
+  'a -> 'b -> 'a list -> 'a list
+)
+"hash.ml" 2 1 51 "hash.ml" 2 1 52
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref m "hash.ml" 2 1 10 "hash.ml" 2 1 11
+)
+"hash.ml" 2 1 53 "hash.ml" 2 1 55
+type(
+  'a list
+)
+"hash.ml" 2 1 14 "hash.ml" 2 1 55
+call(
+  tail
+)
+type(
+  'a list
+)
+"hash.ml" 4 57 61 "hash.ml" 4 57 67
+type(
+  ('a, 'b) Hashtbl.t -> 'b list
+)
+ident(
+  def values "hash.ml" 7 204 204 "hash.ml" 1 0 -1
+)
+"hash.ml" 4 57 68 "hash.ml" 4 57 69
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  def m "hash.ml" 4 57 72 "hash.ml" 4 57 113
+)
+"hash.ml" 4 57 72 "hash.ml" 4 57 84
+type(
+  ('a -> 'b -> 'b list -> 'b list) ->
+  ('a, 'b) Hashtbl.t -> 'b list -> 'b list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"hash.ml" 4 57 90 "hash.ml" 4 57 91
+type(
+  'a
+)
+ident(
+  def k "hash.ml" 4 57 92 "hash.ml" 4 57 107
+)
+"hash.ml" 4 57 92 "hash.ml" 4 57 93
+type(
+  'b
+)
+ident(
+  def v "hash.ml" 4 57 94 "hash.ml" 4 57 107
+)
+"hash.ml" 4 57 94 "hash.ml" 4 57 97
+type(
+  'b list
+)
+ident(
+  def res "hash.ml" 4 57 101 "hash.ml" 4 57 107
+)
+"hash.ml" 4 57 101 "hash.ml" 4 57 102
+type(
+  'b
+)
+ident(
+  int_ref v "hash.ml" 4 57 92 "hash.ml" 4 57 93
+)
+"hash.ml" 4 57 104 "hash.ml" 4 57 107
+type(
+  'b list
+)
+ident(
+  int_ref res "hash.ml" 4 57 94 "hash.ml" 4 57 97
+)
+"hash.ml" 4 57 101 "hash.ml" 4 57 107
+type(
+  'b list
+)
+"hash.ml" 4 57 85 "hash.ml" 4 57 108
+type(
+  'a -> 'b -> 'b list -> 'b list
+)
+"hash.ml" 4 57 109 "hash.ml" 4 57 110
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref m "hash.ml" 4 57 68 "hash.ml" 4 57 69
+)
+"hash.ml" 4 57 111 "hash.ml" 4 57 113
+type(
+  'b list
+)
+"hash.ml" 4 57 72 "hash.ml" 4 57 113
+call(
+  tail
+)
+type(
+  'b list
+)
+"hash.ml" 7 204 208 "hash.ml" 7 204 216
+type(
+  ('a, 'a list) Hashtbl.t -> ('a, 'a list) Hashtbl.t
+)
+ident(
+  def saturate "hash.ml" 33 794 797 "hash.ml" 1 0 -1
+)
+"hash.ml" 7 204 217 "hash.ml" 7 204 218
+type(
+  ('a, 'a list) Hashtbl.t
+)
+ident(
+  def h "hash.ml" 8 221 223 "hash.ml" 33 794 797
+)
+"hash.ml" 8 221 227 "hash.ml" 8 221 234
+type(
+  bool ref
+)
+ident(
+  def changed "hash.ml" 9 249 251 "hash.ml" 33 794 797
+)
+"hash.ml" 8 221 237 "hash.ml" 8 221 240
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"hash.ml" 8 221 241 "hash.ml" 8 221 245
+type(
+  bool
+)
+"hash.ml" 8 221 237 "hash.ml" 8 221 245
+type(
+  bool ref
+)
+"hash.ml" 9 249 255 "hash.ml" 9 249 260
+type(
+  'b list -> 'b list -> 'b list
+)
+ident(
+  def union "hash.ml" 18 432 434 "hash.ml" 33 794 797
+)
+"hash.ml" 9 249 261 "hash.ml" 9 249 263
+type(
+  'b list
+)
+ident(
+  def l1 "hash.ml" 9 249 264 "hash.ml" 17 417 428
+)
+"hash.ml" 9 249 264 "hash.ml" 9 249 266
+type(
+  'b list
+)
+ident(
+  def l2 "hash.ml" 10 269 273 "hash.ml" 17 417 428
+)
+"hash.ml" 10 269 273 "hash.ml" 10 269 287
+type(
+  ('b list -> 'b -> 'b list) -> 'b list -> 'b list -> 'b list
+)
+ident(
+  ext_ref List.fold_left
+)
+"hash.ml" 11 290 300 "hash.ml" 11 290 301
+type(
+  'b list
+)
+ident(
+  def l "hash.ml" 11 290 302 "hash.ml" 16 402 416
+)
+"hash.ml" 11 290 302 "hash.ml" 11 290 303
+type(
+  'b
+)
+ident(
+  def x "hash.ml" 12 308 316 "hash.ml" 16 402 416
+)
+"hash.ml" 12 308 319 "hash.ml" 12 308 327
+type(
+  'b -> 'b list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"hash.ml" 12 308 328 "hash.ml" 12 308 329
+type(
+  'b
+)
+ident(
+  int_ref x "hash.ml" 11 290 302 "hash.ml" 11 290 303
+)
+"hash.ml" 12 308 330 "hash.ml" 12 308 331
+type(
+  'b list
+)
+ident(
+  int_ref l "hash.ml" 11 290 300 "hash.ml" 11 290 301
+)
+"hash.ml" 12 308 319 "hash.ml" 12 308 331
+call(
+  stack
+)
+type(
+  bool
+)
+"hash.ml" 13 338 348 "hash.ml" 13 338 349
+type(
+  'b list
+)
+ident(
+  int_ref l "hash.ml" 11 290 300 "hash.ml" 11 290 301
+)
+"hash.ml" 15 365 379 "hash.ml" 15 365 380
+type(
+  unit
+)
+"hash.ml" 15 365 383 "hash.ml" 15 365 390
+type(
+  bool ref
+)
+ident(
+  int_ref changed "hash.ml" 8 221 227 "hash.ml" 8 221 234
+)
+"hash.ml" 15 365 391 "hash.ml" 15 365 393
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hash.ml" 15 365 394 "hash.ml" 15 365 398
+type(
+  bool
+)
+"hash.ml" 15 365 383 "hash.ml" 15 365 398
+type(
+  unit
+)
+"hash.ml" 16 402 412 "hash.ml" 16 402 413
+type(
+  'b
+)
+ident(
+  int_ref x "hash.ml" 11 290 302 "hash.ml" 11 290 303
+)
+"hash.ml" 16 402 415 "hash.ml" 16 402 416
+type(
+  'b list
+)
+ident(
+  int_ref l "hash.ml" 11 290 300 "hash.ml" 11 290 301
+)
+"hash.ml" 16 402 412 "hash.ml" 16 402 416
+type(
+  'b list
+)
+"hash.ml" 15 365 375 "hash.ml" 16 402 416
+type(
+  'b list
+)
+"hash.ml" 12 308 316 "hash.ml" 16 402 416
+type(
+  'b list
+)
+"hash.ml" 10 269 288 "hash.ml" 17 417 422
+type(
+  'b list -> 'b -> 'b list
+)
+"hash.ml" 17 417 423 "hash.ml" 17 417 425
+type(
+  'b list
+)
+ident(
+  int_ref l1 "hash.ml" 9 249 261 "hash.ml" 9 249 263
+)
+"hash.ml" 17 417 426 "hash.ml" 17 417 428
+type(
+  'b list
+)
+ident(
+  int_ref l2 "hash.ml" 9 249 264 "hash.ml" 9 249 266
+)
+"hash.ml" 10 269 273 "hash.ml" 17 417 428
+call(
+  tail
+)
+type(
+  'b list
+)
+"hash.ml" 18 432 438 "hash.ml" 18 432 444
+type(
+  ('c, 'c list) Hashtbl.t -> 'c -> unit
+)
+ident(
+  def helper "hash.ml" 28 679 681 "hash.ml" 33 794 797
+)
+"hash.ml" 18 432 445 "hash.ml" 18 432 446
+type(
+  ('c, 'c list) Hashtbl.t
+)
+ident(
+  def h "hash.ml" 18 432 447 "hash.ml" 27 670 675
+)
+"hash.ml" 18 432 447 "hash.ml" 18 432 448
+type(
+  'c
+)
+ident(
+  def x "hash.ml" 19 451 455 "hash.ml" 27 670 675
+)
+"hash.ml" 19 451 455 "hash.ml" 19 451 470
+type(
+  ('c, 'c list) Hashtbl.t -> 'c -> 'c list -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"hash.ml" 19 451 471 "hash.ml" 19 451 472
+type(
+  ('c, 'c list) Hashtbl.t
+)
+ident(
+  int_ref h "hash.ml" 18 432 445 "hash.ml" 18 432 446
+)
+"hash.ml" 19 451 473 "hash.ml" 19 451 474
+type(
+  'c
+)
+ident(
+  int_ref x "hash.ml" 18 432 447 "hash.ml" 18 432 448
+)
+"hash.ml" 20 477 483 "hash.ml" 20 477 497
+type(
+  ('c list -> 'c -> 'c list) -> 'c list -> 'c list -> 'c list
+)
+ident(
+  ext_ref List.fold_left
+)
+"hash.ml" 21 500 512 "hash.ml" 21 500 515
+type(
+  'c list
+)
+ident(
+  def res "hash.ml" 21 500 516 "hash.ml" 25 608 623
+)
+"hash.ml" 21 500 516 "hash.ml" 21 500 517
+type(
+  'c
+)
+ident(
+  def y "hash.ml" 22 522 532 "hash.ml" 25 608 623
+)
+"hash.ml" 23 537 549 "hash.ml" 23 537 554
+type(
+  'c list -> 'c list -> 'c list
+)
+ident(
+  int_ref union "hash.ml" 9 249 255 "hash.ml" 9 249 260
+)
+"hash.ml" 23 537 555 "hash.ml" 23 537 558
+type(
+  'c list
+)
+ident(
+  int_ref res "hash.ml" 21 500 512 "hash.ml" 21 500 515
+)
+"hash.ml" 23 537 560 "hash.ml" 23 537 572
+type(
+  ('c, 'c list) Hashtbl.t -> 'c -> 'c list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"hash.ml" 23 537 573 "hash.ml" 23 537 574
+type(
+  ('c, 'c list) Hashtbl.t
+)
+ident(
+  int_ref h "hash.ml" 18 432 445 "hash.ml" 18 432 446
+)
+"hash.ml" 23 537 575 "hash.ml" 23 537 576
+type(
+  'c
+)
+ident(
+  int_ref y "hash.ml" 21 500 516 "hash.ml" 21 500 517
+)
+"hash.ml" 23 537 559 "hash.ml" 23 537 577
+call(
+  stack
+)
+type(
+  'c list
+)
+"hash.ml" 23 537 549 "hash.ml" 23 537 577
+call(
+  stack
+)
+type(
+  'c list
+)
+"hash.ml" 24 579 594 "hash.ml" 24 579 603
+type(
+  exn
+)
+"hash.ml" 25 608 620 "hash.ml" 25 608 623
+type(
+  'c list
+)
+ident(
+  int_ref res "hash.ml" 21 500 512 "hash.ml" 21 500 515
+)
+"hash.ml" 22 522 532 "hash.ml" 25 608 623
+type(
+  'c list
+)
+"hash.ml" 20 477 498 "hash.ml" 26 624 631
+type(
+  'c list -> 'c -> 'c list
+)
+"hash.ml" 26 624 633 "hash.ml" 26 624 645
+type(
+  ('c, 'c list) Hashtbl.t -> 'c -> 'c list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"hash.ml" 26 624 646 "hash.ml" 26 624 647
+type(
+  ('c, 'c list) Hashtbl.t
+)
+ident(
+  int_ref h "hash.ml" 18 432 445 "hash.ml" 18 432 446
+)
+"hash.ml" 26 624 648 "hash.ml" 26 624 649
+type(
+  'c
+)
+ident(
+  int_ref x "hash.ml" 18 432 447 "hash.ml" 18 432 448
+)
+"hash.ml" 26 624 632 "hash.ml" 26 624 650
+call(
+  stack
+)
+type(
+  'c list
+)
+"hash.ml" 26 624 652 "hash.ml" 26 624 664
+type(
+  ('c, 'c list) Hashtbl.t -> 'c -> 'c list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"hash.ml" 26 624 665 "hash.ml" 26 624 666
+type(
+  ('c, 'c list) Hashtbl.t
+)
+ident(
+  int_ref h "hash.ml" 18 432 445 "hash.ml" 18 432 446
+)
+"hash.ml" 26 624 667 "hash.ml" 26 624 668
+type(
+  'c
+)
+ident(
+  int_ref x "hash.ml" 18 432 447 "hash.ml" 18 432 448
+)
+"hash.ml" 26 624 651 "hash.ml" 26 624 669
+call(
+  stack
+)
+type(
+  'c list
+)
+"hash.ml" 19 451 475 "hash.ml" 27 670 675
+call(
+  stack
+)
+type(
+  'c list
+)
+"hash.ml" 19 451 455 "hash.ml" 27 670 675
+call(
+  tail
+)
+type(
+  unit
+)
+"hash.ml" 28 679 685 "hash.ml" 28 679 686
+type(
+  unit
+)
+"hash.ml" 29 690 700 "hash.ml" 29 690 701
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hash.ml" 29 690 701 "hash.ml" 29 690 708
+type(
+  bool ref
+)
+ident(
+  int_ref changed "hash.ml" 8 221 227 "hash.ml" 8 221 234
+)
+"hash.ml" 29 690 700 "hash.ml" 29 690 708
+type(
+  bool
+)
+"hash.ml" 30 712 722 "hash.ml" 30 712 723
+type(
+  unit
+)
+"hash.ml" 30 712 726 "hash.ml" 30 712 733
+type(
+  bool ref
+)
+ident(
+  int_ref changed "hash.ml" 8 221 227 "hash.ml" 8 221 234
+)
+"hash.ml" 30 712 734 "hash.ml" 30 712 736
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hash.ml" 30 712 737 "hash.ml" 30 712 742
+type(
+  bool
+)
+"hash.ml" 30 712 726 "hash.ml" 30 712 742
+type(
+  unit
+)
+"hash.ml" 31 746 752 "hash.ml" 31 746 761
+type(
+  ('a -> unit) -> 'a list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"hash.ml" 31 746 763 "hash.ml" 31 746 769
+type(
+  ('a, 'a list) Hashtbl.t -> 'a -> unit
+)
+ident(
+  int_ref helper "hash.ml" 18 432 438 "hash.ml" 18 432 444
+)
+"hash.ml" 31 746 770 "hash.ml" 31 746 771
+type(
+  ('a, 'a list) Hashtbl.t
+)
+ident(
+  int_ref h "hash.ml" 7 204 217 "hash.ml" 7 204 218
+)
+"hash.ml" 31 746 762 "hash.ml" 31 746 772
+call(
+  stack
+)
+type(
+  'a -> unit
+)
+"hash.ml" 31 746 774 "hash.ml" 31 746 778
+type(
+  ('a, 'a list) Hashtbl.t -> 'a list
+)
+ident(
+  int_ref keys "hash.ml" 2 1 5 "hash.ml" 2 1 9
+)
+"hash.ml" 31 746 779 "hash.ml" 31 746 780
+type(
+  ('a, 'a list) Hashtbl.t
+)
+ident(
+  int_ref h "hash.ml" 7 204 217 "hash.ml" 7 204 218
+)
+"hash.ml" 31 746 773 "hash.ml" 31 746 781
+call(
+  stack
+)
+type(
+  'a list
+)
+"hash.ml" 31 746 752 "hash.ml" 31 746 781
+call(
+  stack
+)
+type(
+  unit
+)
+"hash.ml" 30 712 718 "hash.ml" 31 746 781
+type(
+  unit
+)
+"hash.ml" 29 690 694 "hash.ml" 32 782 790
+type(
+  unit
+)
+"hash.ml" 33 794 796 "hash.ml" 33 794 797
+type(
+  ('a, 'a list) Hashtbl.t
+)
+ident(
+  int_ref h "hash.ml" 7 204 217 "hash.ml" 7 204 218
+)
+"hash.ml" 28 679 681 "hash.ml" 33 794 797
+type(
+  ('a, 'a list) Hashtbl.t
+)
+"hash.ml" 18 432 434 "hash.ml" 33 794 797
+type(
+  ('a, 'a list) Hashtbl.t
+)
+"hash.ml" 9 249 251 "hash.ml" 33 794 797
+type(
+  ('a, 'a list) Hashtbl.t
+)
+"hash.ml" 8 221 223 "hash.ml" 33 794 797
+type(
+  ('a, 'a list) Hashtbl.t
+)

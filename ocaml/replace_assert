@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [[ "$1" == "" ]]; then
+  echo "Usage: ./replace_assert FILE"
+else 
+  sed -e "s/assert(\([^;]*\));/if (! (\1)) __VERIFIER_error\(\);/g" $1
+fi

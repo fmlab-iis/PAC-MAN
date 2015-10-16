@@ -1,0 +1,5151 @@
+"badNFA.ml" 3 43 47 "badNFA.ml" 3 43 68
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  Cil.instr list ->
+  int -> int list -> int -> (int * BadT.symbol_t * int) list * int list * int
+)
+ident(
+  def instrs_to_transitions "badNFA.ml" 44 2031 2031 "badNFA.ml" 1 0 -1
+)
+"badNFA.ml" 3 43 69 "badNFA.ml" 3 43 78
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def fdec_hash "badNFA.ml" 3 43 79 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 3 43 79 "badNFA.ml" 3 43 85
+type(
+  int list
+)
+ident(
+  def finals "badNFA.ml" 3 43 86 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 3 43 86 "badNFA.ml" 3 43 92
+type(
+  Cil.instr list
+)
+ident(
+  def instrs "badNFA.ml" 3 43 93 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 3 43 93 "badNFA.ml" 3 43 96
+type(
+  int
+)
+ident(
+  def sid "badNFA.ml" 3 43 97 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 3 43 97 "badNFA.ml" 3 43 106
+type(
+  int list
+)
+ident(
+  def succ_sids "badNFA.ml" 3 43 107 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 3 43 107 "badNFA.ml" 3 43 113
+type(
+  int
+)
+ident(
+  def stmtid "badNFA.ml" 4 116 118 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 4 116 122 "badNFA.ml" 4 116 145
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int ->
+  Cil.instr -> bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+ident(
+  def instrs_to_transitions_h "badNFA.ml" 32 1496 1498 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 4 116 147 "badNFA.ml" 4 116 156
+type(
+  bool
+)
+ident(
+  def has_error "badNFA.ml" 5 192 222 "badNFA.ml" 31 1437 1492
+)
+"badNFA.ml" 4 116 158 "badNFA.ml" 4 116 165
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def rev_ret "badNFA.ml" 5 192 222 "badNFA.ml" 31 1437 1492
+)
+"badNFA.ml" 4 116 167 "badNFA.ml" 4 116 170
+type(
+  int list
+)
+ident(
+  def fin "badNFA.ml" 5 192 222 "badNFA.ml" 31 1437 1492
+)
+"badNFA.ml" 4 116 172 "badNFA.ml" 4 116 181
+type(
+  int
+)
+ident(
+  def prev_stid "badNFA.ml" 5 192 222 "badNFA.ml" 31 1437 1492
+)
+"badNFA.ml" 4 116 183 "badNFA.ml" 4 116 189
+type(
+  int
+)
+ident(
+  def stmtid "badNFA.ml" 5 192 222 "badNFA.ml" 31 1437 1492
+)
+"badNFA.ml" 4 116 146 "badNFA.ml" 4 116 190
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 5 192 222 "badNFA.ml" 5 192 227
+type(
+  Cil.instr
+)
+ident(
+  def instr "badNFA.ml" 6 230 234 "badNFA.ml" 31 1437 1492
+)
+"badNFA.ml" 6 230 237 "badNFA.ml" 6 230 246
+type(
+  bool
+)
+ident(
+  int_ref has_error "badNFA.ml" 4 116 147 "badNFA.ml" 4 116 156
+)
+"badNFA.ml" 6 230 253 "badNFA.ml" 6 230 262
+type(
+  bool
+)
+ident(
+  int_ref has_error "badNFA.ml" 4 116 147 "badNFA.ml" 4 116 156
+)
+"badNFA.ml" 6 230 264 "badNFA.ml" 6 230 271
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badNFA.ml" 4 116 158 "badNFA.ml" 4 116 165
+)
+"badNFA.ml" 6 230 273 "badNFA.ml" 6 230 276
+type(
+  int list
+)
+ident(
+  int_ref fin "badNFA.ml" 4 116 167 "badNFA.ml" 4 116 170
+)
+"badNFA.ml" 6 230 278 "badNFA.ml" 6 230 287
+type(
+  int
+)
+ident(
+  int_ref prev_stid "badNFA.ml" 4 116 172 "badNFA.ml" 4 116 181
+)
+"badNFA.ml" 6 230 289 "badNFA.ml" 6 230 295
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 4 116 183 "badNFA.ml" 4 116 189
+)
+"badNFA.ml" 6 230 252 "badNFA.ml" 6 230 296
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 8 306 318 "badNFA.ml" 8 306 323
+type(
+  Cil.instr
+)
+ident(
+  int_ref instr "badNFA.ml" 5 192 222 "badNFA.ml" 5 192 227
+)
+"badNFA.ml" 9 329 346 "badNFA.ml" 9 329 347
+type(
+  Cil.lval
+)
+"badNFA.ml" 9 329 349 "badNFA.ml" 9 329 352
+type(
+  Cil.exp
+)
+ident(
+  def exp "badNFA.ml" 11 393 402 "badNFA.ml" 30 1373 1436
+)
+"badNFA.ml" 9 329 354 "badNFA.ml" 9 329 355
+type(
+  Cil.location
+)
+"badNFA.ml" 9 329 337 "badNFA.ml" 9 329 356
+type(
+  Cil.instr
+)
+"badNFA.ml" 10 358 376 "badNFA.ml" 10 358 377
+type(
+  Cil.lval option
+)
+"badNFA.ml" 10 358 379 "badNFA.ml" 10 358 382
+type(
+  Cil.exp
+)
+ident(
+  def exp "badNFA.ml" 11 393 402 "badNFA.ml" 30 1373 1436
+)
+"badNFA.ml" 10 358 384 "badNFA.ml" 10 358 385
+type(
+  Cil.exp list
+)
+"badNFA.ml" 10 358 387 "badNFA.ml" 10 358 388
+type(
+  Cil.location
+)
+"badNFA.ml" 10 358 366 "badNFA.ml" 10 358 389
+type(
+  Cil.instr
+)
+"badNFA.ml" 9 329 337 "badNFA.ml" 10 358 389
+type(
+  Cil.instr
+)
+"badNFA.ml" 11 393 409 "badNFA.ml" 11 393 436
+type(
+  Cil.exp -> string option
+)
+ident(
+  ext_ref BadUtil.collect_call_in_exp
+)
+"badNFA.ml" 11 393 437 "badNFA.ml" 11 393 440
+type(
+  Cil.exp
+)
+ident(
+  int_ref exp "badNFA.ml" 9 329 349 "badNFA.ml" 9 329 352
+)
+"badNFA.ml" 11 393 409 "badNFA.ml" 11 393 440
+call(
+  stack
+)
+type(
+  string option
+)
+"badNFA.ml" 12 446 463 "badNFA.ml" 12 446 468
+type(
+  string
+)
+ident(
+  def fname "badNFA.ml" 13 473 486 "badNFA.ml" 29 1315 1372
+)
+"badNFA.ml" 12 446 458 "badNFA.ml" 12 446 468
+type(
+  string option
+)
+"badNFA.ml" 13 473 489 "badNFA.ml" 13 473 494
+type(
+  string
+)
+ident(
+  int_ref fname "badNFA.ml" 12 446 463 "badNFA.ml" 12 446 468
+)
+"badNFA.ml" 13 473 495 "badNFA.ml" 13 473 496
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"badNFA.ml" 13 473 497 "badNFA.ml" 13 473 514
+type(
+  string
+)
+ident(
+  ext_ref BadT.cSVCOMPERROR
+)
+"badNFA.ml" 13 473 489 "badNFA.ml" 13 473 514
+type(
+  bool
+)
+"badNFA.ml" 14 520 539 "badNFA.ml" 14 520 546
+type(
+  int
+)
+ident(
+  def stmtid' "badNFA.ml" 15 564 579 "badNFA.ml" 17 673 736
+)
+"badNFA.ml" 14 520 549 "badNFA.ml" 14 520 553
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"badNFA.ml" 14 520 554 "badNFA.ml" 14 520 560
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 4 116 183 "badNFA.ml" 4 116 189
+)
+"badNFA.ml" 14 520 549 "badNFA.ml" 14 520 560
+type(
+  int
+)
+"badNFA.ml" 15 564 583 "badNFA.ml" 15 564 590
+type(
+  int * BadT.symbol_t * int
+)
+ident(
+  def epsilon "badNFA.ml" 16 631 646 "badNFA.ml" 17 673 736
+)
+"badNFA.ml" 15 564 594 "badNFA.ml" 15 564 603
+type(
+  int
+)
+ident(
+  int_ref prev_stid "badNFA.ml" 4 116 172 "badNFA.ml" 4 116 181
+)
+"badNFA.ml" 15 564 605 "badNFA.ml" 15 564 617
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 15 564 619 "badNFA.ml" 15 564 626
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 14 520 539 "badNFA.ml" 14 520 546
+)
+"badNFA.ml" 15 564 593 "badNFA.ml" 15 564 627
+type(
+  int * BadT.symbol_t * int
+)
+"badNFA.ml" 16 631 650 "badNFA.ml" 16 631 654
+type(
+  int list
+)
+ident(
+  def fin' "badNFA.ml" 17 673 688 "badNFA.ml" 17 673 736
+)
+"badNFA.ml" 16 631 657 "badNFA.ml" 16 631 664
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 14 520 539 "badNFA.ml" 14 520 546
+)
+"badNFA.ml" 16 631 666 "badNFA.ml" 16 631 669
+type(
+  int list
+)
+ident(
+  int_ref fin "badNFA.ml" 4 116 167 "badNFA.ml" 4 116 170
+)
+"badNFA.ml" 16 631 657 "badNFA.ml" 16 631 669
+type(
+  int list
+)
+"badNFA.ml" 17 673 689 "badNFA.ml" 17 673 693
+type(
+  bool
+)
+"badNFA.ml" 17 673 695 "badNFA.ml" 17 673 702
+type(
+  int * BadT.symbol_t * int
+)
+ident(
+  int_ref epsilon "badNFA.ml" 15 564 583 "badNFA.ml" 15 564 590
+)
+"badNFA.ml" 17 673 704 "badNFA.ml" 17 673 711
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badNFA.ml" 4 116 158 "badNFA.ml" 4 116 165
+)
+"badNFA.ml" 17 673 695 "badNFA.ml" 17 673 711
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 17 673 713 "badNFA.ml" 17 673 717
+type(
+  int list
+)
+ident(
+  int_ref fin' "badNFA.ml" 16 631 650 "badNFA.ml" 16 631 654
+)
+"badNFA.ml" 17 673 719 "badNFA.ml" 17 673 726
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 14 520 539 "badNFA.ml" 14 520 546
+)
+"badNFA.ml" 17 673 728 "badNFA.ml" 17 673 735
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 14 520 539 "badNFA.ml" 14 520 546
+)
+"badNFA.ml" 17 673 688 "badNFA.ml" 17 673 736
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 16 631 646 "badNFA.ml" 17 673 736
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 15 564 579 "badNFA.ml" 17 673 736
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 14 520 535 "badNFA.ml" 17 673 736
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 18 737 758 "badNFA.ml" 18 737 769
+type(
+  (string, Cil.fundec) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"badNFA.ml" 18 737 770 "badNFA.ml" 18 737 779
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badNFA.ml" 3 43 69 "badNFA.ml" 3 43 78
+)
+"badNFA.ml" 18 737 780 "badNFA.ml" 18 737 785
+type(
+  string
+)
+ident(
+  int_ref fname "badNFA.ml" 12 446 463 "badNFA.ml" 12 446 468
+)
+"badNFA.ml" 18 737 758 "badNFA.ml" 18 737 785
+call(
+  stack
+)
+type(
+  bool
+)
+"badNFA.ml" 19 791 810 "badNFA.ml" 19 791 814
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "badNFA.ml" 20 849 864 "badNFA.ml" 27 1265 1296
+)
+"badNFA.ml" 19 791 817 "badNFA.ml" 19 791 829
+type(
+  (string, Cil.fundec) Hashtbl.t -> string -> Cil.fundec
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"badNFA.ml" 19 791 830 "badNFA.ml" 19 791 839
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badNFA.ml" 3 43 69 "badNFA.ml" 3 43 78
+)
+"badNFA.ml" 19 791 840 "badNFA.ml" 19 791 845
+type(
+  string
+)
+ident(
+  int_ref fname "badNFA.ml" 12 446 463 "badNFA.ml" 12 446 468
+)
+"badNFA.ml" 19 791 817 "badNFA.ml" 19 791 845
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"badNFA.ml" 20 849 868 "badNFA.ml" 20 849 875
+type(
+  int
+)
+ident(
+  def stmtid' "badNFA.ml" 21 893 908 "badNFA.ml" 27 1265 1296
+)
+"badNFA.ml" 20 849 878 "badNFA.ml" 20 849 882
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"badNFA.ml" 20 849 883 "badNFA.ml" 20 849 889
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 4 116 183 "badNFA.ml" 4 116 189
+)
+"badNFA.ml" 20 849 878 "badNFA.ml" 20 849 889
+type(
+  int
+)
+"badNFA.ml" 21 893 912 "badNFA.ml" 21 893 918
+type(
+  int
+)
+ident(
+  def f_stid "badNFA.ml" 22 966 981 "badNFA.ml" 27 1265 1296
+)
+"badNFA.ml" 21 893 920 "badNFA.ml" 21 893 926
+type(
+  int
+)
+ident(
+  def l_stid "badNFA.ml" 22 966 981 "badNFA.ml" 27 1265 1296
+)
+"badNFA.ml" 21 893 912 "badNFA.ml" 21 893 926
+type(
+  int * int
+)
+"badNFA.ml" 21 893 929 "badNFA.ml" 21 893 957
+type(
+  Cil.fundec -> int * int
+)
+ident(
+  ext_ref BadUtil.first_and_last_stids
+)
+"badNFA.ml" 21 893 958 "badNFA.ml" 21 893 962
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badNFA.ml" 19 791 810 "badNFA.ml" 19 791 814
+)
+"badNFA.ml" 21 893 929 "badNFA.ml" 21 893 962
+call(
+  stack
+)
+type(
+  int * int
+)
+"badNFA.ml" 22 966 985 "badNFA.ml" 22 966 998
+type(
+  int * BadT.symbol_t * int
+)
+ident(
+  def epsilon_first "badNFA.ml" 24 1081 1096 "badNFA.ml" 27 1265 1296
+)
+"badNFA.ml" 23 1002 1019 "badNFA.ml" 23 1002 1026
+type(
+  (int * BadT.symbol_t * int) list -> int * BadT.symbol_t * int
+)
+ident(
+  ext_ref List.hd
+)
+"badNFA.ml" 23 1002 1028 "badNFA.ml" 23 1002 1055
+type(
+  int -> int list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref BadUtil.epsilon_transitions
+)
+"badNFA.ml" 23 1002 1056 "badNFA.ml" 23 1002 1065
+type(
+  int
+)
+ident(
+  int_ref prev_stid "badNFA.ml" 4 116 172 "badNFA.ml" 4 116 181
+)
+"badNFA.ml" 23 1002 1068 "badNFA.ml" 23 1002 1074
+type(
+  int
+)
+ident(
+  int_ref f_stid "badNFA.ml" 21 893 912 "badNFA.ml" 21 893 918
+)
+"badNFA.ml" 23 1002 1066 "badNFA.ml" 23 1002 1076
+type(
+  int list
+)
+"badNFA.ml" 23 1002 1027 "badNFA.ml" 23 1002 1077
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 23 1002 1019 "badNFA.ml" 23 1002 1077
+call(
+  stack
+)
+type(
+  int * BadT.symbol_t * int
+)
+"badNFA.ml" 24 1081 1100 "badNFA.ml" 24 1081 1112
+type(
+  int * BadT.symbol_t * int
+)
+ident(
+  def epsilon_last "badNFA.ml" 26 1193 1208 "badNFA.ml" 27 1265 1296
+)
+"badNFA.ml" 25 1116 1133 "badNFA.ml" 25 1116 1140
+type(
+  (int * BadT.symbol_t * int) list -> int * BadT.symbol_t * int
+)
+ident(
+  ext_ref List.hd
+)
+"badNFA.ml" 25 1116 1142 "badNFA.ml" 25 1116 1169
+type(
+  int -> int list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref BadUtil.epsilon_transitions
+)
+"badNFA.ml" 25 1116 1170 "badNFA.ml" 25 1116 1176
+type(
+  int
+)
+ident(
+  int_ref l_stid "badNFA.ml" 21 893 920 "badNFA.ml" 21 893 926
+)
+"badNFA.ml" 25 1116 1179 "badNFA.ml" 25 1116 1186
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 20 849 868 "badNFA.ml" 20 849 875
+)
+"badNFA.ml" 25 1116 1177 "badNFA.ml" 25 1116 1188
+type(
+  int list
+)
+"badNFA.ml" 25 1116 1141 "badNFA.ml" 25 1116 1189
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 25 1116 1133 "badNFA.ml" 25 1116 1189
+call(
+  stack
+)
+type(
+  int * BadT.symbol_t * int
+)
+"badNFA.ml" 26 1193 1208 "badNFA.ml" 26 1193 1217
+type(
+  bool
+)
+ident(
+  int_ref has_error "badNFA.ml" 4 116 147 "badNFA.ml" 4 116 156
+)
+"badNFA.ml" 26 1193 1220 "badNFA.ml" 26 1193 1232
+type(
+  int * BadT.symbol_t * int
+)
+ident(
+  int_ref epsilon_last "badNFA.ml" 24 1081 1100 "badNFA.ml" 24 1081 1112
+)
+"badNFA.ml" 26 1193 1234 "badNFA.ml" 26 1193 1247
+type(
+  int * BadT.symbol_t * int
+)
+ident(
+  int_ref epsilon_first "badNFA.ml" 22 966 985 "badNFA.ml" 22 966 998
+)
+"badNFA.ml" 26 1193 1249 "badNFA.ml" 26 1193 1256
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badNFA.ml" 4 116 158 "badNFA.ml" 4 116 165
+)
+"badNFA.ml" 26 1193 1234 "badNFA.ml" 26 1193 1256
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 26 1193 1219 "badNFA.ml" 26 1193 1257
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 26 1193 1259 "badNFA.ml" 26 1193 1262
+type(
+  int list
+)
+ident(
+  int_ref fin "badNFA.ml" 4 116 167 "badNFA.ml" 4 116 170
+)
+"badNFA.ml" 27 1265 1280 "badNFA.ml" 27 1265 1287
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 20 849 868 "badNFA.ml" 20 849 875
+)
+"badNFA.ml" 27 1265 1289 "badNFA.ml" 27 1265 1296
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 20 849 868 "badNFA.ml" 20 849 875
+)
+"badNFA.ml" 26 1193 1208 "badNFA.ml" 27 1265 1296
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 24 1081 1096 "badNFA.ml" 27 1265 1296
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 22 966 981 "badNFA.ml" 27 1265 1296
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 21 893 908 "badNFA.ml" 27 1265 1296
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 20 849 864 "badNFA.ml" 27 1265 1296
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 19 791 806 "badNFA.ml" 27 1265 1296
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 29 1315 1330 "badNFA.ml" 29 1315 1339
+type(
+  bool
+)
+ident(
+  int_ref has_error "badNFA.ml" 4 116 147 "badNFA.ml" 4 116 156
+)
+"badNFA.ml" 29 1315 1341 "badNFA.ml" 29 1315 1348
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badNFA.ml" 4 116 158 "badNFA.ml" 4 116 165
+)
+"badNFA.ml" 29 1315 1350 "badNFA.ml" 29 1315 1353
+type(
+  int list
+)
+ident(
+  int_ref fin "badNFA.ml" 4 116 167 "badNFA.ml" 4 116 170
+)
+"badNFA.ml" 29 1315 1355 "badNFA.ml" 29 1315 1364
+type(
+  int
+)
+ident(
+  int_ref prev_stid "badNFA.ml" 4 116 172 "badNFA.ml" 4 116 181
+)
+"badNFA.ml" 29 1315 1366 "badNFA.ml" 29 1315 1372
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 4 116 183 "badNFA.ml" 4 116 189
+)
+"badNFA.ml" 29 1315 1330 "badNFA.ml" 29 1315 1372
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 18 737 755 "badNFA.ml" 29 1315 1372
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 13 473 486 "badNFA.ml" 29 1315 1372
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 30 1373 1385 "badNFA.ml" 30 1373 1389
+type(
+  string option
+)
+"badNFA.ml" 30 1373 1393 "badNFA.ml" 30 1373 1402
+type(
+  bool
+)
+ident(
+  int_ref has_error "badNFA.ml" 4 116 147 "badNFA.ml" 4 116 156
+)
+"badNFA.ml" 30 1373 1404 "badNFA.ml" 30 1373 1411
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badNFA.ml" 4 116 158 "badNFA.ml" 4 116 165
+)
+"badNFA.ml" 30 1373 1413 "badNFA.ml" 30 1373 1416
+type(
+  int list
+)
+ident(
+  int_ref fin "badNFA.ml" 4 116 167 "badNFA.ml" 4 116 170
+)
+"badNFA.ml" 30 1373 1418 "badNFA.ml" 30 1373 1427
+type(
+  int
+)
+ident(
+  int_ref prev_stid "badNFA.ml" 4 116 172 "badNFA.ml" 4 116 181
+)
+"badNFA.ml" 30 1373 1429 "badNFA.ml" 30 1373 1435
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 4 116 183 "badNFA.ml" 4 116 189
+)
+"badNFA.ml" 30 1373 1393 "badNFA.ml" 30 1373 1435
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 11 393 402 "badNFA.ml" 30 1373 1436
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 31 1437 1445 "badNFA.ml" 31 1437 1446
+type(
+  Cil.instr
+)
+"badNFA.ml" 31 1437 1450 "badNFA.ml" 31 1437 1459
+type(
+  bool
+)
+ident(
+  int_ref has_error "badNFA.ml" 4 116 147 "badNFA.ml" 4 116 156
+)
+"badNFA.ml" 31 1437 1461 "badNFA.ml" 31 1437 1468
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badNFA.ml" 4 116 158 "badNFA.ml" 4 116 165
+)
+"badNFA.ml" 31 1437 1470 "badNFA.ml" 31 1437 1473
+type(
+  int list
+)
+ident(
+  int_ref fin "badNFA.ml" 4 116 167 "badNFA.ml" 4 116 170
+)
+"badNFA.ml" 31 1437 1475 "badNFA.ml" 31 1437 1484
+type(
+  int
+)
+ident(
+  int_ref prev_stid "badNFA.ml" 4 116 172 "badNFA.ml" 4 116 181
+)
+"badNFA.ml" 31 1437 1486 "badNFA.ml" 31 1437 1492
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 4 116 183 "badNFA.ml" 4 116 189
+)
+"badNFA.ml" 31 1437 1450 "badNFA.ml" 31 1437 1492
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 8 306 312 "badNFA.ml" 31 1437 1492
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 6 230 234 "badNFA.ml" 31 1437 1492
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 32 1496 1502 "badNFA.ml" 32 1496 1511
+type(
+  bool
+)
+ident(
+  def has_error "badNFA.ml" 35 1659 1661 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 32 1496 1513 "badNFA.ml" 32 1496 1520
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def rev_ret "badNFA.ml" 35 1659 1661 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 32 1496 1522 "badNFA.ml" 32 1496 1529
+type(
+  int list
+)
+ident(
+  def finals' "badNFA.ml" 35 1659 1661 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 32 1496 1531 "badNFA.ml" 32 1496 1541
+type(
+  int
+)
+ident(
+  def prev_stid' "badNFA.ml" 35 1659 1661 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 32 1496 1543 "badNFA.ml" 32 1496 1550
+type(
+  int
+)
+ident(
+  def stmtid' "badNFA.ml" 35 1659 1661 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 32 1496 1502 "badNFA.ml" 32 1496 1550
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 33 1553 1557 "badNFA.ml" 33 1553 1571
+type(
+  (bool * (int * BadT.symbol_t * int) list * int list * int * int ->
+   Cil.instr ->
+   bool * (int * BadT.symbol_t * int) list * int list * int * int) ->
+  bool * (int * BadT.symbol_t * int) list * int list * int * int ->
+  Cil.instr list ->
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"badNFA.ml" 33 1553 1572 "badNFA.ml" 33 1553 1595
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int ->
+  Cil.instr -> bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+ident(
+  int_ref instrs_to_transitions_h "badNFA.ml" 4 116 122 "badNFA.ml" 4 116 145
+)
+"badNFA.ml" 33 1553 1597 "badNFA.ml" 33 1553 1602
+type(
+  bool
+)
+"badNFA.ml" 33 1553 1604 "badNFA.ml" 33 1553 1606
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 33 1553 1608 "badNFA.ml" 33 1553 1614
+type(
+  int list
+)
+ident(
+  int_ref finals "badNFA.ml" 3 43 79 "badNFA.ml" 3 43 85
+)
+"badNFA.ml" 33 1553 1616 "badNFA.ml" 33 1553 1619
+type(
+  int
+)
+ident(
+  int_ref sid "badNFA.ml" 3 43 93 "badNFA.ml" 3 43 96
+)
+"badNFA.ml" 33 1553 1621 "badNFA.ml" 33 1553 1627
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 3 43 107 "badNFA.ml" 3 43 113
+)
+"badNFA.ml" 33 1553 1596 "badNFA.ml" 33 1553 1628
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 34 1630 1649 "badNFA.ml" 34 1630 1655
+type(
+  Cil.instr list
+)
+ident(
+  int_ref instrs "badNFA.ml" 3 43 86 "badNFA.ml" 3 43 92
+)
+"badNFA.ml" 33 1553 1557 "badNFA.ml" 34 1630 1655
+call(
+  stack
+)
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int * int
+)
+"badNFA.ml" 35 1659 1665 "badNFA.ml" 35 1659 1681
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def last_transitions "badNFA.ml" 38 1772 1774 "badNFA.ml" 38 1772 1834
+)
+"badNFA.ml" 36 1685 1692 "badNFA.ml" 36 1685 1701
+type(
+  bool
+)
+ident(
+  int_ref has_error "badNFA.ml" 32 1496 1502 "badNFA.ml" 32 1496 1511
+)
+"badNFA.ml" 36 1685 1707 "badNFA.ml" 36 1685 1709
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 37 1711 1720 "badNFA.ml" 37 1711 1747
+type(
+  int -> int list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref BadUtil.epsilon_transitions
+)
+"badNFA.ml" 37 1711 1748 "badNFA.ml" 37 1711 1758
+type(
+  int
+)
+ident(
+  int_ref prev_stid' "badNFA.ml" 32 1496 1531 "badNFA.ml" 32 1496 1541
+)
+"badNFA.ml" 37 1711 1759 "badNFA.ml" 37 1711 1768
+type(
+  int list
+)
+ident(
+  int_ref succ_sids "badNFA.ml" 3 43 97 "badNFA.ml" 3 43 106
+)
+"badNFA.ml" 37 1711 1720 "badNFA.ml" 37 1711 1768
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 36 1685 1689 "badNFA.ml" 37 1711 1768
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 38 1772 1775 "badNFA.ml" 38 1772 1790
+type(
+  (int * BadT.symbol_t * int) list ->
+  (int * BadT.symbol_t * int) list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.rev_append
+)
+"badNFA.ml" 38 1772 1791 "badNFA.ml" 38 1772 1798
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badNFA.ml" 32 1496 1513 "badNFA.ml" 32 1496 1520
+)
+"badNFA.ml" 38 1772 1799 "badNFA.ml" 38 1772 1815
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref last_transitions "badNFA.ml" 35 1659 1665 "badNFA.ml" 35 1659 1681
+)
+"badNFA.ml" 38 1772 1774 "badNFA.ml" 38 1772 1816
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 38 1772 1818 "badNFA.ml" 38 1772 1825
+type(
+  int list
+)
+ident(
+  int_ref finals' "badNFA.ml" 32 1496 1522 "badNFA.ml" 32 1496 1529
+)
+"badNFA.ml" 38 1772 1827 "badNFA.ml" 38 1772 1834
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 32 1496 1543 "badNFA.ml" 32 1496 1550
+)
+"badNFA.ml" 38 1772 1774 "badNFA.ml" 38 1772 1834
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 35 1659 1661 "badNFA.ml" 38 1772 1834
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 32 1496 1498 "badNFA.ml" 38 1772 1834
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 4 116 118 "badNFA.ml" 38 1772 1834
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 44 2031 2035 "badNFA.ml" 44 2031 2054
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  Cil.stmt -> int -> (int * BadT.symbol_t * int) list * int list * int
+)
+ident(
+  def stmt_to_transitions "badNFA.ml" 63 2687 2687 "badNFA.ml" 1 0 -1
+)
+"badNFA.ml" 44 2031 2055 "badNFA.ml" 44 2031 2064
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def fdec_hash "badNFA.ml" 44 2031 2065 "badNFA.ml" 59 2561 2629
+)
+"badNFA.ml" 44 2031 2065 "badNFA.ml" 44 2031 2071
+type(
+  int list
+)
+ident(
+  def finals "badNFA.ml" 44 2031 2072 "badNFA.ml" 59 2561 2629
+)
+"badNFA.ml" 44 2031 2072 "badNFA.ml" 44 2031 2076
+type(
+  Cil.stmt
+)
+ident(
+  def stmt "badNFA.ml" 44 2031 2077 "badNFA.ml" 59 2561 2629
+)
+"badNFA.ml" 44 2031 2077 "badNFA.ml" 44 2031 2083
+type(
+  int
+)
+ident(
+  def stmtid "badNFA.ml" 45 2086 2088 "badNFA.ml" 59 2561 2629
+)
+"badNFA.ml" 45 2086 2092 "badNFA.ml" 45 2086 2095
+type(
+  int
+)
+ident(
+  def sid "badNFA.ml" 46 2114 2116 "badNFA.ml" 59 2561 2629
+)
+"badNFA.ml" 45 2086 2098 "badNFA.ml" 45 2086 2102
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "badNFA.ml" 44 2031 2072 "badNFA.ml" 44 2031 2076
+)
+"badNFA.ml" 45 2086 2098 "badNFA.ml" 45 2086 2110
+type(
+  int
+)
+"badNFA.ml" 46 2114 2120 "badNFA.ml" 46 2114 2129
+type(
+  int list
+)
+ident(
+  def succ_sids "badNFA.ml" 50 2238 2240 "badNFA.ml" 59 2561 2629
+)
+"badNFA.ml" 46 2114 2132 "badNFA.ml" 46 2114 2153
+type(
+  Cil.stmt list -> int list
+)
+ident(
+  ext_ref BadUtil.stmts_to_sids
+)
+"badNFA.ml" 46 2114 2154 "badNFA.ml" 46 2114 2158
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "badNFA.ml" 44 2031 2072 "badNFA.ml" 44 2031 2076
+)
+"badNFA.ml" 46 2114 2154 "badNFA.ml" 46 2114 2168
+type(
+  Cil.stmt list
+)
+"badNFA.ml" 46 2114 2132 "badNFA.ml" 46 2114 2168
+call(
+  stack
+)
+type(
+  int list
+)
+"badNFA.ml" 50 2238 2246 "badNFA.ml" 50 2238 2250
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "badNFA.ml" 44 2031 2072 "badNFA.ml" 44 2031 2076
+)
+"badNFA.ml" 50 2238 2246 "badNFA.ml" 50 2238 2260
+type(
+  Cil.stmtkind
+)
+"badNFA.ml" 51 2266 2277 "badNFA.ml" 51 2266 2278
+type(
+  Cil.location
+)
+type(
+  Cil.block
+)
+type(
+  Cil.block
+)
+type(
+  Cil.exp
+)
+"badNFA.ml" 51 2266 2270 "badNFA.ml" 51 2266 2278
+type(
+  Cil.stmtkind
+)
+"badNFA.ml" 52 2282 2294 "badNFA.ml" 52 2282 2303
+type(
+  int list
+)
+ident(
+  int_ref succ_sids "badNFA.ml" 46 2114 2120 "badNFA.ml" 46 2114 2129
+)
+"badNFA.ml" 53 2309 2319 "badNFA.ml" 53 2309 2327
+type(
+  int
+)
+ident(
+  def else_sid "badNFA.ml" 54 2343 2352 "badNFA.ml" 55 2414 2437
+)
+"badNFA.ml" 53 2309 2329 "badNFA.ml" 53 2309 2337
+type(
+  int
+)
+ident(
+  def then_sid "badNFA.ml" 54 2343 2352 "badNFA.ml" 55 2414 2437
+)
+"badNFA.ml" 53 2309 2317 "badNFA.ml" 53 2309 2339
+type(
+  int list
+)
+"badNFA.ml" 54 2343 2355 "badNFA.ml" 54 2343 2358
+type(
+  int
+)
+ident(
+  int_ref sid "badNFA.ml" 45 2086 2092 "badNFA.ml" 45 2086 2095
+)
+"badNFA.ml" 54 2343 2360 "badNFA.ml" 54 2343 2370
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 54 2343 2372 "badNFA.ml" 54 2343 2380
+type(
+  int
+)
+ident(
+  int_ref else_sid "badNFA.ml" 53 2309 2319 "badNFA.ml" 53 2309 2327
+)
+"badNFA.ml" 54 2343 2354 "badNFA.ml" 54 2343 2381
+type(
+  int * BadT.symbol_t * int
+)
+"badNFA.ml" 54 2343 2384 "badNFA.ml" 54 2343 2387
+type(
+  int
+)
+ident(
+  int_ref sid "badNFA.ml" 45 2086 2092 "badNFA.ml" 45 2086 2095
+)
+"badNFA.ml" 54 2343 2389 "badNFA.ml" 54 2343 2398
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 54 2343 2400 "badNFA.ml" 54 2343 2408
+type(
+  int
+)
+ident(
+  int_ref then_sid "badNFA.ml" 53 2309 2329 "badNFA.ml" 53 2309 2337
+)
+"badNFA.ml" 54 2343 2383 "badNFA.ml" 54 2343 2409
+type(
+  int * BadT.symbol_t * int
+)
+"badNFA.ml" 54 2343 2352 "badNFA.ml" 54 2343 2411
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 55 2414 2423 "badNFA.ml" 55 2414 2429
+type(
+  int list
+)
+ident(
+  int_ref finals "badNFA.ml" 44 2031 2065 "badNFA.ml" 44 2031 2071
+)
+"badNFA.ml" 55 2414 2431 "badNFA.ml" 55 2414 2437
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 44 2031 2077 "badNFA.ml" 44 2031 2083
+)
+"badNFA.ml" 54 2343 2352 "badNFA.ml" 55 2414 2437
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 56 2438 2446 "badNFA.ml" 56 2438 2447
+type(
+  int list
+)
+"badNFA.ml" 56 2438 2451 "badNFA.ml" 56 2438 2463
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 52 2282 2287 "badNFA.ml" 56 2438 2464
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 57 2465 2479 "badNFA.ml" 57 2465 2485
+type(
+  Cil.instr list
+)
+ident(
+  def instrs "badNFA.ml" 58 2489 2494 "badNFA.ml" 58 2489 2560
+)
+"badNFA.ml" 57 2465 2469 "badNFA.ml" 57 2465 2485
+type(
+  Cil.stmtkind
+)
+"badNFA.ml" 58 2489 2494 "badNFA.ml" 58 2489 2515
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  Cil.instr list ->
+  int -> int list -> int -> (int * BadT.symbol_t * int) list * int list * int
+)
+ident(
+  int_ref instrs_to_transitions "badNFA.ml" 3 43 47 "badNFA.ml" 3 43 68
+)
+"badNFA.ml" 58 2489 2516 "badNFA.ml" 58 2489 2525
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badNFA.ml" 44 2031 2055 "badNFA.ml" 44 2031 2064
+)
+"badNFA.ml" 58 2489 2526 "badNFA.ml" 58 2489 2532
+type(
+  int list
+)
+ident(
+  int_ref finals "badNFA.ml" 44 2031 2065 "badNFA.ml" 44 2031 2071
+)
+"badNFA.ml" 58 2489 2533 "badNFA.ml" 58 2489 2539
+type(
+  Cil.instr list
+)
+ident(
+  int_ref instrs "badNFA.ml" 57 2465 2479 "badNFA.ml" 57 2465 2485
+)
+"badNFA.ml" 58 2489 2540 "badNFA.ml" 58 2489 2543
+type(
+  int
+)
+ident(
+  int_ref sid "badNFA.ml" 45 2086 2092 "badNFA.ml" 45 2086 2095
+)
+"badNFA.ml" 58 2489 2544 "badNFA.ml" 58 2489 2553
+type(
+  int list
+)
+ident(
+  int_ref succ_sids "badNFA.ml" 46 2114 2120 "badNFA.ml" 46 2114 2129
+)
+"badNFA.ml" 58 2489 2554 "badNFA.ml" 58 2489 2560
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 44 2031 2077 "badNFA.ml" 44 2031 2083
+)
+"badNFA.ml" 58 2489 2494 "badNFA.ml" 58 2489 2560
+call(
+  tail
+)
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 59 2561 2565 "badNFA.ml" 59 2561 2566
+type(
+  Cil.stmtkind
+)
+"badNFA.ml" 59 2561 2571 "badNFA.ml" 59 2561 2598
+type(
+  int -> int list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref BadUtil.epsilon_transitions
+)
+"badNFA.ml" 59 2561 2599 "badNFA.ml" 59 2561 2602
+type(
+  int
+)
+ident(
+  int_ref sid "badNFA.ml" 45 2086 2092 "badNFA.ml" 45 2086 2095
+)
+"badNFA.ml" 59 2561 2603 "badNFA.ml" 59 2561 2612
+type(
+  int list
+)
+ident(
+  int_ref succ_sids "badNFA.ml" 46 2114 2120 "badNFA.ml" 46 2114 2129
+)
+"badNFA.ml" 59 2561 2570 "badNFA.ml" 59 2561 2613
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 59 2561 2615 "badNFA.ml" 59 2561 2621
+type(
+  int list
+)
+ident(
+  int_ref finals "badNFA.ml" 44 2031 2065 "badNFA.ml" 44 2031 2071
+)
+"badNFA.ml" 59 2561 2623 "badNFA.ml" 59 2561 2629
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 44 2031 2077 "badNFA.ml" 44 2031 2083
+)
+"badNFA.ml" 59 2561 2570 "badNFA.ml" 59 2561 2629
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 50 2238 2240 "badNFA.ml" 59 2561 2629
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 46 2114 2116 "badNFA.ml" 59 2561 2629
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 45 2086 2088 "badNFA.ml" 59 2561 2629
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 63 2687 2691 "badNFA.ml" 63 2687 2712
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  Cil.fundec -> int -> (int * BadT.symbol_t * int) list * int list * int
+)
+ident(
+  def fundec_to_transitions "badNFA.ml" 74 3191 3191 "badNFA.ml" 1 0 -1
+)
+"badNFA.ml" 63 2687 2713 "badNFA.ml" 63 2687 2722
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def fdec_hash "badNFA.ml" 63 2687 2723 "badNFA.ml" 70 3062 3124
+)
+"badNFA.ml" 63 2687 2723 "badNFA.ml" 63 2687 2729
+type(
+  int list
+)
+ident(
+  def finals "badNFA.ml" 63 2687 2730 "badNFA.ml" 70 3062 3124
+)
+"badNFA.ml" 63 2687 2730 "badNFA.ml" 63 2687 2734
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "badNFA.ml" 63 2687 2735 "badNFA.ml" 70 3062 3124
+)
+"badNFA.ml" 63 2687 2735 "badNFA.ml" 63 2687 2741
+type(
+  int
+)
+ident(
+  def stmtid "badNFA.ml" 64 2744 2746 "badNFA.ml" 70 3062 3124
+)
+"badNFA.ml" 64 2744 2750 "badNFA.ml" 64 2744 2773
+type(
+  (int * BadT.symbol_t * int) list list * int list * int ->
+  Cil.stmt -> (int * BadT.symbol_t * int) list list * int list * int
+)
+ident(
+  def fundec_to_transitions_h "badNFA.ml" 67 2913 2915 "badNFA.ml" 70 3062 3124
+)
+"badNFA.ml" 64 2744 2775 "badNFA.ml" 64 2744 2782
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  def rev_ret "badNFA.ml" 64 2744 2796 "badNFA.ml" 66 2879 2909
+)
+"badNFA.ml" 64 2744 2784 "badNFA.ml" 64 2744 2788
+type(
+  int list
+)
+ident(
+  def fins "badNFA.ml" 64 2744 2796 "badNFA.ml" 66 2879 2909
+)
+"badNFA.ml" 64 2744 2790 "badNFA.ml" 64 2744 2794
+type(
+  int
+)
+ident(
+  def stid "badNFA.ml" 64 2744 2796 "badNFA.ml" 66 2879 2909
+)
+"badNFA.ml" 64 2744 2774 "badNFA.ml" 64 2744 2795
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"badNFA.ml" 64 2744 2796 "badNFA.ml" 64 2744 2800
+type(
+  Cil.stmt
+)
+ident(
+  def stmt "badNFA.ml" 65 2803 2807 "badNFA.ml" 66 2879 2909
+)
+"badNFA.ml" 65 2803 2811 "badNFA.ml" 65 2803 2814
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def trs "badNFA.ml" 66 2879 2883 "badNFA.ml" 66 2879 2909
+)
+"badNFA.ml" 65 2803 2816 "badNFA.ml" 65 2803 2821
+type(
+  int list
+)
+ident(
+  def fins' "badNFA.ml" 66 2879 2883 "badNFA.ml" 66 2879 2909
+)
+"badNFA.ml" 65 2803 2823 "badNFA.ml" 65 2803 2828
+type(
+  int
+)
+ident(
+  def stid' "badNFA.ml" 66 2879 2883 "badNFA.ml" 66 2879 2909
+)
+"badNFA.ml" 65 2803 2811 "badNFA.ml" 65 2803 2828
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 65 2803 2831 "badNFA.ml" 65 2803 2850
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  Cil.stmt -> int -> (int * BadT.symbol_t * int) list * int list * int
+)
+ident(
+  int_ref stmt_to_transitions "badNFA.ml" 44 2031 2035 "badNFA.ml" 44 2031 2054
+)
+"badNFA.ml" 65 2803 2851 "badNFA.ml" 65 2803 2860
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badNFA.ml" 63 2687 2713 "badNFA.ml" 63 2687 2722
+)
+"badNFA.ml" 65 2803 2861 "badNFA.ml" 65 2803 2865
+type(
+  int list
+)
+ident(
+  int_ref fins "badNFA.ml" 64 2744 2784 "badNFA.ml" 64 2744 2788
+)
+"badNFA.ml" 65 2803 2866 "badNFA.ml" 65 2803 2870
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "badNFA.ml" 64 2744 2796 "badNFA.ml" 64 2744 2800
+)
+"badNFA.ml" 65 2803 2871 "badNFA.ml" 65 2803 2875
+type(
+  int
+)
+ident(
+  int_ref stid "badNFA.ml" 64 2744 2790 "badNFA.ml" 64 2744 2794
+)
+"badNFA.ml" 65 2803 2831 "badNFA.ml" 65 2803 2875
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 66 2879 2883 "badNFA.ml" 66 2879 2886
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref trs "badNFA.ml" 65 2803 2811 "badNFA.ml" 65 2803 2814
+)
+"badNFA.ml" 66 2879 2888 "badNFA.ml" 66 2879 2895
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  int_ref rev_ret "badNFA.ml" 64 2744 2775 "badNFA.ml" 64 2744 2782
+)
+"badNFA.ml" 66 2879 2883 "badNFA.ml" 66 2879 2895
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badNFA.ml" 66 2879 2897 "badNFA.ml" 66 2879 2902
+type(
+  int list
+)
+ident(
+  int_ref fins' "badNFA.ml" 65 2803 2816 "badNFA.ml" 65 2803 2821
+)
+"badNFA.ml" 66 2879 2904 "badNFA.ml" 66 2879 2909
+type(
+  int
+)
+ident(
+  int_ref stid' "badNFA.ml" 65 2803 2823 "badNFA.ml" 65 2803 2828
+)
+"badNFA.ml" 66 2879 2883 "badNFA.ml" 66 2879 2909
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"badNFA.ml" 65 2803 2807 "badNFA.ml" 66 2879 2909
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"badNFA.ml" 67 2913 2919 "badNFA.ml" 67 2913 2935
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  def rev_transitionss "badNFA.ml" 70 3062 3064 "badNFA.ml" 70 3062 3124
+)
+"badNFA.ml" 67 2913 2937 "badNFA.ml" 67 2913 2944
+type(
+  int list
+)
+ident(
+  def finals' "badNFA.ml" 70 3062 3064 "badNFA.ml" 70 3062 3124
+)
+"badNFA.ml" 67 2913 2946 "badNFA.ml" 67 2913 2953
+type(
+  int
+)
+ident(
+  def stmtid' "badNFA.ml" 70 3062 3064 "badNFA.ml" 70 3062 3124
+)
+"badNFA.ml" 67 2913 2919 "badNFA.ml" 67 2913 2953
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"badNFA.ml" 68 2956 2960 "badNFA.ml" 68 2956 2974
+type(
+  ((int * BadT.symbol_t * int) list list * int list * int ->
+   Cil.stmt -> (int * BadT.symbol_t * int) list list * int list * int) ->
+  (int * BadT.symbol_t * int) list list * int list * int ->
+  Cil.stmt list -> (int * BadT.symbol_t * int) list list * int list * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"badNFA.ml" 68 2956 2975 "badNFA.ml" 68 2956 2998
+type(
+  (int * BadT.symbol_t * int) list list * int list * int ->
+  Cil.stmt -> (int * BadT.symbol_t * int) list list * int list * int
+)
+ident(
+  int_ref fundec_to_transitions_h "badNFA.ml" 64 2744 2750 "badNFA.ml" 64 2744 2773
+)
+"badNFA.ml" 68 2956 3000 "badNFA.ml" 68 2956 3002
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badNFA.ml" 68 2956 3004 "badNFA.ml" 68 2956 3010
+type(
+  int list
+)
+ident(
+  int_ref finals "badNFA.ml" 63 2687 2723 "badNFA.ml" 63 2687 2729
+)
+"badNFA.ml" 68 2956 3012 "badNFA.ml" 68 2956 3018
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 63 2687 2735 "badNFA.ml" 63 2687 2741
+)
+"badNFA.ml" 68 2956 2999 "badNFA.ml" 68 2956 3019
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"badNFA.ml" 69 3021 3040 "badNFA.ml" 69 3021 3044
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badNFA.ml" 63 2687 2730 "badNFA.ml" 63 2687 2734
+)
+"badNFA.ml" 69 3021 3040 "badNFA.ml" 69 3021 3058
+type(
+  Cil.stmt list
+)
+"badNFA.ml" 68 2956 2960 "badNFA.ml" 69 3021 3058
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"badNFA.ml" 70 3062 3065 "badNFA.ml" 70 3062 3077
+type(
+  (int * BadT.symbol_t * int) list list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.flatten
+)
+"badNFA.ml" 70 3062 3079 "badNFA.ml" 70 3062 3087
+type(
+  (int * BadT.symbol_t * int) list list ->
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  ext_ref List.rev
+)
+"badNFA.ml" 70 3062 3088 "badNFA.ml" 70 3062 3104
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  int_ref rev_transitionss "badNFA.ml" 67 2913 2919 "badNFA.ml" 67 2913 2935
+)
+"badNFA.ml" 70 3062 3078 "badNFA.ml" 70 3062 3105
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badNFA.ml" 70 3062 3065 "badNFA.ml" 70 3062 3105
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 70 3062 3107 "badNFA.ml" 70 3062 3114
+type(
+  int list
+)
+ident(
+  int_ref finals' "badNFA.ml" 67 2913 2937 "badNFA.ml" 67 2913 2944
+)
+"badNFA.ml" 70 3062 3116 "badNFA.ml" 70 3062 3123
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 67 2913 2946 "badNFA.ml" 67 2913 2953
+)
+"badNFA.ml" 70 3062 3064 "badNFA.ml" 70 3062 3124
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 67 2913 2915 "badNFA.ml" 70 3062 3124
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 64 2744 2746 "badNFA.ml" 70 3062 3124
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 74 3191 3195 "badNFA.ml" 74 3191 3220
+type(
+  'a list ->
+  int ->
+  ('a * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+ident(
+  def epsilon_final_transitions "badNFA.ml" 85 3644 3644 "badNFA.ml" 1 0 -1
+)
+"badNFA.ml" 74 3191 3221 "badNFA.ml" 74 3191 3227
+type(
+  'a list
+)
+ident(
+  def finals "badNFA.ml" 74 3191 3228 "badNFA.ml" 80 3456 3505
+)
+"badNFA.ml" 74 3191 3228 "badNFA.ml" 74 3191 3234
+type(
+  int
+)
+ident(
+  def stmtid "badNFA.ml" 75 3237 3239 "badNFA.ml" 80 3456 3505
+)
+"badNFA.ml" 75 3237 3243 "badNFA.ml" 75 3237 3250
+type(
+  int
+)
+ident(
+  def stmtid' "badNFA.ml" 76 3268 3270 "badNFA.ml" 80 3456 3505
+)
+"badNFA.ml" 75 3237 3253 "badNFA.ml" 75 3237 3257
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"badNFA.ml" 75 3237 3258 "badNFA.ml" 75 3237 3264
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 74 3191 3228 "badNFA.ml" 74 3191 3234
+)
+"badNFA.ml" 75 3237 3253 "badNFA.ml" 75 3237 3264
+type(
+  int
+)
+"badNFA.ml" 76 3268 3274 "badNFA.ml" 76 3268 3288
+type(
+  ('a * BadT.symbol_t * int) list
+)
+ident(
+  def final_epsilons "badNFA.ml" 78 3364 3366 "badNFA.ml" 80 3456 3505
+)
+"badNFA.ml" 76 3268 3291 "badNFA.ml" 76 3268 3303
+type(
+  ('a -> 'a * BadT.symbol_t * int) ->
+  'a list -> ('a * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.rev_map
+)
+"badNFA.ml" 76 3268 3309 "badNFA.ml" 76 3268 3314
+type(
+  'a
+)
+ident(
+  def final "badNFA.ml" 77 3318 3322 "badNFA.ml" 77 3318 3352
+)
+"badNFA.ml" 77 3318 3323 "badNFA.ml" 77 3318 3328
+type(
+  'a
+)
+ident(
+  int_ref final "badNFA.ml" 76 3268 3309 "badNFA.ml" 76 3268 3314
+)
+"badNFA.ml" 77 3318 3330 "badNFA.ml" 77 3318 3342
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 77 3318 3344 "badNFA.ml" 77 3318 3351
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 75 3237 3243 "badNFA.ml" 75 3237 3250
+)
+"badNFA.ml" 77 3318 3322 "badNFA.ml" 77 3318 3352
+type(
+  'a * BadT.symbol_t * int
+)
+"badNFA.ml" 76 3268 3304 "badNFA.ml" 77 3318 3353
+type(
+  'a -> 'a * BadT.symbol_t * int
+)
+"badNFA.ml" 77 3318 3354 "badNFA.ml" 77 3318 3360
+type(
+  'a list
+)
+ident(
+  int_ref finals "badNFA.ml" 74 3191 3221 "badNFA.ml" 74 3191 3227
+)
+"badNFA.ml" 76 3268 3291 "badNFA.ml" 77 3318 3360
+call(
+  stack
+)
+type(
+  ('a * BadT.symbol_t * int) list
+)
+"badNFA.ml" 78 3364 3370 "badNFA.ml" 78 3364 3381
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def final_reads "badNFA.ml" 80 3456 3458 "badNFA.ml" 80 3456 3505
+)
+"badNFA.ml" 79 3385 3391 "badNFA.ml" 79 3385 3398
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 75 3237 3243 "badNFA.ml" 75 3237 3250
+)
+"badNFA.ml" 79 3385 3400 "badNFA.ml" 79 3385 3410
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 79 3385 3412 "badNFA.ml" 79 3385 3419
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 75 3237 3243 "badNFA.ml" 75 3237 3250
+)
+"badNFA.ml" 79 3385 3390 "badNFA.ml" 79 3385 3420
+type(
+  int * BadT.symbol_t * int
+)
+"badNFA.ml" 79 3385 3423 "badNFA.ml" 79 3385 3430
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 75 3237 3243 "badNFA.ml" 75 3237 3250
+)
+"badNFA.ml" 79 3385 3432 "badNFA.ml" 79 3385 3441
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 79 3385 3443 "badNFA.ml" 79 3385 3450
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 75 3237 3243 "badNFA.ml" 75 3237 3250
+)
+"badNFA.ml" 79 3385 3422 "badNFA.ml" 79 3385 3451
+type(
+  int * BadT.symbol_t * int
+)
+"badNFA.ml" 79 3385 3389 "badNFA.ml" 79 3385 3452
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 80 3456 3458 "badNFA.ml" 80 3456 3472
+type(
+  ('a * BadT.symbol_t * int) list
+)
+ident(
+  int_ref final_epsilons "badNFA.ml" 76 3268 3274 "badNFA.ml" 76 3268 3288
+)
+"badNFA.ml" 80 3456 3474 "badNFA.ml" 80 3456 3485
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref final_reads "badNFA.ml" 78 3364 3370 "badNFA.ml" 78 3364 3381
+)
+"badNFA.ml" 80 3456 3488 "badNFA.ml" 80 3456 3495
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 75 3237 3243 "badNFA.ml" 75 3237 3250
+)
+"badNFA.ml" 80 3456 3487 "badNFA.ml" 80 3456 3496
+type(
+  int list
+)
+"badNFA.ml" 80 3456 3498 "badNFA.ml" 80 3456 3505
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 75 3237 3243 "badNFA.ml" 75 3237 3250
+)
+"badNFA.ml" 80 3456 3458 "badNFA.ml" 80 3456 3505
+type(
+  ('a * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"badNFA.ml" 78 3364 3366 "badNFA.ml" 80 3456 3505
+type(
+  ('a * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"badNFA.ml" 76 3268 3270 "badNFA.ml" 80 3456 3505
+type(
+  ('a * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"badNFA.ml" 75 3237 3239 "badNFA.ml" 80 3456 3505
+type(
+  ('a * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"badNFA.ml" 85 3644 3648 "badNFA.ml" 85 3644 3667
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  Cil.fundec list -> int -> (int * BadT.symbol_t * int) list * int list * int
+)
+ident(
+  def compute_transitions "badNFA.ml" 100 4272 4272 "badNFA.ml" 1 0 -1
+)
+"badNFA.ml" 85 3644 3668 "badNFA.ml" 85 3644 3677
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def fdec_hash "badNFA.ml" 85 3644 3678 "badNFA.ml" 95 4150 4172
+)
+"badNFA.ml" 85 3644 3678 "badNFA.ml" 85 3644 3685
+type(
+  Cil.fundec list
+)
+ident(
+  def fundecs "badNFA.ml" 85 3644 3686 "badNFA.ml" 95 4150 4172
+)
+"badNFA.ml" 85 3644 3686 "badNFA.ml" 85 3644 3692
+type(
+  int
+)
+ident(
+  def stmtid "badNFA.ml" 86 3695 3697 "badNFA.ml" 95 4150 4172
+)
+"badNFA.ml" 86 3695 3701 "badNFA.ml" 86 3695 3722
+type(
+  (int * BadT.symbol_t * int) list list * int list * int ->
+  Cil.fundec -> (int * BadT.symbol_t * int) list list * int list * int
+)
+ident(
+  def compute_transitions_h "badNFA.ml" 90 3875 3877 "badNFA.ml" 95 4150 4172
+)
+"badNFA.ml" 86 3695 3724 "badNFA.ml" 86 3695 3727
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  def res "badNFA.ml" 86 3695 3740 "badNFA.ml" 89 3838 3871
+)
+"badNFA.ml" 86 3695 3729 "badNFA.ml" 86 3695 3732
+type(
+  int list
+)
+ident(
+  def fin "badNFA.ml" 86 3695 3740 "badNFA.ml" 89 3838 3871
+)
+"badNFA.ml" 86 3695 3734 "badNFA.ml" 86 3695 3738
+type(
+  int
+)
+ident(
+  def stid "badNFA.ml" 86 3695 3740 "badNFA.ml" 89 3838 3871
+)
+"badNFA.ml" 86 3695 3723 "badNFA.ml" 86 3695 3739
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"badNFA.ml" 86 3695 3740 "badNFA.ml" 86 3695 3744
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "badNFA.ml" 87 3747 3751 "badNFA.ml" 89 3838 3871
+)
+"badNFA.ml" 87 3747 3755 "badNFA.ml" 87 3747 3766
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def transitions "badNFA.ml" 89 3838 3842 "badNFA.ml" 89 3838 3871
+)
+"badNFA.ml" 87 3747 3768 "badNFA.ml" 87 3747 3772
+type(
+  int list
+)
+ident(
+  def fin' "badNFA.ml" 89 3838 3842 "badNFA.ml" 89 3838 3871
+)
+"badNFA.ml" 87 3747 3774 "badNFA.ml" 87 3747 3779
+type(
+  int
+)
+ident(
+  def stid' "badNFA.ml" 89 3838 3842 "badNFA.ml" 89 3838 3871
+)
+"badNFA.ml" 87 3747 3755 "badNFA.ml" 87 3747 3779
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 88 3783 3789 "badNFA.ml" 88 3783 3810
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  Cil.fundec -> int -> (int * BadT.symbol_t * int) list * int list * int
+)
+ident(
+  int_ref fundec_to_transitions "badNFA.ml" 63 2687 2691 "badNFA.ml" 63 2687 2712
+)
+"badNFA.ml" 88 3783 3811 "badNFA.ml" 88 3783 3820
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badNFA.ml" 85 3644 3668 "badNFA.ml" 85 3644 3677
+)
+"badNFA.ml" 88 3783 3821 "badNFA.ml" 88 3783 3824
+type(
+  int list
+)
+ident(
+  int_ref fin "badNFA.ml" 86 3695 3729 "badNFA.ml" 86 3695 3732
+)
+"badNFA.ml" 88 3783 3825 "badNFA.ml" 88 3783 3829
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badNFA.ml" 86 3695 3740 "badNFA.ml" 86 3695 3744
+)
+"badNFA.ml" 88 3783 3830 "badNFA.ml" 88 3783 3834
+type(
+  int
+)
+ident(
+  int_ref stid "badNFA.ml" 86 3695 3734 "badNFA.ml" 86 3695 3738
+)
+"badNFA.ml" 88 3783 3789 "badNFA.ml" 88 3783 3834
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 89 3838 3842 "badNFA.ml" 89 3838 3853
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref transitions "badNFA.ml" 87 3747 3755 "badNFA.ml" 87 3747 3766
+)
+"badNFA.ml" 89 3838 3855 "badNFA.ml" 89 3838 3858
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  int_ref res "badNFA.ml" 86 3695 3724 "badNFA.ml" 86 3695 3727
+)
+"badNFA.ml" 89 3838 3842 "badNFA.ml" 89 3838 3858
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badNFA.ml" 89 3838 3860 "badNFA.ml" 89 3838 3864
+type(
+  int list
+)
+ident(
+  int_ref fin' "badNFA.ml" 87 3747 3768 "badNFA.ml" 87 3747 3772
+)
+"badNFA.ml" 89 3838 3866 "badNFA.ml" 89 3838 3871
+type(
+  int
+)
+ident(
+  int_ref stid' "badNFA.ml" 87 3747 3774 "badNFA.ml" 87 3747 3779
+)
+"badNFA.ml" 89 3838 3842 "badNFA.ml" 89 3838 3871
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"badNFA.ml" 87 3747 3751 "badNFA.ml" 89 3838 3871
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"badNFA.ml" 90 3875 3881 "badNFA.ml" 90 3875 3893
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  def transitionss "badNFA.ml" 92 3983 3985 "badNFA.ml" 95 4150 4172
+)
+"badNFA.ml" 90 3875 3895 "badNFA.ml" 90 3875 3901
+type(
+  int list
+)
+ident(
+  def finals "badNFA.ml" 92 3983 3985 "badNFA.ml" 95 4150 4172
+)
+"badNFA.ml" 90 3875 3903 "badNFA.ml" 90 3875 3910
+type(
+  int
+)
+ident(
+  def stmtid' "badNFA.ml" 92 3983 3985 "badNFA.ml" 95 4150 4172
+)
+"badNFA.ml" 90 3875 3881 "badNFA.ml" 90 3875 3910
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"badNFA.ml" 91 3914 3918 "badNFA.ml" 91 3914 3932
+type(
+  ((int * BadT.symbol_t * int) list list * int list * int ->
+   Cil.fundec -> (int * BadT.symbol_t * int) list list * int list * int) ->
+  (int * BadT.symbol_t * int) list list * int list * int ->
+  Cil.fundec list -> (int * BadT.symbol_t * int) list list * int list * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"badNFA.ml" 91 3914 3933 "badNFA.ml" 91 3914 3954
+type(
+  (int * BadT.symbol_t * int) list list * int list * int ->
+  Cil.fundec -> (int * BadT.symbol_t * int) list list * int list * int
+)
+ident(
+  int_ref compute_transitions_h "badNFA.ml" 86 3695 3701 "badNFA.ml" 86 3695 3722
+)
+"badNFA.ml" 91 3914 3956 "badNFA.ml" 91 3914 3958
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badNFA.ml" 91 3914 3960 "badNFA.ml" 91 3914 3962
+type(
+  int list
+)
+"badNFA.ml" 91 3914 3964 "badNFA.ml" 91 3914 3970
+type(
+  int
+)
+ident(
+  int_ref stmtid "badNFA.ml" 85 3644 3686 "badNFA.ml" 85 3644 3692
+)
+"badNFA.ml" 91 3914 3955 "badNFA.ml" 91 3914 3971
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"badNFA.ml" 91 3914 3972 "badNFA.ml" 91 3914 3979
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fundecs "badNFA.ml" 85 3644 3678 "badNFA.ml" 85 3644 3685
+)
+"badNFA.ml" 91 3914 3918 "badNFA.ml" 91 3914 3979
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list list * int list * int
+)
+"badNFA.ml" 92 3983 3989 "badNFA.ml" 92 3983 4003
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def final_epsilons "badNFA.ml" 94 4089 4091 "badNFA.ml" 95 4150 4172
+)
+"badNFA.ml" 92 3983 4005 "badNFA.ml" 92 3983 4016
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def final_reads "badNFA.ml" 94 4089 4091 "badNFA.ml" 95 4150 4172
+)
+"badNFA.ml" 92 3983 4018 "badNFA.ml" 92 3983 4025
+type(
+  int list
+)
+ident(
+  def finals' "badNFA.ml" 94 4089 4091 "badNFA.ml" 95 4150 4172
+)
+"badNFA.ml" 92 3983 4027 "badNFA.ml" 92 3983 4038
+type(
+  int
+)
+ident(
+  def last_stmtid "badNFA.ml" 94 4089 4091 "badNFA.ml" 95 4150 4172
+)
+"badNFA.ml" 92 3983 3989 "badNFA.ml" 92 3983 4038
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"badNFA.ml" 93 4041 4045 "badNFA.ml" 93 4041 4070
+type(
+  int list ->
+  int ->
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+ident(
+  int_ref epsilon_final_transitions "badNFA.ml" 74 3191 3195 "badNFA.ml" 74 3191 3220
+)
+"badNFA.ml" 93 4041 4071 "badNFA.ml" 93 4041 4077
+type(
+  int list
+)
+ident(
+  int_ref finals "badNFA.ml" 90 3875 3895 "badNFA.ml" 90 3875 3901
+)
+"badNFA.ml" 93 4041 4078 "badNFA.ml" 93 4041 4085
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badNFA.ml" 90 3875 3903 "badNFA.ml" 90 3875 3910
+)
+"badNFA.ml" 93 4041 4045 "badNFA.ml" 93 4041 4085
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"badNFA.ml" 94 4089 4091 "badNFA.ml" 94 4089 4103
+type(
+  (int * BadT.symbol_t * int) list list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.flatten
+)
+"badNFA.ml" 94 4089 4105 "badNFA.ml" 94 4089 4119
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref final_epsilons "badNFA.ml" 92 3983 3989 "badNFA.ml" 92 3983 4003
+)
+"badNFA.ml" 94 4089 4121 "badNFA.ml" 94 4089 4132
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref final_reads "badNFA.ml" 92 3983 4005 "badNFA.ml" 92 3983 4016
+)
+"badNFA.ml" 94 4089 4134 "badNFA.ml" 94 4089 4146
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  int_ref transitionss "badNFA.ml" 90 3875 3881 "badNFA.ml" 90 3875 3893
+)
+"badNFA.ml" 94 4089 4121 "badNFA.ml" 94 4089 4146
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badNFA.ml" 94 4089 4104 "badNFA.ml" 94 4089 4147
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badNFA.ml" 94 4089 4091 "badNFA.ml" 94 4089 4147
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badNFA.ml" 95 4150 4152 "badNFA.ml" 95 4150 4159
+type(
+  int list
+)
+ident(
+  int_ref finals' "badNFA.ml" 92 3983 4018 "badNFA.ml" 92 3983 4025
+)
+"badNFA.ml" 95 4150 4161 "badNFA.ml" 95 4150 4172
+type(
+  int
+)
+ident(
+  int_ref last_stmtid "badNFA.ml" 92 3983 4027 "badNFA.ml" 92 3983 4038
+)
+"badNFA.ml" 94 4089 4091 "badNFA.ml" 95 4150 4172
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 92 3983 3985 "badNFA.ml" 95 4150 4172
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 90 3875 3877 "badNFA.ml" 95 4150 4172
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 86 3695 3697 "badNFA.ml" 95 4150 4172
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badNFA.ml" 100 4272 4276 "badNFA.ml" 100 4272 4287
+type(
+  int -> int list -> int list -> (int * BadT.symbol_t * int) list -> unit
+)
+ident(
+  def print_amore "badNFA.ml" 180 7492 7492 "badNFA.ml" 1 0 -1
+)
+"badNFA.ml" 100 4272 4288 "badNFA.ml" 100 4272 4298
+type(
+  int
+)
+ident(
+  def max_stmtid "badNFA.ml" 100 4272 4299 "badNFA.ml" 176 7459 7463
+)
+"badNFA.ml" 100 4272 4299 "badNFA.ml" 100 4272 4313
+type(
+  int list
+)
+ident(
+  def initial_states "badNFA.ml" 100 4272 4314 "badNFA.ml" 176 7459 7463
+)
+"badNFA.ml" 100 4272 4314 "badNFA.ml" 100 4272 4326
+type(
+  int list
+)
+ident(
+  def final_states "badNFA.ml" 100 4272 4327 "badNFA.ml" 176 7459 7463
+)
+"badNFA.ml" 100 4272 4327 "badNFA.ml" 100 4272 4338
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def transitions "badNFA.ml" 101 4341 4343 "badNFA.ml" 176 7459 7463
+)
+"badNFA.ml" 101 4341 4347 "badNFA.ml" 101 4341 4353
+type(
+  int
+)
+ident(
+  def cFINAL "badNFA.ml" 102 4361 4363 "badNFA.ml" 176 7459 7463
+)
+"badNFA.ml" 101 4341 4356 "badNFA.ml" 101 4341 4357
+type(
+  int
+)
+"badNFA.ml" 102 4361 4367 "badNFA.ml" 102 4361 4375
+type(
+  int
+)
+ident(
+  def cINITIAL "badNFA.ml" 103 4383 4385 "badNFA.ml" 176 7459 7463
+)
+"badNFA.ml" 102 4361 4378 "badNFA.ml" 102 4361 4379
+type(
+  int
+)
+"badNFA.ml" 103 4383 4389 "badNFA.ml" 103 4383 4400
+type(
+  int
+)
+ident(
+  def cSIZEOFBYTE "badNFA.ml" 104 4408 4410 "badNFA.ml" 176 7459 7463
+)
+"badNFA.ml" 103 4383 4403 "badNFA.ml" 103 4383 4404
+type(
+  int
+)
+"badNFA.ml" 104 4408 4414 "badNFA.ml" 104 4408 4424
+type(
+  int
+)
+ident(
+  def num_states "badNFA.ml" 105 4446 4448 "badNFA.ml" 176 7459 7463
+)
+"badNFA.ml" 104 4408 4427 "badNFA.ml" 104 4408 4431
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"badNFA.ml" 104 4408 4432 "badNFA.ml" 104 4408 4442
+type(
+  int
+)
+ident(
+  int_ref max_stmtid "badNFA.ml" 100 4272 4288 "badNFA.ml" 100 4272 4298
+)
+"badNFA.ml" 104 4408 4427 "badNFA.ml" 104 4408 4442
+type(
+  int
+)
+"badNFA.ml" 105 4446 4452 "badNFA.ml" 105 4446 4462
+type(
+  int
+)
+ident(
+  def cLASTDELTA "badNFA.ml" 106 4493 4495 "badNFA.ml" 176 7459 7463
+)
+"badNFA.ml" 105 4446 4465 "badNFA.ml" 105 4446 4475
+type(
+  int
+)
+ident(
+  int_ref num_states "badNFA.ml" 104 4408 4414 "badNFA.ml" 104 4408 4424
+)
+"badNFA.ml" 105 4446 4476 "badNFA.ml" 105 4446 4477
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"badNFA.ml" 105 4446 4478 "badNFA.ml" 105 4446 4489
+type(
+  int
+)
+ident(
+  int_ref cSIZEOFBYTE "badNFA.ml" 103 4383 4389 "badNFA.ml" 103 4383 4400
+)
+"badNFA.ml" 105 4446 4465 "badNFA.ml" 105 4446 4489
+type(
+  int
+)
+"badNFA.ml" 106 4493 4499 "badNFA.ml" 106 4493 4504
+type(
+  int array array array
+)
+ident(
+  def trans "badNFA.ml" 111 4688 4690 "badNFA.ml" 176 7459 7463
+)
+"badNFA.ml" 106 4493 4507 "badNFA.ml" 106 4493 4517
+type(
+  int -> (int -> int array array) -> int array array array
+)
+ident(
+  ext_ref Array.init
+)
+"badNFA.ml" 106 4493 4518 "badNFA.ml" 106 4493 4519
+type(
+  int
+)
+"badNFA.ml" 106 4493 4525 "badNFA.ml" 106 4493 4526
+type(
+  int
+)
+"badNFA.ml" 107 4531 4535 "badNFA.ml" 107 4531 4545
+type(
+  int -> (int -> int array) -> int array array
+)
+ident(
+  ext_ref Array.init
+)
+"badNFA.ml" 107 4531 4546 "badNFA.ml" 107 4531 4556
+type(
+  int
+)
+ident(
+  int_ref num_states "badNFA.ml" 104 4408 4414 "badNFA.ml" 104 4408 4424
+)
+"badNFA.ml" 107 4531 4562 "badNFA.ml" 107 4531 4563
+type(
+  int
+)
+"badNFA.ml" 107 4531 4567 "badNFA.ml" 107 4531 4579
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"badNFA.ml" 107 4531 4581 "badNFA.ml" 107 4531 4585
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"badNFA.ml" 107 4531 4586 "badNFA.ml" 107 4531 4596
+type(
+  int
+)
+ident(
+  int_ref cLASTDELTA "badNFA.ml" 105 4446 4452 "badNFA.ml" 105 4446 4462
+)
+"badNFA.ml" 107 4531 4580 "badNFA.ml" 107 4531 4597
+type(
+  int
+)
+"badNFA.ml" 107 4531 4598 "badNFA.ml" 107 4531 4599
+type(
+  int
+)
+"badNFA.ml" 107 4531 4567 "badNFA.ml" 107 4531 4599
+type(
+  int array
+)
+"badNFA.ml" 107 4531 4557 "badNFA.ml" 107 4531 4600
+type(
+  int -> int array
+)
+"badNFA.ml" 107 4531 4535 "badNFA.ml" 107 4531 4600
+call(
+  tail
+)
+type(
+  int array array
+)
+"badNFA.ml" 106 4493 4520 "badNFA.ml" 107 4531 4601
+type(
+  int -> int array array
+)
+"badNFA.ml" 106 4493 4507 "badNFA.ml" 107 4531 4601
+call(
+  stack
+)
+type(
+  int array array array
+)
+"badNFA.ml" 111 4688 4694 "badNFA.ml" 111 4688 4701
+type(
+  int * BadT.symbol_t * int -> unit
+)
+ident(
+  def connect "badNFA.ml" 120 5021 5023 "badNFA.ml" 176 7459 7463
+)
+"badNFA.ml" 111 4688 4703 "badNFA.ml" 111 4688 4704
+type(
+  int
+)
+ident(
+  def s "badNFA.ml" 112 4714 4718 "badNFA.ml" 119 4972 5017
+)
+"badNFA.ml" 111 4688 4706 "badNFA.ml" 111 4688 4707
+type(
+  BadT.symbol_t
+)
+ident(
+  def l "badNFA.ml" 112 4714 4718 "badNFA.ml" 119 4972 5017
+)
+"badNFA.ml" 111 4688 4709 "badNFA.ml" 111 4688 4710
+type(
+  int
+)
+ident(
+  def t "badNFA.ml" 112 4714 4718 "badNFA.ml" 119 4972 5017
+)
+"badNFA.ml" 111 4688 4702 "badNFA.ml" 111 4688 4711
+type(
+  int * BadT.symbol_t * int
+)
+"badNFA.ml" 112 4714 4722 "badNFA.ml" 112 4714 4727
+type(
+  int
+)
+ident(
+  def l_idx "badNFA.ml" 115 4833 4837 "badNFA.ml" 119 4972 5017
+)
+"badNFA.ml" 112 4714 4736 "badNFA.ml" 112 4714 4737
+type(
+  BadT.symbol_t
+)
+ident(
+  int_ref l "badNFA.ml" 111 4688 4706 "badNFA.ml" 111 4688 4707
+)
+"badNFA.ml" 113 4744 4752 "badNFA.ml" 113 4744 4764
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 113 4744 4768 "badNFA.ml" 113 4744 4769
+type(
+  int
+)
+"badNFA.ml" 113 4744 4772 "badNFA.ml" 113 4744 4782
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 113 4744 4786 "badNFA.ml" 113 4744 4787
+type(
+  int
+)
+"badNFA.ml" 113 4744 4790 "badNFA.ml" 113 4744 4799
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 113 4744 4803 "badNFA.ml" 113 4744 4804
+type(
+  int
+)
+"badNFA.ml" 113 4744 4807 "badNFA.ml" 113 4744 4808
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 113 4744 4812 "badNFA.ml" 113 4744 4824
+type(
+  int
+)
+"badNFA.ml" 112 4714 4730 "badNFA.ml" 113 4744 4824
+type(
+  int
+)
+"badNFA.ml" 115 4833 4841 "badNFA.ml" 115 4833 4846
+type(
+  int
+)
+ident(
+  def s_idx "badNFA.ml" 116 4854 4858 "badNFA.ml" 119 4972 5017
+)
+"badNFA.ml" 115 4833 4849 "badNFA.ml" 115 4833 4850
+type(
+  int
+)
+ident(
+  int_ref s "badNFA.ml" 111 4688 4703 "badNFA.ml" 111 4688 4704
+)
+"badNFA.ml" 116 4854 4862 "badNFA.ml" 116 4854 4867
+type(
+  int
+)
+ident(
+  def t_idx "badNFA.ml" 117 4889 4893 "badNFA.ml" 119 4972 5017
+)
+"badNFA.ml" 116 4854 4870 "badNFA.ml" 116 4854 4871
+type(
+  int
+)
+ident(
+  int_ref t "badNFA.ml" 111 4688 4709 "badNFA.ml" 111 4688 4710
+)
+"badNFA.ml" 116 4854 4872 "badNFA.ml" 116 4854 4873
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"badNFA.ml" 116 4854 4874 "badNFA.ml" 116 4854 4885
+type(
+  int
+)
+ident(
+  int_ref cSIZEOFBYTE "badNFA.ml" 103 4383 4389 "badNFA.ml" 103 4383 4400
+)
+"badNFA.ml" 116 4854 4870 "badNFA.ml" 116 4854 4885
+type(
+  int
+)
+"badNFA.ml" 117 4889 4897 "badNFA.ml" 117 4889 4902
+type(
+  int
+)
+ident(
+  def t_val "badNFA.ml" 118 4934 4938 "badNFA.ml" 119 4972 5017
+)
+"badNFA.ml" 117 4889 4905 "badNFA.ml" 117 4889 4906
+type(
+  int
+)
+"badNFA.ml" 117 4889 4907 "badNFA.ml" 117 4889 4910
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"badNFA.ml" 117 4889 4912 "badNFA.ml" 117 4889 4913
+type(
+  int
+)
+ident(
+  int_ref t "badNFA.ml" 111 4688 4709 "badNFA.ml" 111 4688 4710
+)
+"badNFA.ml" 117 4889 4914 "badNFA.ml" 117 4889 4917
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"badNFA.ml" 117 4889 4918 "badNFA.ml" 117 4889 4929
+type(
+  int
+)
+ident(
+  int_ref cSIZEOFBYTE "badNFA.ml" 103 4383 4389 "badNFA.ml" 103 4383 4400
+)
+"badNFA.ml" 117 4889 4911 "badNFA.ml" 117 4889 4930
+type(
+  int
+)
+"badNFA.ml" 117 4889 4905 "badNFA.ml" 117 4889 4930
+type(
+  int
+)
+"badNFA.ml" 118 4934 4938 "badNFA.ml" 118 4934 4943
+type(
+  int array array array
+)
+ident(
+  int_ref trans "badNFA.ml" 106 4493 4499 "badNFA.ml" 106 4493 4504
+)
+"badNFA.ml" 118 4934 4945 "badNFA.ml" 118 4934 4950
+type(
+  int
+)
+ident(
+  int_ref l_idx "badNFA.ml" 112 4714 4722 "badNFA.ml" 112 4714 4727
+)
+"badNFA.ml" 118 4934 4938 "badNFA.ml" 118 4934 4951
+type(
+  int array array
+)
+"badNFA.ml" 118 4934 4953 "badNFA.ml" 118 4934 4958
+type(
+  int
+)
+ident(
+  int_ref s_idx "badNFA.ml" 115 4833 4841 "badNFA.ml" 115 4833 4846
+)
+"badNFA.ml" 118 4934 4938 "badNFA.ml" 118 4934 4959
+type(
+  int array
+)
+"badNFA.ml" 118 4934 4961 "badNFA.ml" 118 4934 4966
+type(
+  int
+)
+ident(
+  int_ref t_idx "badNFA.ml" 116 4854 4862 "badNFA.ml" 116 4854 4867
+)
+"badNFA.ml" 119 4972 4978 "badNFA.ml" 119 4972 4983
+type(
+  int array array array
+)
+ident(
+  int_ref trans "badNFA.ml" 106 4493 4499 "badNFA.ml" 106 4493 4504
+)
+"badNFA.ml" 119 4972 4985 "badNFA.ml" 119 4972 4990
+type(
+  int
+)
+ident(
+  int_ref l_idx "badNFA.ml" 112 4714 4722 "badNFA.ml" 112 4714 4727
+)
+"badNFA.ml" 119 4972 4978 "badNFA.ml" 119 4972 4991
+type(
+  int array array
+)
+"badNFA.ml" 119 4972 4993 "badNFA.ml" 119 4972 4998
+type(
+  int
+)
+ident(
+  int_ref s_idx "badNFA.ml" 115 4833 4841 "badNFA.ml" 115 4833 4846
+)
+"badNFA.ml" 119 4972 4978 "badNFA.ml" 119 4972 4999
+type(
+  int array
+)
+"badNFA.ml" 119 4972 5001 "badNFA.ml" 119 4972 5006
+type(
+  int
+)
+ident(
+  int_ref t_idx "badNFA.ml" 116 4854 4862 "badNFA.ml" 116 4854 4867
+)
+"badNFA.ml" 119 4972 4978 "badNFA.ml" 119 4972 5007
+type(
+  int
+)
+"badNFA.ml" 119 4972 5008 "badNFA.ml" 119 4972 5011
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"badNFA.ml" 119 4972 5012 "badNFA.ml" 119 4972 5017
+type(
+  int
+)
+ident(
+  int_ref t_val "badNFA.ml" 117 4889 4897 "badNFA.ml" 117 4889 4902
+)
+"badNFA.ml" 119 4972 4978 "badNFA.ml" 119 4972 5017
+type(
+  int
+)
+"badNFA.ml" 118 4934 4938 "badNFA.ml" 119 4972 5017
+type(
+  unit
+)
+"badNFA.ml" 117 4889 4893 "badNFA.ml" 119 4972 5017
+type(
+  unit
+)
+"badNFA.ml" 116 4854 4858 "badNFA.ml" 119 4972 5017
+type(
+  unit
+)
+"badNFA.ml" 115 4833 4837 "badNFA.ml" 119 4972 5017
+type(
+  unit
+)
+"badNFA.ml" 112 4714 4718 "badNFA.ml" 119 4972 5017
+type(
+  unit
+)
+"badNFA.ml" 120 5021 5027 "badNFA.ml" 120 5021 5028
+type(
+  unit
+)
+"badNFA.ml" 120 5021 5031 "badNFA.ml" 120 5021 5040
+type(
+  (int * BadT.symbol_t * int -> unit) ->
+  (int * BadT.symbol_t * int) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"badNFA.ml" 120 5021 5041 "badNFA.ml" 120 5021 5048
+type(
+  int * BadT.symbol_t * int -> unit
+)
+ident(
+  int_ref connect "badNFA.ml" 111 4688 4694 "badNFA.ml" 111 4688 4701
+)
+"badNFA.ml" 120 5021 5049 "badNFA.ml" 120 5021 5060
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref transitions "badNFA.ml" 100 4272 4327 "badNFA.ml" 100 4272 4338
+)
+"badNFA.ml" 120 5021 5031 "badNFA.ml" 120 5021 5060
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 121 5064 5070 "badNFA.ml" 121 5064 5077
+type(
+  int array
+)
+ident(
+  def initfin "badNFA.ml" 122 5109 5111 "badNFA.ml" 176 7459 7463
+)
+"badNFA.ml" 121 5064 5080 "badNFA.ml" 121 5064 5092
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"badNFA.ml" 121 5064 5093 "badNFA.ml" 121 5064 5103
+type(
+  int
+)
+ident(
+  int_ref num_states "badNFA.ml" 104 4408 4414 "badNFA.ml" 104 4408 4424
+)
+"badNFA.ml" 121 5064 5104 "badNFA.ml" 121 5064 5105
+type(
+  int
+)
+"badNFA.ml" 121 5064 5080 "badNFA.ml" 121 5064 5105
+type(
+  int array
+)
+"badNFA.ml" 122 5109 5115 "badNFA.ml" 122 5109 5116
+type(
+  unit
+)
+"badNFA.ml" 122 5109 5119 "badNFA.ml" 122 5109 5128
+type(
+  (int -> unit) -> int list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"badNFA.ml" 122 5109 5134 "badNFA.ml" 122 5109 5135
+type(
+  int
+)
+ident(
+  def i "badNFA.ml" 122 5109 5139 "badNFA.ml" 122 5109 5162
+)
+"badNFA.ml" 122 5109 5139 "badNFA.ml" 122 5109 5146
+type(
+  int array
+)
+ident(
+  int_ref initfin "badNFA.ml" 121 5064 5070 "badNFA.ml" 121 5064 5077
+)
+"badNFA.ml" 122 5109 5148 "badNFA.ml" 122 5109 5149
+type(
+  int
+)
+ident(
+  int_ref i "badNFA.ml" 122 5109 5134 "badNFA.ml" 122 5109 5135
+)
+"badNFA.ml" 122 5109 5154 "badNFA.ml" 122 5109 5162
+type(
+  int
+)
+ident(
+  int_ref cINITIAL "badNFA.ml" 102 4361 4367 "badNFA.ml" 102 4361 4375
+)
+"badNFA.ml" 122 5109 5139 "badNFA.ml" 122 5109 5162
+type(
+  unit
+)
+"badNFA.ml" 122 5109 5129 "badNFA.ml" 122 5109 5163
+type(
+  int -> unit
+)
+"badNFA.ml" 122 5109 5164 "badNFA.ml" 122 5109 5178
+type(
+  int list
+)
+ident(
+  int_ref initial_states "badNFA.ml" 100 4272 4299 "badNFA.ml" 100 4272 4313
+)
+"badNFA.ml" 122 5109 5119 "badNFA.ml" 122 5109 5178
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 123 5182 5188 "badNFA.ml" 123 5182 5189
+type(
+  unit
+)
+"badNFA.ml" 123 5182 5192 "badNFA.ml" 123 5182 5201
+type(
+  (int -> unit) -> int list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"badNFA.ml" 123 5182 5207 "badNFA.ml" 123 5182 5208
+type(
+  int
+)
+ident(
+  def f "badNFA.ml" 123 5182 5212 "badNFA.ml" 123 5182 5249
+)
+"badNFA.ml" 123 5182 5212 "badNFA.ml" 123 5182 5219
+type(
+  int array
+)
+ident(
+  int_ref initfin "badNFA.ml" 121 5064 5070 "badNFA.ml" 121 5064 5077
+)
+"badNFA.ml" 123 5182 5221 "badNFA.ml" 123 5182 5222
+type(
+  int
+)
+ident(
+  int_ref f "badNFA.ml" 123 5182 5207 "badNFA.ml" 123 5182 5208
+)
+"badNFA.ml" 123 5182 5227 "badNFA.ml" 123 5182 5234
+type(
+  int array
+)
+ident(
+  int_ref initfin "badNFA.ml" 121 5064 5070 "badNFA.ml" 121 5064 5077
+)
+"badNFA.ml" 123 5182 5236 "badNFA.ml" 123 5182 5237
+type(
+  int
+)
+ident(
+  int_ref f "badNFA.ml" 123 5182 5207 "badNFA.ml" 123 5182 5208
+)
+"badNFA.ml" 123 5182 5227 "badNFA.ml" 123 5182 5238
+type(
+  int
+)
+"badNFA.ml" 123 5182 5239 "badNFA.ml" 123 5182 5242
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"badNFA.ml" 123 5182 5243 "badNFA.ml" 123 5182 5249
+type(
+  int
+)
+ident(
+  int_ref cFINAL "badNFA.ml" 101 4341 4347 "badNFA.ml" 101 4341 4353
+)
+"badNFA.ml" 123 5182 5227 "badNFA.ml" 123 5182 5249
+type(
+  int
+)
+"badNFA.ml" 123 5182 5212 "badNFA.ml" 123 5182 5249
+type(
+  unit
+)
+"badNFA.ml" 123 5182 5202 "badNFA.ml" 123 5182 5250
+type(
+  int -> unit
+)
+"badNFA.ml" 124 5252 5272 "badNFA.ml" 124 5252 5284
+type(
+  int list
+)
+ident(
+  int_ref final_states "badNFA.ml" 100 4272 4314 "badNFA.ml" 100 4272 4326
+)
+"badNFA.ml" 123 5182 5192 "badNFA.ml" 124 5252 5284
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 125 5288 5294 "badNFA.ml" 125 5288 5295
+type(
+  unit
+)
+"badNFA.ml" 125 5288 5298 "badNFA.ml" 125 5288 5311
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 125 5288 5312 "badNFA.ml" 125 5288 5350
+type(
+  string
+)
+"badNFA.ml" 125 5288 5298 "badNFA.ml" 125 5288 5350
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 126 5354 5360 "badNFA.ml" 126 5354 5361
+type(
+  unit
+)
+"badNFA.ml" 126 5354 5364 "badNFA.ml" 126 5354 5377
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 126 5354 5378 "badNFA.ml" 126 5354 5385
+type(
+  string
+)
+"badNFA.ml" 126 5354 5364 "badNFA.ml" 126 5354 5385
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 127 5389 5395 "badNFA.ml" 127 5389 5396
+type(
+  unit
+)
+"badNFA.ml" 127 5389 5399 "badNFA.ml" 127 5389 5412
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 127 5389 5413 "badNFA.ml" 127 5389 5422
+type(
+  string
+)
+"badNFA.ml" 127 5389 5399 "badNFA.ml" 127 5389 5422
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 128 5426 5432 "badNFA.ml" 128 5426 5433
+type(
+  unit
+)
+"badNFA.ml" 128 5426 5436 "badNFA.ml" 128 5426 5449
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 128 5426 5450 "badNFA.ml" 128 5426 5481
+type(
+  string
+)
+"badNFA.ml" 128 5426 5436 "badNFA.ml" 128 5426 5481
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 129 5485 5491 "badNFA.ml" 129 5485 5492
+type(
+  unit
+)
+"badNFA.ml" 129 5485 5495 "badNFA.ml" 129 5485 5508
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 129 5485 5509 "badNFA.ml" 129 5485 5520
+type(
+  string
+)
+"badNFA.ml" 129 5485 5495 "badNFA.ml" 129 5485 5520
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 130 5524 5530 "badNFA.ml" 130 5524 5531
+type(
+  unit
+)
+"badNFA.ml" 130 5524 5534 "badNFA.ml" 130 5524 5547
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 130 5524 5548 "badNFA.ml" 130 5524 5551
+type(
+  string
+)
+"badNFA.ml" 130 5524 5534 "badNFA.ml" 130 5524 5551
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 131 5555 5561 "badNFA.ml" 131 5555 5562
+type(
+  unit
+)
+"badNFA.ml" 131 5555 5565 "badNFA.ml" 131 5555 5578
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 131 5555 5579 "badNFA.ml" 131 5555 5586
+type(
+  string
+)
+"badNFA.ml" 131 5555 5565 "badNFA.ml" 131 5555 5586
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 132 5590 5596 "badNFA.ml" 132 5590 5597
+type(
+  unit
+)
+"badNFA.ml" 132 5590 5600 "badNFA.ml" 132 5590 5613
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 132 5590 5614 "badNFA.ml" 132 5590 5618
+type(
+  string
+)
+"badNFA.ml" 132 5590 5600 "badNFA.ml" 132 5590 5618
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 133 5640 5646 "badNFA.ml" 133 5640 5647
+type(
+  unit
+)
+"badNFA.ml" 133 5640 5650 "badNFA.ml" 133 5640 5663
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 133 5640 5664 "badNFA.ml" 133 5640 5678
+type(
+  string
+)
+"badNFA.ml" 133 5640 5650 "badNFA.ml" 133 5640 5678
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 134 5682 5688 "badNFA.ml" 134 5682 5689
+type(
+  unit
+)
+"badNFA.ml" 134 5682 5692 "badNFA.ml" 134 5682 5701
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badNFA.ml" 134 5682 5702 "badNFA.ml" 134 5682 5712
+type(
+  int
+)
+ident(
+  int_ref max_stmtid "badNFA.ml" 100 4272 4288 "badNFA.ml" 100 4272 4298
+)
+"badNFA.ml" 134 5682 5692 "badNFA.ml" 134 5682 5712
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 135 5714 5724 "badNFA.ml" 135 5714 5737
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"badNFA.ml" 135 5714 5738 "badNFA.ml" 135 5714 5740
+type(
+  unit
+)
+"badNFA.ml" 135 5714 5724 "badNFA.ml" 135 5714 5740
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 134 5682 5692 "badNFA.ml" 135 5714 5740
+type(
+  unit
+)
+"badNFA.ml" 136 5744 5750 "badNFA.ml" 136 5744 5751
+type(
+  unit
+)
+"badNFA.ml" 136 5744 5754 "badNFA.ml" 136 5744 5767
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 136 5744 5768 "badNFA.ml" 136 5744 5783
+type(
+  string
+)
+"badNFA.ml" 136 5744 5754 "badNFA.ml" 136 5744 5783
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 137 5787 5793 "badNFA.ml" 137 5787 5794
+type(
+  unit
+)
+"badNFA.ml" 137 5787 5797 "badNFA.ml" 137 5787 5810
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 137 5787 5811 "badNFA.ml" 137 5787 5814
+type(
+  string
+)
+"badNFA.ml" 137 5787 5797 "badNFA.ml" 137 5787 5814
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 138 5818 5824 "badNFA.ml" 138 5818 5825
+type(
+  unit
+)
+"badNFA.ml" 138 5818 5828 "badNFA.ml" 138 5818 5841
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 138 5818 5842 "badNFA.ml" 138 5818 5865
+type(
+  string
+)
+"badNFA.ml" 138 5818 5828 "badNFA.ml" 138 5818 5865
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 139 5869 5875 "badNFA.ml" 139 5869 5876
+type(
+  unit
+)
+"badNFA.ml" 139 5869 5879 "badNFA.ml" 139 5869 5892
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 139 5869 5893 "badNFA.ml" 139 5869 5896
+type(
+  string
+)
+"badNFA.ml" 139 5869 5879 "badNFA.ml" 139 5869 5896
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 139 5869 5898 "badNFA.ml" 139 5869 5911
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 139 5869 5912 "badNFA.ml" 139 5869 5915
+type(
+  string
+)
+"badNFA.ml" 139 5869 5898 "badNFA.ml" 139 5869 5915
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 139 5869 5879 "badNFA.ml" 139 5869 5915
+type(
+  unit
+)
+"badNFA.ml" 140 5919 5925 "badNFA.ml" 140 5919 5926
+type(
+  unit
+)
+"badNFA.ml" 140 5919 5929 "badNFA.ml" 140 5919 5942
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 140 5919 5943 "badNFA.ml" 140 5919 5962
+type(
+  string
+)
+"badNFA.ml" 140 5919 5929 "badNFA.ml" 140 5919 5962
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 141 5966 5972 "badNFA.ml" 141 5966 5973
+type(
+  unit
+)
+"badNFA.ml" 141 5966 5976 "badNFA.ml" 141 5966 5986
+type(
+  (int -> unit) -> int array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"badNFA.ml" 141 5966 5992 "badNFA.ml" 141 5966 5993
+type(
+  int
+)
+ident(
+  def v "badNFA.ml" 141 5966 5997 "badNFA.ml" 141 5966 6026
+)
+"badNFA.ml" 141 5966 5997 "badNFA.ml" 141 5966 6006
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badNFA.ml" 141 5966 6007 "badNFA.ml" 141 5966 6008
+type(
+  int
+)
+ident(
+  int_ref v "badNFA.ml" 141 5966 5992 "badNFA.ml" 141 5966 5993
+)
+"badNFA.ml" 141 5966 5997 "badNFA.ml" 141 5966 6008
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 141 5966 6010 "badNFA.ml" 141 5966 6023
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"badNFA.ml" 141 5966 6024 "badNFA.ml" 141 5966 6026
+type(
+  unit
+)
+"badNFA.ml" 141 5966 6010 "badNFA.ml" 141 5966 6026
+call(
+  tail
+)
+type(
+  unit
+)
+"badNFA.ml" 141 5966 5997 "badNFA.ml" 141 5966 6026
+type(
+  unit
+)
+"badNFA.ml" 141 5966 5987 "badNFA.ml" 141 5966 6027
+type(
+  int -> unit
+)
+"badNFA.ml" 141 5966 6028 "badNFA.ml" 141 5966 6035
+type(
+  int array
+)
+ident(
+  int_ref initfin "badNFA.ml" 121 5064 5070 "badNFA.ml" 121 5064 5077
+)
+"badNFA.ml" 141 5966 5976 "badNFA.ml" 141 5966 6035
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 142 6039 6045 "badNFA.ml" 142 6039 6046
+type(
+  unit
+)
+"badNFA.ml" 142 6039 6049 "badNFA.ml" 142 6039 6062
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 142 6039 6063 "badNFA.ml" 142 6039 6084
+type(
+  string
+)
+"badNFA.ml" 142 6039 6049 "badNFA.ml" 142 6039 6084
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 143 6088 6094 "badNFA.ml" 143 6088 6095
+type(
+  unit
+)
+"badNFA.ml" 143 6088 6106 "badNFA.ml" 143 6088 6107
+type(
+  int
+)
+"badNFA.ml" 143 6088 6111 "badNFA.ml" 143 6088 6121
+type(
+  int
+)
+ident(
+  int_ref cLASTDELTA "badNFA.ml" 105 4446 4452 "badNFA.ml" 105 4446 4462
+)
+"badNFA.ml" 144 6125 6145 "badNFA.ml" 144 6125 6146
+type(
+  int
+)
+"badNFA.ml" 144 6125 6150 "badNFA.ml" 144 6125 6151
+type(
+  int
+)
+"badNFA.ml" 145 6155 6177 "badNFA.ml" 145 6155 6178
+type(
+  int
+)
+"badNFA.ml" 145 6155 6182 "badNFA.ml" 145 6155 6192
+type(
+  int
+)
+ident(
+  int_ref max_stmtid "badNFA.ml" 100 4272 4288 "badNFA.ml" 100 4272 4298
+)
+"badNFA.ml" 146 6196 6213 "badNFA.ml" 146 6196 6222
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badNFA.ml" 146 6196 6223 "badNFA.ml" 146 6196 6228
+type(
+  int array array array
+)
+ident(
+  int_ref trans "badNFA.ml" 106 4493 4499 "badNFA.ml" 106 4493 4504
+)
+"badNFA.ml" 146 6196 6230 "badNFA.ml" 146 6196 6231
+type(
+  int
+)
+ident(
+  int_ref i "badNFA.ml" 144 6125 6137 "badNFA.ml" 148 6279 6295
+)
+"badNFA.ml" 146 6196 6223 "badNFA.ml" 146 6196 6232
+type(
+  int array array
+)
+"badNFA.ml" 146 6196 6234 "badNFA.ml" 146 6196 6235
+type(
+  int
+)
+ident(
+  int_ref j "badNFA.ml" 145 6155 6169 "badNFA.ml" 147 6260 6278
+)
+"badNFA.ml" 146 6196 6223 "badNFA.ml" 146 6196 6236
+type(
+  int array
+)
+"badNFA.ml" 146 6196 6238 "badNFA.ml" 146 6196 6239
+type(
+  int
+)
+ident(
+  int_ref k "badNFA.ml" 143 6088 6098 "badNFA.ml" 149 6296 6310
+)
+"badNFA.ml" 146 6196 6223 "badNFA.ml" 146 6196 6240
+type(
+  int
+)
+"badNFA.ml" 146 6196 6213 "badNFA.ml" 146 6196 6240
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 146 6196 6242 "badNFA.ml" 146 6196 6255
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"badNFA.ml" 146 6196 6256 "badNFA.ml" 146 6196 6258
+type(
+  unit
+)
+"badNFA.ml" 146 6196 6242 "badNFA.ml" 146 6196 6258
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 146 6196 6212 "badNFA.ml" 146 6196 6259
+type(
+  unit
+)
+"badNFA.ml" 145 6155 6169 "badNFA.ml" 147 6260 6278
+type(
+  unit
+)
+"badNFA.ml" 144 6125 6137 "badNFA.ml" 148 6279 6295
+type(
+  unit
+)
+"badNFA.ml" 143 6088 6098 "badNFA.ml" 149 6296 6310
+type(
+  unit
+)
+"badNFA.ml" 150 6314 6320 "badNFA.ml" 150 6314 6321
+type(
+  unit
+)
+"badNFA.ml" 150 6314 6324 "badNFA.ml" 150 6314 6337
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 150 6314 6338 "badNFA.ml" 150 6314 6348
+type(
+  string
+)
+"badNFA.ml" 150 6314 6324 "badNFA.ml" 150 6314 6348
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 151 6352 6358 "badNFA.ml" 151 6352 6359
+type(
+  unit
+)
+"badNFA.ml" 151 6352 6362 "badNFA.ml" 151 6352 6375
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 151 6352 6376 "badNFA.ml" 151 6352 6419
+type(
+  string
+)
+"badNFA.ml" 151 6352 6362 "badNFA.ml" 151 6352 6419
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 152 6423 6429 "badNFA.ml" 152 6423 6430
+type(
+  unit
+)
+"badNFA.ml" 152 6423 6433 "badNFA.ml" 152 6423 6446
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 152 6423 6447 "badNFA.ml" 152 6423 6468
+type(
+  string
+)
+"badNFA.ml" 152 6423 6433 "badNFA.ml" 152 6423 6468
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 153 6472 6478 "badNFA.ml" 153 6472 6479
+type(
+  unit
+)
+"badNFA.ml" 153 6472 6482 "badNFA.ml" 153 6472 6495
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 153 6472 6496 "badNFA.ml" 153 6472 6502
+type(
+  string
+)
+"badNFA.ml" 153 6472 6482 "badNFA.ml" 153 6472 6502
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 154 6506 6512 "badNFA.ml" 154 6506 6513
+type(
+  unit
+)
+"badNFA.ml" 154 6506 6516 "badNFA.ml" 154 6506 6529
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 154 6506 6530 "badNFA.ml" 154 6506 6563
+type(
+  string
+)
+"badNFA.ml" 154 6506 6516 "badNFA.ml" 154 6506 6563
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 155 6567 6573 "badNFA.ml" 155 6567 6574
+type(
+  unit
+)
+"badNFA.ml" 155 6567 6577 "badNFA.ml" 155 6567 6590
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 155 6567 6591 "badNFA.ml" 155 6567 6597
+type(
+  string
+)
+"badNFA.ml" 155 6567 6577 "badNFA.ml" 155 6567 6597
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 156 6601 6607 "badNFA.ml" 156 6601 6608
+type(
+  unit
+)
+"badNFA.ml" 156 6601 6611 "badNFA.ml" 156 6601 6624
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 156 6601 6625 "badNFA.ml" 156 6601 6661
+type(
+  string
+)
+"badNFA.ml" 156 6601 6611 "badNFA.ml" 156 6601 6661
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 157 6665 6671 "badNFA.ml" 157 6665 6672
+type(
+  unit
+)
+"badNFA.ml" 157 6665 6675 "badNFA.ml" 157 6665 6688
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 157 6665 6689 "badNFA.ml" 157 6665 6695
+type(
+  string
+)
+"badNFA.ml" 157 6665 6675 "badNFA.ml" 157 6665 6695
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 158 6699 6705 "badNFA.ml" 158 6699 6706
+type(
+  unit
+)
+"badNFA.ml" 158 6699 6709 "badNFA.ml" 158 6699 6722
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 158 6699 6723 "badNFA.ml" 158 6699 6732
+type(
+  string
+)
+"badNFA.ml" 158 6699 6709 "badNFA.ml" 158 6699 6732
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 159 6736 6742 "badNFA.ml" 159 6736 6743
+type(
+  unit
+)
+"badNFA.ml" 159 6736 6746 "badNFA.ml" 159 6736 6759
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 159 6736 6760 "badNFA.ml" 159 6736 6766
+type(
+  string
+)
+"badNFA.ml" 159 6736 6746 "badNFA.ml" 159 6736 6766
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 160 6770 6776 "badNFA.ml" 160 6770 6777
+type(
+  unit
+)
+"badNFA.ml" 160 6770 6780 "badNFA.ml" 160 6770 6793
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 160 6770 6794 "badNFA.ml" 160 6770 6816
+type(
+  string
+)
+"badNFA.ml" 160 6770 6780 "badNFA.ml" 160 6770 6816
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 161 6820 6826 "badNFA.ml" 161 6820 6827
+type(
+  unit
+)
+"badNFA.ml" 161 6820 6830 "badNFA.ml" 161 6820 6843
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 161 6820 6844 "badNFA.ml" 161 6820 6850
+type(
+  string
+)
+"badNFA.ml" 161 6820 6830 "badNFA.ml" 161 6820 6850
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 162 6854 6860 "badNFA.ml" 162 6854 6861
+type(
+  unit
+)
+"badNFA.ml" 162 6854 6864 "badNFA.ml" 162 6854 6877
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 162 6854 6878 "badNFA.ml" 162 6854 6953
+type(
+  string
+)
+"badNFA.ml" 162 6854 6864 "badNFA.ml" 162 6854 6953
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 163 6957 6963 "badNFA.ml" 163 6957 6964
+type(
+  unit
+)
+"badNFA.ml" 163 6957 6967 "badNFA.ml" 163 6957 6980
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 163 6957 6981 "badNFA.ml" 163 6957 6990
+type(
+  string
+)
+"badNFA.ml" 163 6957 6967 "badNFA.ml" 163 6957 6990
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 164 6994 7000 "badNFA.ml" 164 6994 7001
+type(
+  unit
+)
+"badNFA.ml" 164 6994 7004 "badNFA.ml" 164 6994 7017
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 164 6994 7018 "badNFA.ml" 164 6994 7027
+type(
+  string
+)
+"badNFA.ml" 164 6994 7004 "badNFA.ml" 164 6994 7027
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 165 7031 7037 "badNFA.ml" 165 7031 7038
+type(
+  unit
+)
+"badNFA.ml" 165 7031 7041 "badNFA.ml" 165 7031 7054
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 165 7031 7055 "badNFA.ml" 165 7031 7064
+type(
+  string
+)
+"badNFA.ml" 165 7031 7041 "badNFA.ml" 165 7031 7064
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 166 7068 7074 "badNFA.ml" 166 7068 7075
+type(
+  unit
+)
+"badNFA.ml" 166 7068 7078 "badNFA.ml" 166 7068 7091
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 166 7068 7092 "badNFA.ml" 166 7068 7101
+type(
+  string
+)
+"badNFA.ml" 166 7068 7078 "badNFA.ml" 166 7068 7101
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 167 7105 7111 "badNFA.ml" 167 7105 7112
+type(
+  unit
+)
+"badNFA.ml" 167 7105 7115 "badNFA.ml" 167 7105 7128
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 167 7105 7129 "badNFA.ml" 167 7105 7138
+type(
+  string
+)
+"badNFA.ml" 167 7105 7115 "badNFA.ml" 167 7105 7138
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 168 7142 7148 "badNFA.ml" 168 7142 7149
+type(
+  unit
+)
+"badNFA.ml" 168 7142 7152 "badNFA.ml" 168 7142 7165
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 168 7142 7166 "badNFA.ml" 168 7142 7175
+type(
+  string
+)
+"badNFA.ml" 168 7142 7152 "badNFA.ml" 168 7142 7175
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 169 7179 7185 "badNFA.ml" 169 7179 7186
+type(
+  unit
+)
+"badNFA.ml" 169 7179 7189 "badNFA.ml" 169 7179 7202
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 169 7179 7203 "badNFA.ml" 169 7179 7212
+type(
+  string
+)
+"badNFA.ml" 169 7179 7189 "badNFA.ml" 169 7179 7212
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 170 7216 7222 "badNFA.ml" 170 7216 7223
+type(
+  unit
+)
+"badNFA.ml" 170 7216 7226 "badNFA.ml" 170 7216 7239
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 170 7216 7240 "badNFA.ml" 170 7216 7249
+type(
+  string
+)
+"badNFA.ml" 170 7216 7226 "badNFA.ml" 170 7216 7249
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 171 7253 7259 "badNFA.ml" 171 7253 7260
+type(
+  unit
+)
+"badNFA.ml" 171 7253 7263 "badNFA.ml" 171 7253 7276
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 171 7253 7277 "badNFA.ml" 171 7253 7286
+type(
+  string
+)
+"badNFA.ml" 171 7253 7263 "badNFA.ml" 171 7253 7286
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 172 7290 7296 "badNFA.ml" 172 7290 7297
+type(
+  unit
+)
+"badNFA.ml" 172 7290 7300 "badNFA.ml" 172 7290 7313
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 172 7290 7314 "badNFA.ml" 172 7290 7323
+type(
+  string
+)
+"badNFA.ml" 172 7290 7300 "badNFA.ml" 172 7290 7323
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 173 7327 7333 "badNFA.ml" 173 7327 7334
+type(
+  unit
+)
+"badNFA.ml" 173 7327 7337 "badNFA.ml" 173 7327 7350
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 173 7327 7351 "badNFA.ml" 173 7327 7360
+type(
+  string
+)
+"badNFA.ml" 173 7327 7337 "badNFA.ml" 173 7327 7360
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 174 7364 7370 "badNFA.ml" 174 7364 7371
+type(
+  unit
+)
+"badNFA.ml" 174 7364 7374 "badNFA.ml" 174 7364 7387
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 174 7364 7388 "badNFA.ml" 174 7364 7397
+type(
+  string
+)
+"badNFA.ml" 174 7364 7374 "badNFA.ml" 174 7364 7397
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 175 7401 7407 "badNFA.ml" 175 7401 7408
+type(
+  unit
+)
+"badNFA.ml" 175 7401 7411 "badNFA.ml" 175 7401 7424
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badNFA.ml" 175 7401 7425 "badNFA.ml" 175 7401 7428
+type(
+  string
+)
+"badNFA.ml" 175 7401 7411 "badNFA.ml" 175 7401 7428
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 176 7459 7461 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 175 7401 7403 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 174 7364 7366 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 173 7327 7329 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 172 7290 7292 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 171 7253 7255 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 170 7216 7218 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 169 7179 7181 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 168 7142 7144 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 167 7105 7107 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 166 7068 7070 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 165 7031 7033 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 164 6994 6996 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 163 6957 6959 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 162 6854 6856 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 161 6820 6822 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 160 6770 6772 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 159 6736 6738 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 158 6699 6701 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 157 6665 6667 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 156 6601 6603 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 155 6567 6569 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 154 6506 6508 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 153 6472 6474 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 152 6423 6425 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 151 6352 6354 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 150 6314 6316 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 143 6088 6090 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 142 6039 6041 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 141 5966 5968 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 140 5919 5921 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 139 5869 5871 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 138 5818 5820 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 137 5787 5789 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 136 5744 5746 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 134 5682 5684 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 133 5640 5642 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 132 5590 5592 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 131 5555 5557 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 130 5524 5526 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 129 5485 5487 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 128 5426 5428 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 127 5389 5391 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 126 5354 5356 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 125 5288 5290 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 123 5182 5184 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 122 5109 5111 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 121 5064 5066 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 120 5021 5023 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 111 4688 4690 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 106 4493 4495 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 105 4446 4448 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 104 4408 4410 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 103 4383 4385 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 102 4361 4363 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 101 4341 4343 "badNFA.ml" 176 7459 7463
+type(
+  unit
+)
+"badNFA.ml" 180 7492 7496 "badNFA.ml" 180 7492 7508
+type(
+  int -> int list -> int list -> (int * BadT.symbol_t * int) list -> unit
+)
+ident(
+  def print_libalf "badNFA.ml" 208 8625 8629 "badNFA.ml" 1 0 -1
+)
+"badNFA.ml" 180 7492 7509 "badNFA.ml" 180 7492 7519
+type(
+  int
+)
+ident(
+  def max_stmtid "badNFA.ml" 180 7492 7520 "badNFA.ml" 208 8625 8629
+)
+"badNFA.ml" 180 7492 7520 "badNFA.ml" 180 7492 7534
+type(
+  int list
+)
+ident(
+  def initial_states "badNFA.ml" 180 7492 7535 "badNFA.ml" 208 8625 8629
+)
+"badNFA.ml" 180 7492 7535 "badNFA.ml" 180 7492 7547
+type(
+  int list
+)
+ident(
+  def final_states "badNFA.ml" 180 7492 7548 "badNFA.ml" 208 8625 8629
+)
+"badNFA.ml" 180 7492 7548 "badNFA.ml" 180 7492 7559
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def transitions "badNFA.ml" 181 7562 7564 "badNFA.ml" 208 8625 8629
+)
+"badNFA.ml" 181 7562 7568 "badNFA.ml" 181 7562 7580
+type(
+  int list -> unit
+)
+ident(
+  def print_states "badNFA.ml" 189 7829 7831 "badNFA.ml" 208 8625 8629
+)
+"badNFA.ml" 181 7562 7581 "badNFA.ml" 181 7562 7587
+type(
+  int list
+)
+ident(
+  def states "badNFA.ml" 182 7590 7594 "badNFA.ml" 188 7792 7825
+)
+"badNFA.ml" 182 7590 7600 "badNFA.ml" 182 7590 7606
+type(
+  int list
+)
+ident(
+  int_ref states "badNFA.ml" 181 7562 7581 "badNFA.ml" 181 7562 7587
+)
+"badNFA.ml" 183 7612 7620 "badNFA.ml" 183 7612 7622
+type(
+  int
+)
+ident(
+  def st "badNFA.ml" 183 7612 7628 "badNFA.ml" 183 7612 7654
+)
+"badNFA.ml" 183 7612 7618 "badNFA.ml" 183 7612 7624
+type(
+  int list
+)
+"badNFA.ml" 183 7612 7628 "badNFA.ml" 183 7612 7641
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 183 7612 7642 "badNFA.ml" 183 7612 7651
+type(
+  (int -> unit, out_channel, unit) format
+)
+"badNFA.ml" 183 7612 7652 "badNFA.ml" 183 7612 7654
+type(
+  int
+)
+ident(
+  int_ref st "badNFA.ml" 183 7612 7620 "badNFA.ml" 183 7612 7622
+)
+"badNFA.ml" 183 7612 7628 "badNFA.ml" 183 7612 7654
+call(
+  tail
+)
+type(
+  unit
+)
+"badNFA.ml" 184 7655 7661 "badNFA.ml" 184 7655 7663
+type(
+  int
+)
+ident(
+  def st "badNFA.ml" 185 7673 7680 "badNFA.ml" 187 7763 7791
+)
+"badNFA.ml" 184 7655 7665 "badNFA.ml" 184 7655 7668
+type(
+  int list
+)
+ident(
+  def sts "badNFA.ml" 185 7673 7680 "badNFA.ml" 187 7763 7791
+)
+"badNFA.ml" 184 7655 7661 "badNFA.ml" 184 7655 7668
+type(
+  int list
+)
+"badNFA.ml" 185 7673 7681 "badNFA.ml" 185 7673 7694
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 185 7673 7695 "badNFA.ml" 185 7673 7701
+type(
+  (int -> unit, out_channel, unit) format
+)
+"badNFA.ml" 185 7673 7702 "badNFA.ml" 185 7673 7704
+type(
+  int
+)
+ident(
+  int_ref st "badNFA.ml" 184 7655 7661 "badNFA.ml" 184 7655 7663
+)
+"badNFA.ml" 185 7673 7681 "badNFA.ml" 185 7673 7704
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 186 7706 7714 "badNFA.ml" 186 7706 7723
+type(
+  (int -> unit) -> int list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"badNFA.ml" 186 7706 7729 "badNFA.ml" 186 7706 7730
+type(
+  int
+)
+ident(
+  def s "badNFA.ml" 186 7706 7734 "badNFA.ml" 186 7706 7756
+)
+"badNFA.ml" 186 7706 7734 "badNFA.ml" 186 7706 7747
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 186 7706 7748 "badNFA.ml" 186 7706 7754
+type(
+  (int -> unit, out_channel, unit) format
+)
+"badNFA.ml" 186 7706 7755 "badNFA.ml" 186 7706 7756
+type(
+  int
+)
+ident(
+  int_ref s "badNFA.ml" 186 7706 7729 "badNFA.ml" 186 7706 7730
+)
+"badNFA.ml" 186 7706 7734 "badNFA.ml" 186 7706 7756
+call(
+  tail
+)
+type(
+  unit
+)
+"badNFA.ml" 186 7706 7724 "badNFA.ml" 186 7706 7757
+type(
+  int -> unit
+)
+"badNFA.ml" 186 7706 7758 "badNFA.ml" 186 7706 7761
+type(
+  int list
+)
+ident(
+  int_ref sts "badNFA.ml" 184 7655 7665 "badNFA.ml" 184 7655 7668
+)
+"badNFA.ml" 186 7706 7714 "badNFA.ml" 186 7706 7761
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 187 7763 7771 "badNFA.ml" 187 7763 7784
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 187 7763 7785 "badNFA.ml" 187 7763 7790
+type(
+  (unit, out_channel, unit) format
+)
+"badNFA.ml" 187 7763 7771 "badNFA.ml" 187 7763 7790
+call(
+  tail
+)
+type(
+  unit
+)
+"badNFA.ml" 186 7706 7714 "badNFA.ml" 187 7763 7790
+type(
+  unit
+)
+"badNFA.ml" 185 7673 7680 "badNFA.ml" 187 7763 7791
+type(
+  unit
+)
+"badNFA.ml" 188 7792 7798 "badNFA.ml" 188 7792 7800
+type(
+  int list
+)
+"badNFA.ml" 188 7792 7804 "badNFA.ml" 188 7792 7817
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 188 7792 7818 "badNFA.ml" 188 7792 7825
+type(
+  (unit, out_channel, unit) format
+)
+"badNFA.ml" 188 7792 7804 "badNFA.ml" 188 7792 7825
+call(
+  tail
+)
+type(
+  unit
+)
+"badNFA.ml" 182 7590 7594 "badNFA.ml" 188 7792 7825
+type(
+  unit
+)
+"badNFA.ml" 189 7829 7835 "badNFA.ml" 189 7829 7836
+type(
+  unit
+)
+"badNFA.ml" 189 7829 7839 "badNFA.ml" 189 7829 7852
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 189 7829 7853 "badNFA.ml" 189 7829 7866
+type(
+  (unit, out_channel, unit) format
+)
+"badNFA.ml" 189 7829 7839 "badNFA.ml" 189 7829 7866
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 190 7870 7876 "badNFA.ml" 190 7870 7877
+type(
+  unit
+)
+"badNFA.ml" 190 7870 7880 "badNFA.ml" 190 7870 7893
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 190 7870 7894 "badNFA.ml" 190 7870 7915
+type(
+  (unit, out_channel, unit) format
+)
+"badNFA.ml" 190 7870 7880 "badNFA.ml" 190 7870 7915
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 191 7919 7925 "badNFA.ml" 191 7919 7926
+type(
+  unit
+)
+"badNFA.ml" 191 7919 7929 "badNFA.ml" 191 7919 7942
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 191 7919 7943 "badNFA.ml" 191 7919 7967
+type(
+  (unit, out_channel, unit) format
+)
+"badNFA.ml" 191 7919 7929 "badNFA.ml" 191 7919 7967
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 192 7971 7977 "badNFA.ml" 192 7971 7978
+type(
+  unit
+)
+"badNFA.ml" 192 7971 7981 "badNFA.ml" 192 7971 7994
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 192 7971 7995 "badNFA.ml" 192 7971 8023
+type(
+  (int -> unit, out_channel, unit) format
+)
+"badNFA.ml" 192 7971 8025 "badNFA.ml" 192 7971 8029
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"badNFA.ml" 192 7971 8030 "badNFA.ml" 192 7971 8040
+type(
+  int
+)
+ident(
+  int_ref max_stmtid "badNFA.ml" 180 7492 7509 "badNFA.ml" 180 7492 7519
+)
+"badNFA.ml" 192 7971 8024 "badNFA.ml" 192 7971 8041
+type(
+  int
+)
+"badNFA.ml" 192 7971 7981 "badNFA.ml" 192 7971 8041
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 193 8045 8051 "badNFA.ml" 193 8045 8052
+type(
+  unit
+)
+"badNFA.ml" 193 8045 8055 "badNFA.ml" 193 8045 8068
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 193 8045 8069 "badNFA.ml" 193 8045 8089
+type(
+  (unit, out_channel, unit) format
+)
+"badNFA.ml" 193 8045 8055 "badNFA.ml" 193 8045 8089
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 194 8093 8099 "badNFA.ml" 194 8093 8100
+type(
+  unit
+)
+"badNFA.ml" 194 8093 8103 "badNFA.ml" 194 8093 8115
+type(
+  int list -> unit
+)
+ident(
+  int_ref print_states "badNFA.ml" 181 7562 7568 "badNFA.ml" 181 7562 7580
+)
+"badNFA.ml" 194 8093 8116 "badNFA.ml" 194 8093 8130
+type(
+  int list
+)
+ident(
+  int_ref initial_states "badNFA.ml" 180 7492 7520 "badNFA.ml" 180 7492 7534
+)
+"badNFA.ml" 194 8093 8103 "badNFA.ml" 194 8093 8130
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 195 8134 8140 "badNFA.ml" 195 8134 8141
+type(
+  unit
+)
+"badNFA.ml" 195 8134 8144 "badNFA.ml" 195 8134 8157
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 195 8134 8158 "badNFA.ml" 195 8134 8176
+type(
+  (unit, out_channel, unit) format
+)
+"badNFA.ml" 195 8134 8144 "badNFA.ml" 195 8134 8176
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 196 8180 8186 "badNFA.ml" 196 8180 8187
+type(
+  unit
+)
+"badNFA.ml" 196 8180 8190 "badNFA.ml" 196 8180 8202
+type(
+  int list -> unit
+)
+ident(
+  int_ref print_states "badNFA.ml" 181 7562 7568 "badNFA.ml" 181 7562 7580
+)
+"badNFA.ml" 196 8180 8203 "badNFA.ml" 196 8180 8215
+type(
+  int list
+)
+ident(
+  int_ref final_states "badNFA.ml" 180 7492 7535 "badNFA.ml" 180 7492 7547
+)
+"badNFA.ml" 196 8180 8190 "badNFA.ml" 196 8180 8215
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 197 8219 8225 "badNFA.ml" 197 8219 8226
+type(
+  unit
+)
+"badNFA.ml" 197 8219 8229 "badNFA.ml" 197 8219 8242
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 197 8219 8243 "badNFA.ml" 197 8219 8260
+type(
+  (unit, out_channel, unit) format
+)
+"badNFA.ml" 197 8219 8229 "badNFA.ml" 197 8219 8260
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 198 8264 8270 "badNFA.ml" 198 8264 8271
+type(
+  unit
+)
+"badNFA.ml" 198 8264 8274 "badNFA.ml" 198 8264 8283
+type(
+  (int * BadT.symbol_t * int -> unit) ->
+  (int * BadT.symbol_t * int) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"badNFA.ml" 198 8264 8290 "badNFA.ml" 198 8264 8291
+type(
+  int
+)
+ident(
+  def f "badNFA.ml" 199 8302 8306 "badNFA.ml" 204 8508 8527
+)
+"badNFA.ml" 198 8264 8293 "badNFA.ml" 198 8264 8294
+type(
+  BadT.symbol_t
+)
+ident(
+  def l "badNFA.ml" 199 8302 8306 "badNFA.ml" 204 8508 8527
+)
+"badNFA.ml" 198 8264 8296 "badNFA.ml" 198 8264 8297
+type(
+  int
+)
+ident(
+  def t "badNFA.ml" 199 8302 8306 "badNFA.ml" 204 8508 8527
+)
+"badNFA.ml" 198 8264 8289 "badNFA.ml" 198 8264 8298
+type(
+  int * BadT.symbol_t * int
+)
+"badNFA.ml" 199 8302 8306 "badNFA.ml" 199 8302 8319
+type(
+  (int -> int -> int -> unit, out_channel, unit) format ->
+  int -> int -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 199 8302 8320 "badNFA.ml" 199 8302 8338
+type(
+  (int -> int -> int -> unit, out_channel, unit) format
+)
+"badNFA.ml" 200 8339 8357 "badNFA.ml" 200 8339 8358
+type(
+  int
+)
+ident(
+  int_ref f "badNFA.ml" 198 8264 8290 "badNFA.ml" 198 8264 8291
+)
+"badNFA.ml" 201 8360 8385 "badNFA.ml" 201 8360 8386
+type(
+  BadT.symbol_t
+)
+ident(
+  int_ref l "badNFA.ml" 198 8264 8293 "badNFA.ml" 198 8264 8294
+)
+"badNFA.ml" 202 8393 8414 "badNFA.ml" 202 8393 8426
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 202 8393 8430 "badNFA.ml" 202 8393 8432
+type(
+  int
+)
+"badNFA.ml" 202 8393 8435 "badNFA.ml" 202 8393 8444
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 202 8393 8448 "badNFA.ml" 202 8393 8449
+type(
+  int
+)
+"badNFA.ml" 202 8393 8452 "badNFA.ml" 202 8393 8462
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 202 8393 8466 "badNFA.ml" 202 8393 8467
+type(
+  int
+)
+"badNFA.ml" 203 8468 8489 "badNFA.ml" 203 8468 8490
+type(
+  BadT.symbol_t
+)
+"badNFA.ml" 203 8468 8494 "badNFA.ml" 203 8468 8506
+type(
+  int
+)
+"badNFA.ml" 201 8360 8378 "badNFA.ml" 203 8468 8507
+type(
+  int
+)
+"badNFA.ml" 204 8508 8526 "badNFA.ml" 204 8508 8527
+type(
+  int
+)
+ident(
+  int_ref t "badNFA.ml" 198 8264 8296 "badNFA.ml" 198 8264 8297
+)
+"badNFA.ml" 199 8302 8306 "badNFA.ml" 204 8508 8527
+call(
+  tail
+)
+type(
+  unit
+)
+"badNFA.ml" 198 8264 8284 "badNFA.ml" 204 8508 8528
+type(
+  int * BadT.symbol_t * int -> unit
+)
+"badNFA.ml" 205 8530 8550 "badNFA.ml" 205 8530 8561
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref transitions "badNFA.ml" 180 7492 7548 "badNFA.ml" 180 7492 7559
+)
+"badNFA.ml" 198 8264 8274 "badNFA.ml" 205 8530 8561
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 207 8593 8599 "badNFA.ml" 207 8593 8600
+type(
+  unit
+)
+"badNFA.ml" 207 8593 8603 "badNFA.ml" 207 8593 8616
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"badNFA.ml" 207 8593 8617 "badNFA.ml" 207 8593 8621
+type(
+  (unit, out_channel, unit) format
+)
+"badNFA.ml" 207 8593 8603 "badNFA.ml" 207 8593 8621
+call(
+  stack
+)
+type(
+  unit
+)
+"badNFA.ml" 208 8625 8627 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)
+"badNFA.ml" 207 8593 8595 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)
+"badNFA.ml" 198 8264 8266 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)
+"badNFA.ml" 197 8219 8221 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)
+"badNFA.ml" 196 8180 8182 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)
+"badNFA.ml" 195 8134 8136 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)
+"badNFA.ml" 194 8093 8095 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)
+"badNFA.ml" 193 8045 8047 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)
+"badNFA.ml" 192 7971 7973 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)
+"badNFA.ml" 191 7919 7921 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)
+"badNFA.ml" 190 7870 7872 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)
+"badNFA.ml" 189 7829 7831 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)
+"badNFA.ml" 181 7562 7564 "badNFA.ml" 208 8625 8629
+type(
+  unit
+)

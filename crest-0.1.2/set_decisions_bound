@@ -1,0 +1,16 @@
+#!/bin/bash
+
+BOUND=$1
+
+if [[ "${BOUND}" == "" ]]; then
+  echo "Usage: ${0} BOUND"
+  exit
+fi
+
+case "${BOUND}" in
+  ''|*[!0-9]*)
+    echo "The bound should be a positive integer." ;;
+  *)
+    sed -i -e "s/PARTIAL_BOUNDS=[0-9]*/PARTIAL_BOUNDS=${BOUND}/g" bin/crestc
+    ;;
+esac
