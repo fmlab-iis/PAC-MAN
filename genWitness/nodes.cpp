@@ -148,6 +148,7 @@ void Node::printNode() {
     std::cout << "<edge source=\"" << _id << "\" target=\"" << _id+1 << "\">\n";
     std::cout << "<data key=\"sourcecode\">" << _description << "</data>\n";
     std::cout << "<data key=\"startline\">" << _lineNum << "</data>\n";
+    std::cout << "</edge>\n";
     std::cout << "<node id=\"" << _id+1 << "\">\n";
     std::cout << "<data key=\"sink\">true</data>\n";
     std::cout << "<data key=\"violation\">true</data>\n";
