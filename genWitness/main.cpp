@@ -151,6 +151,7 @@ int main(int argc, char** argv)
 #else
     printMisc(filename);
     printGraph(nodes, functions, entry_id, nodes.size()-1);
+    cout << "</graph>\n</graphml>";
 #endif
   }
   return 0;

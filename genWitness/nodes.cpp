@@ -119,11 +119,39 @@ void Node::printNode() {
     std::cout << "\">\n"; 
     if (_entry) 
       std::cout << "<data key=\"entry\">true</data>\n";
+    /*
     if (_sink) 
       std::cout << "<data key=\"sink\">true</data>\n";
     if (_violation) 
       std::cout << "<data key=\"violation\">true</data>\n";
+    */
     std::cout << "</node>\n";
   } 
+  // TODO: Print edge info
+  if (!_sink) {
+    std::cout << "<edge source=\"" << _id << "\" target=\"" << _next << "\">\n";
+    std::cout << "<data key=\"sourcecode\">" << _description << "</data>\n";
+    std::cout << "<data key=\"startline\">" << _lineNum << "</data>\n";
+    if (_assume) {
+      std::cout << "<data key=\"assumption\">" << _assumption << "</data>\n";
+      std::cout << "<data key=\"assumption.scope\">" << _scope << "</data>\n";
+    }
+    if (_funcCall && getFunc().find("VERIFIER") == std::string::npos) {
+      std::cout << "<data key=\"enterFunction\">" << getFunc() << "</data>\n";
+    }
+    if (_funcReturn) {
+      std::cout << "<data key=\"returnFrom\">" << _scope << "</data>\n";
+    }
+    std::cout << "</edge>\n";
+  }
+  else {
+    std::cout << "<edge source=\"" << _id << "\" target=\"" << _id+1 << "\">\n";
+    std::cout << "<data key=\"sourcecode\">" << _description << "</data>\n";
+    std::cout << "<data key=\"startline\">" << _lineNum << "</data>\n";
+    std::cout << "<node id=\"" << _id+1 << "\">\n";
+    std::cout << "<data key=\"sink\">true</data>\n";
+    std::cout << "<data key=\"violation\">true</data>\n";
+    std::cout << "</node>\n";
+  }
 #endif
 }
