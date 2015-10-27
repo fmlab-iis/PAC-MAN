@@ -88,3 +88,18 @@ void traverse(vector<Node>& nodes, map<string, pair<int, int>>& f, int b, int e,
     }
   }
 }
+
+void changeOperator(string& s) {
+  size_t gtp = s.find(" > ");
+  if (gtp != string::npos)
+    s.replace(gtp+1, 1, "&gt;");
+  size_t ltp = s.find(" < ");
+  if (ltp != string::npos)
+    s.replace(ltp+1, 1, "&lt;");
+  size_t gtoep = s.find(" >= ");
+  if (gtoep != string::npos)
+    s.replace(gtoep+1, 2, "&gt;=");
+  size_t ltoep = s.find(" > ");
+  if (ltoep != string::npos)
+    s.replace(ltoep+1, 2, "&lt;=");
+}

@@ -12,4 +12,5 @@ bool checkFunctionReturn(const std::string &);
 void printGraph(std::vector<Node>&, std::map<std::string, std::pair<int, int>>&, int, int) ;
 void printMisc(std::string);
 void traverse(std::vector<Node>&, std::map<std::string, std::pair<int, int>>&, int, int, std::string, int ) ;
+void changeOperator(std::string&);
 #endif// __UTILS_H__

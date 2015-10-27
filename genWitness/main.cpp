@@ -55,6 +55,7 @@ int main(int argc, char** argv)
         if (start) {
           if (!checkTrivial(s)) { // If the string only includes left brace
             if (!checkFunctionReturn(s)) { // If the string is not a single right brace
+              changeOperator(s);
               possibleFuncReturn = false;
               Node new_node(nodes.size());
               new_node.setDescription(s);
