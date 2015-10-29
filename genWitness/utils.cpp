@@ -99,7 +99,7 @@ void changeOperator(string& s) {
   size_t gtoep = s.find(" >= ");
   if (gtoep != string::npos)
     s.replace(gtoep+1, 2, "&gt;=");
-  size_t ltoep = s.find(" > ");
+  size_t ltoep = s.find(" <= ");
   if (ltoep != string::npos)
     s.replace(ltoep+1, 2, "&lt;=");
 }
