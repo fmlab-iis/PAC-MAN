@@ -7,14 +7,11 @@ if [ $# -ne 1 ]; then
   exit 1
 fi
 
-cur_path=`dirname $(readlink -e $0)`
-pac_path=${cur_path%pac_forExp*}pac_forExp
-
 in_file=$1
 raw_file="${in_file##*/}"
 echo -e "\n=================================================================================\n"
-#echo "VERIFICATION BEGIN: $raw_file" | tee -a results
-echo "VERIFICATION BEGIN: $raw_file"
+echo "VERIFICATION BEGIN: $raw_file" | tee -a results
+#echo "VERIFICATION BEGIN: $raw_file"
 echo -e "\n---------------------------------------------------------------------------------\n"
 if [ ! -f $raw_file ]; then
   cp $in_file .
@@ -49,6 +46,9 @@ if grep -q "void \*malloc(size_t size);" $mod_file; then
 fi
 if grep -q "int snprintf(char \* buf, size_t size, const char \* fmt, ...);" $mod_file; then
     sed -i 's/int snprintf(char \* buf, size_t size, const char \* fmt, ...);//g' $mod_file
+fi
+if grep -q "int __VERIFIER_nondet_int(void) { int val; return val; }" $mod_file; then
+    sed -i 's/int __VERIFIER_nondet_int(void) { int val; return val; }//g' $mod_file
 fi
 
 echo 'int __VERIFIER_nondet_int() { int ret; CREST_int(ret); return ret; }' >> $mod_file
@@ -100,27 +100,28 @@ if grep "Reached __VERIFIER_error" $crest_log > /dev/null; then
   #echo "*** Error Path Generation: $(($gp_d / 60)) minutes and $(($gp_d % 60)) seconds elapsed."
   #echo -e "\n---------------------------------------------------------------------------------\n"
   tr2=$(($tr1-$gp_d))
-  timeout ${tr2} ./scripts/gen_witness.sh path.c
+  #timeout ${tr2} ./scripts/gen_witness.sh path.c
+  timeout ${tr2} ./genWitness/genWitness path.c | tee witness.graphml
   echo -e "\n================================================================================="
-  #echo -e "\n\nVerification Result: FALSE\n\n\n"| tee -a results
-  echo -e "\n\nVerification Result: FALSE\n\n\n"
+  echo -e "\n\nVerification Result: FALSE\n\n\n"| tee -a results
+  #echo -e "\n\nVerification Result: FALSE\n\n\n"
 else
   echo -e "\n================================================================================="
   #threshold is 1036
   threshold=1036
   if grep "Run No. $threshold" $crest_log > /dev/null; then 
-    #echo -e "\n\nVerification Result: TRUE\n\n\n"| tee -a results
-    echo -e "\n\nVerification Result: TRUE\n\n\n"
+    echo -e "\n\nVerification Result: TRUE\n\n\n"| tee -a results
+    #echo -e "\n\nVerification Result: TRUE\n\n\n"
   else
-    #echo -e "\n\nVerification Result: UNKNOWN\n\n\n"| tee -a results
-    echo -e "\n\nVerification Result: UNKNOWN\n\n\n"
+    echo -e "\n\nVerification Result: UNKNOWN\n\n\n"| tee -a results
+    #echo -e "\n\nVerification Result: UNKNOWN\n\n\n"
   fi
 fi
-garbage=`find . -maxdepth 1 -not -name "*.sh" -not -name "results" -type f`
-if [ ! -d "sideProducts" ]; then
-  mkdir sideProducts
+garbage=`find . -maxdepth 1 -not -name "*.sh" -not -name "*.md" -not -name "results" -not -name "*.graphml" -type f`
+if [ ! -d "sideProducts_$temp" ]; then
+  mkdir sideProducts_$temp
 fi
 for file in $garbage
 do
-  mv ${file:2} sideProducts
+  mv ${file:2} sideProducts_$temp
 done
