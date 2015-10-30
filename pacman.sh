@@ -99,9 +99,17 @@ if grep "Reached __VERIFIER_error" $crest_log > /dev/null; then
   gp_d=$(($gp_2-$gp_1))
   #echo "*** Error Path Generation: $(($gp_d / 60)) minutes and $(($gp_d % 60)) seconds elapsed."
   #echo -e "\n---------------------------------------------------------------------------------\n"
-  tr2=$(($tr1-$gp_d))
-  #timeout ${tr2} ./scripts/gen_witness.sh path.c
-  timeout ${tr2} ./genWitness/genWitness path.c | tee witness.graphml
+  tr2=$(($tr1-$gp_d-10))
+
+  timeout ${tr2} ./scripts/gen_witness.sh path.c
+  if [[ ( ! -d output ) || ( ! -f output/witness.graphml ) ]]; then
+    timeout 10 ./genWitness/genWitness path.c | tee witness.graphml
+    if [ -d output ]; then
+      rm -rf output
+    fi
+    mkdir output
+    mv witness.graphml output/
+  fi
   echo -e "\n================================================================================="
   echo -e "\n\nVerification Result: FALSE\n\n\n"| tee -a results
   #echo -e "\n\nVerification Result: FALSE\n\n\n"
