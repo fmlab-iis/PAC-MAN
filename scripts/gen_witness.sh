@@ -1,5 +1,5 @@
 #!/bin/bash
-BASE=CPAchecker
+BASE=CPAchecker-1.4-svn
 BIN=${BASE}/scripts/cpa.sh
 CONF=${BASE}/config/generateWitness.properties
 SPEC=${BASE}/config/specification/sv-comp-reachability.spc

@@ -1,2 +1,0 @@
-# This is an auto-generated file, DO NOT EDIT!
-# Run ant to generate it.
