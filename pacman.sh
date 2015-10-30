@@ -10,8 +10,8 @@ fi
 in_file=$1
 raw_file="${in_file##*/}"
 echo -e "\n=================================================================================\n"
-echo "VERIFICATION BEGIN: $raw_file" | tee -a results
-#echo "VERIFICATION BEGIN: $raw_file"
+#echo "VERIFICATION BEGIN: $raw_file" | tee -a results
+echo "VERIFICATION BEGIN: $raw_file"
 echo -e "\n---------------------------------------------------------------------------------\n"
 if [ ! -f $raw_file ]; then
   cp $in_file .
@@ -20,6 +20,20 @@ temp=${raw_file%.*}
 mod_file="$temp"_modded.c
 binary=${mod_file%.*}
 cp $raw_file $mod_file
+
+# Set Error Rate and Confidence Level
+
+# Designated error rate
+er=0.01
+echo "Error rate: $er"
+# Threshold for confidence level
+cl=0.99996993497
+echo "Confidence level: $cl"
+# Computed least amount of samples
+e_thr=`echo "l(1-($cl))/l(1-($er))" | bc -l `
+threshold=`echo "$e_thr" | awk '{printf("%d\n",$0+=$0<0?0:0.999)}'`
+echo "Required number of samples: $threshold"
+echo
 
 # Modify the file for CREST
 
@@ -111,18 +125,17 @@ if grep "Reached __VERIFIER_error" $crest_log > /dev/null; then
     mv witness.graphml output/
   fi
   echo -e "\n================================================================================="
-  echo -e "\n\nVerification Result: FALSE\n\n\n"| tee -a results
-  #echo -e "\n\nVerification Result: FALSE\n\n\n"
+  #echo -e "\n\nVerification Result: FALSE\n\n\n"| tee -a results
+  echo -e "\n\nVerification Result: FALSE\n\n\n"
 else
   echo -e "\n================================================================================="
   #threshold is 1036
-  threshold=1036
   if grep "Run No. $threshold" $crest_log > /dev/null; then 
-    echo -e "\n\nVerification Result: TRUE\n\n\n"| tee -a results
-    #echo -e "\n\nVerification Result: TRUE\n\n\n"
+    #echo -e "\n\nVerification Result: TRUE\n\n\n"| tee -a results
+    echo -e "\n\nVerification Result: TRUE\n\n\n"
   else
-    echo -e "\n\nVerification Result: UNKNOWN\n\n\n"| tee -a results
-    #echo -e "\n\nVerification Result: UNKNOWN\n\n\n"
+    #echo -e "\n\nVerification Result: UNKNOWN\n\n\n"| tee -a results
+    echo -e "\n\nVerification Result: UNKNOWN\n\n\n"
   fi
 fi
 garbage=`find . -maxdepth 1 -not -name "*.sh" -not -name "*.md" -not -name "results" -not -name "*.graphml" -type f`
