@@ -24,10 +24,10 @@ cp $raw_file $mod_file
 # Set Error Rate and Confidence Level
 
 # Designated error rate
-er=0.01
+er=0.004
 echo "Error rate: $er"
 # Threshold for confidence level
-cl=0.99996993497
+cl=0.98427195992
 echo "Confidence level: $cl"
 # Computed least amount of samples
 e_thr=`echo "l(1-($cl))/l(1-($er))" | bc -l `
