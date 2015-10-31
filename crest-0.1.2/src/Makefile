@@ -1,6 +1,6 @@
 
-YICES_INC ?= /usr/local/include/yices1
-YICES_LIB ?= /usr/local/lib/yices1
+YICES_INC ?= ../../yices-1.0.40/include/yices
+YICES_LIB ?= ../../yices-1.0.40/lib/yices
 
 CC = $(CXX)
 override CFLAGS += -I. -I$(YICES_INC) -Wall -O2 -fexceptions
