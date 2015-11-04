@@ -22,7 +22,6 @@ PAC-MAN: Probably Approximately Correct Model ANalyzer
 	`sudo apt-get install opam;`  
 	`opam init https://opam.ocaml.org/1.1;`  
 	`opam install cil; `  
-	`opam install xstr;`  
 
 5. Build PAC-MAN:  
 	`./build.sh`
