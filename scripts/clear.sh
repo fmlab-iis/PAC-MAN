@@ -5,4 +5,4 @@
 #        -not -name "*termination.c" \
 #        -not -name "*ground.c" \
 rm -rf output
-rm -rf sideProducts
+rm -rf sideProducts*
