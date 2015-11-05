@@ -17,9 +17,11 @@ if [ ! -f $raw_file ]; then
   cp $in_file .
 fi
 temp=${raw_file%.*}
+ia_file="$temp"_ia.c
 mod_file="$temp"_modded.c
 binary=${mod_file%.*}
-cp $raw_file $mod_file
+cp $raw_file $ia_file
+./array/ia.native $ia_file > $mod_file
 
 # Set Error Rate and Confidence Level
 
