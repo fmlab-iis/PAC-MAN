@@ -29,7 +29,8 @@ cp $raw_file $ia_file
 er=0.004
 echo "Error rate: $er"
 # Threshold for confidence level
-cl=0.98427195992
+#cl=0.98427195992
+cl=0.985
 echo "Confidence level: $cl"
 # Computed least amount of samples
 e_thr=`echo "l(1-($cl))/l(1-($er))" | bc -l `
