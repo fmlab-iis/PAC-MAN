@@ -1,0 +1,11 @@
+"badT.ml" 6 99 103 "badT.ml" 6 99 115
+type(
+  string
+)
+ident(
+  def cSVCOMPERROR "badT.ml" 6 99 136 "badT.ml" 1 0 -1
+)
+"badT.ml" 6 99 118 "badT.ml" 6 99 136
+type(
+  string
+)

@@ -8,7 +8,7 @@ CILLY_FLAGS="--save-temps --doCrestInstrument --useLogicalOperators -I${DIR}/inc
 
 TARGET=`expr $1 : '\(.*\)\.c'`
 PARTIAL=${TARGET}.partial
-PARTIAL_BOUNDS=100
+PARTIAL_BOUNDS=15
 PARTIAL_FLAGS="--doSavePartial --partial-bounds=${PARTIAL_BOUNDS}"
 
 rm -f idcount stmtcount funcount cfg_func_map cfg branches cfg_branches decisions decision_vectors szd_execution
