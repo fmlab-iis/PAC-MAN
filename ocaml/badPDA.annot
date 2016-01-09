@@ -1,0 +1,4134 @@
+"badPDA.ml" 3 43 47 "badPDA.ml" 3 43 68
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  int list ->
+  Cil.instr list ->
+  int ->
+  int list ->
+  int -> (int * BadT.symbol_t * int) list * int list * int list * int
+)
+ident(
+  def instrs_to_transitions "badPDA.ml" 41 1944 1944 "badPDA.ml" 1 0 -1
+)
+"badPDA.ml" 3 43 69 "badPDA.ml" 3 43 78
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def fdec_hash "badPDA.ml" 3 43 79 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 3 43 79 "badPDA.ml" 3 43 85
+type(
+  int list
+)
+ident(
+  def finals "badPDA.ml" 3 43 86 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 3 43 86 "badPDA.ml" 3 43 93
+type(
+  int list
+)
+ident(
+  def returns "badPDA.ml" 3 43 94 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 3 43 94 "badPDA.ml" 3 43 100
+type(
+  Cil.instr list
+)
+ident(
+  def instrs "badPDA.ml" 3 43 101 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 3 43 101 "badPDA.ml" 3 43 104
+type(
+  int
+)
+ident(
+  def sid "badPDA.ml" 3 43 105 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 3 43 105 "badPDA.ml" 3 43 114
+type(
+  int list
+)
+ident(
+  def succ_sids "badPDA.ml" 3 43 115 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 3 43 115 "badPDA.ml" 3 43 121
+type(
+  int
+)
+ident(
+  def stmtid "badPDA.ml" 4 124 126 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 4 124 130 "badPDA.ml" 4 124 153
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int ->
+  Cil.instr ->
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+ident(
+  def instrs_to_transitions_h "badPDA.ml" 29 1381 1383 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 4 124 155 "badPDA.ml" 4 124 164
+type(
+  bool
+)
+ident(
+  def has_error "badPDA.ml" 5 205 235 "badPDA.ml" 28 1316 1377
+)
+"badPDA.ml" 4 124 166 "badPDA.ml" 4 124 173
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def rev_ret "badPDA.ml" 5 205 235 "badPDA.ml" 28 1316 1377
+)
+"badPDA.ml" 4 124 175 "badPDA.ml" 4 124 178
+type(
+  int list
+)
+ident(
+  def fin "badPDA.ml" 5 205 235 "badPDA.ml" 28 1316 1377
+)
+"badPDA.ml" 4 124 180 "badPDA.ml" 4 124 184
+type(
+  int list
+)
+ident(
+  def rets "badPDA.ml" 5 205 235 "badPDA.ml" 28 1316 1377
+)
+"badPDA.ml" 4 124 186 "badPDA.ml" 4 124 195
+type(
+  int
+)
+ident(
+  def prev_stid "badPDA.ml" 5 205 235 "badPDA.ml" 28 1316 1377
+)
+"badPDA.ml" 4 124 197 "badPDA.ml" 4 124 203
+type(
+  int
+)
+ident(
+  def stmtid "badPDA.ml" 5 205 235 "badPDA.ml" 28 1316 1377
+)
+"badPDA.ml" 4 124 154 "badPDA.ml" 4 124 204
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 5 205 235 "badPDA.ml" 5 205 240
+type(
+  Cil.instr
+)
+ident(
+  def instr "badPDA.ml" 6 243 247 "badPDA.ml" 28 1316 1377
+)
+"badPDA.ml" 6 243 250 "badPDA.ml" 6 243 259
+type(
+  bool
+)
+ident(
+  int_ref has_error "badPDA.ml" 4 124 155 "badPDA.ml" 4 124 164
+)
+"badPDA.ml" 6 243 266 "badPDA.ml" 6 243 275
+type(
+  bool
+)
+ident(
+  int_ref has_error "badPDA.ml" 4 124 155 "badPDA.ml" 4 124 164
+)
+"badPDA.ml" 6 243 277 "badPDA.ml" 6 243 284
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badPDA.ml" 4 124 166 "badPDA.ml" 4 124 173
+)
+"badPDA.ml" 6 243 286 "badPDA.ml" 6 243 289
+type(
+  int list
+)
+ident(
+  int_ref fin "badPDA.ml" 4 124 175 "badPDA.ml" 4 124 178
+)
+"badPDA.ml" 6 243 291 "badPDA.ml" 6 243 295
+type(
+  int list
+)
+ident(
+  int_ref rets "badPDA.ml" 4 124 180 "badPDA.ml" 4 124 184
+)
+"badPDA.ml" 6 243 297 "badPDA.ml" 6 243 306
+type(
+  int
+)
+ident(
+  int_ref prev_stid "badPDA.ml" 4 124 186 "badPDA.ml" 4 124 195
+)
+"badPDA.ml" 6 243 308 "badPDA.ml" 6 243 314
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 4 124 197 "badPDA.ml" 4 124 203
+)
+"badPDA.ml" 6 243 265 "badPDA.ml" 6 243 315
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 8 325 337 "badPDA.ml" 8 325 342
+type(
+  Cil.instr
+)
+ident(
+  int_ref instr "badPDA.ml" 5 205 235 "badPDA.ml" 5 205 240
+)
+"badPDA.ml" 9 348 365 "badPDA.ml" 9 348 366
+type(
+  Cil.lval
+)
+"badPDA.ml" 9 348 368 "badPDA.ml" 9 348 371
+type(
+  Cil.exp
+)
+ident(
+  def exp "badPDA.ml" 11 412 421 "badPDA.ml" 27 1246 1315
+)
+"badPDA.ml" 9 348 373 "badPDA.ml" 9 348 374
+type(
+  Cil.location
+)
+"badPDA.ml" 9 348 356 "badPDA.ml" 9 348 375
+type(
+  Cil.instr
+)
+"badPDA.ml" 10 377 395 "badPDA.ml" 10 377 396
+type(
+  Cil.lval option
+)
+"badPDA.ml" 10 377 398 "badPDA.ml" 10 377 401
+type(
+  Cil.exp
+)
+ident(
+  def exp "badPDA.ml" 11 412 421 "badPDA.ml" 27 1246 1315
+)
+"badPDA.ml" 10 377 403 "badPDA.ml" 10 377 404
+type(
+  Cil.exp list
+)
+"badPDA.ml" 10 377 406 "badPDA.ml" 10 377 407
+type(
+  Cil.location
+)
+"badPDA.ml" 10 377 385 "badPDA.ml" 10 377 408
+type(
+  Cil.instr
+)
+"badPDA.ml" 9 348 356 "badPDA.ml" 10 377 408
+type(
+  Cil.instr
+)
+"badPDA.ml" 11 412 428 "badPDA.ml" 11 412 455
+type(
+  Cil.exp -> string option
+)
+ident(
+  ext_ref BadUtil.collect_call_in_exp
+)
+"badPDA.ml" 11 412 456 "badPDA.ml" 11 412 459
+type(
+  Cil.exp
+)
+ident(
+  int_ref exp "badPDA.ml" 9 348 368 "badPDA.ml" 9 348 371
+)
+"badPDA.ml" 11 412 428 "badPDA.ml" 11 412 459
+call(
+  stack
+)
+type(
+  string option
+)
+"badPDA.ml" 12 465 482 "badPDA.ml" 12 465 487
+type(
+  string
+)
+ident(
+  def fname "badPDA.ml" 13 492 505 "badPDA.ml" 26 1182 1245
+)
+"badPDA.ml" 12 465 477 "badPDA.ml" 12 465 487
+type(
+  string option
+)
+"badPDA.ml" 13 492 508 "badPDA.ml" 13 492 513
+type(
+  string
+)
+ident(
+  int_ref fname "badPDA.ml" 12 465 482 "badPDA.ml" 12 465 487
+)
+"badPDA.ml" 13 492 514 "badPDA.ml" 13 492 515
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"badPDA.ml" 13 492 516 "badPDA.ml" 13 492 533
+type(
+  string
+)
+ident(
+  ext_ref BadT.cSVCOMPERROR
+)
+"badPDA.ml" 13 492 508 "badPDA.ml" 13 492 533
+type(
+  bool
+)
+"badPDA.ml" 14 539 558 "badPDA.ml" 14 539 565
+type(
+  int
+)
+ident(
+  def stmtid' "badPDA.ml" 15 583 598 "badPDA.ml" 17 692 761
+)
+"badPDA.ml" 14 539 568 "badPDA.ml" 14 539 572
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"badPDA.ml" 14 539 573 "badPDA.ml" 14 539 579
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 4 124 197 "badPDA.ml" 4 124 203
+)
+"badPDA.ml" 14 539 568 "badPDA.ml" 14 539 579
+type(
+  int
+)
+"badPDA.ml" 15 583 602 "badPDA.ml" 15 583 609
+type(
+  int * BadT.symbol_t * int
+)
+ident(
+  def epsilon "badPDA.ml" 16 650 665 "badPDA.ml" 17 692 761
+)
+"badPDA.ml" 15 583 613 "badPDA.ml" 15 583 622
+type(
+  int
+)
+ident(
+  int_ref prev_stid "badPDA.ml" 4 124 186 "badPDA.ml" 4 124 195
+)
+"badPDA.ml" 15 583 624 "badPDA.ml" 15 583 636
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 15 583 638 "badPDA.ml" 15 583 645
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 14 539 558 "badPDA.ml" 14 539 565
+)
+"badPDA.ml" 15 583 612 "badPDA.ml" 15 583 646
+type(
+  int * BadT.symbol_t * int
+)
+"badPDA.ml" 16 650 669 "badPDA.ml" 16 650 673
+type(
+  int list
+)
+ident(
+  def fin' "badPDA.ml" 17 692 707 "badPDA.ml" 17 692 761
+)
+"badPDA.ml" 16 650 676 "badPDA.ml" 16 650 683
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 14 539 558 "badPDA.ml" 14 539 565
+)
+"badPDA.ml" 16 650 685 "badPDA.ml" 16 650 688
+type(
+  int list
+)
+ident(
+  int_ref fin "badPDA.ml" 4 124 175 "badPDA.ml" 4 124 178
+)
+"badPDA.ml" 16 650 676 "badPDA.ml" 16 650 688
+type(
+  int list
+)
+"badPDA.ml" 17 692 708 "badPDA.ml" 17 692 712
+type(
+  bool
+)
+"badPDA.ml" 17 692 714 "badPDA.ml" 17 692 721
+type(
+  int * BadT.symbol_t * int
+)
+ident(
+  int_ref epsilon "badPDA.ml" 15 583 602 "badPDA.ml" 15 583 609
+)
+"badPDA.ml" 17 692 723 "badPDA.ml" 17 692 730
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badPDA.ml" 4 124 166 "badPDA.ml" 4 124 173
+)
+"badPDA.ml" 17 692 714 "badPDA.ml" 17 692 730
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 17 692 732 "badPDA.ml" 17 692 736
+type(
+  int list
+)
+ident(
+  int_ref fin' "badPDA.ml" 16 650 669 "badPDA.ml" 16 650 673
+)
+"badPDA.ml" 17 692 738 "badPDA.ml" 17 692 742
+type(
+  int list
+)
+ident(
+  int_ref rets "badPDA.ml" 4 124 180 "badPDA.ml" 4 124 184
+)
+"badPDA.ml" 17 692 744 "badPDA.ml" 17 692 751
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 14 539 558 "badPDA.ml" 14 539 565
+)
+"badPDA.ml" 17 692 753 "badPDA.ml" 17 692 760
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 14 539 558 "badPDA.ml" 14 539 565
+)
+"badPDA.ml" 17 692 707 "badPDA.ml" 17 692 761
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 16 650 665 "badPDA.ml" 17 692 761
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 15 583 598 "badPDA.ml" 17 692 761
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 14 539 554 "badPDA.ml" 17 692 761
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 18 762 783 "badPDA.ml" 18 762 794
+type(
+  (string, Cil.fundec) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"badPDA.ml" 18 762 795 "badPDA.ml" 18 762 804
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badPDA.ml" 3 43 69 "badPDA.ml" 3 43 78
+)
+"badPDA.ml" 18 762 805 "badPDA.ml" 18 762 810
+type(
+  string
+)
+ident(
+  int_ref fname "badPDA.ml" 12 465 482 "badPDA.ml" 12 465 487
+)
+"badPDA.ml" 18 762 783 "badPDA.ml" 18 762 810
+call(
+  stack
+)
+type(
+  bool
+)
+"badPDA.ml" 19 816 835 "badPDA.ml" 19 816 839
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "badPDA.ml" 20 874 889 "badPDA.ml" 24 1132 1163
+)
+"badPDA.ml" 19 816 842 "badPDA.ml" 19 816 854
+type(
+  (string, Cil.fundec) Hashtbl.t -> string -> Cil.fundec
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"badPDA.ml" 19 816 855 "badPDA.ml" 19 816 864
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badPDA.ml" 3 43 69 "badPDA.ml" 3 43 78
+)
+"badPDA.ml" 19 816 865 "badPDA.ml" 19 816 870
+type(
+  string
+)
+ident(
+  int_ref fname "badPDA.ml" 12 465 482 "badPDA.ml" 12 465 487
+)
+"badPDA.ml" 19 816 842 "badPDA.ml" 19 816 870
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"badPDA.ml" 20 874 893 "badPDA.ml" 20 874 900
+type(
+  int
+)
+ident(
+  def stmtid' "badPDA.ml" 21 918 933 "badPDA.ml" 24 1132 1163
+)
+"badPDA.ml" 20 874 903 "badPDA.ml" 20 874 907
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"badPDA.ml" 20 874 908 "badPDA.ml" 20 874 914
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 4 124 197 "badPDA.ml" 4 124 203
+)
+"badPDA.ml" 20 874 903 "badPDA.ml" 20 874 914
+type(
+  int
+)
+"badPDA.ml" 21 918 937 "badPDA.ml" 21 918 943
+type(
+  int
+)
+ident(
+  def f_stid "badPDA.ml" 22 986 1001 "badPDA.ml" 24 1132 1163
+)
+"badPDA.ml" 21 918 945 "badPDA.ml" 21 918 946
+type(
+  int
+)
+"badPDA.ml" 21 918 937 "badPDA.ml" 21 918 946
+type(
+  int * int
+)
+"badPDA.ml" 21 918 949 "badPDA.ml" 21 918 977
+type(
+  Cil.fundec -> int * int
+)
+ident(
+  ext_ref BadUtil.first_and_last_stids
+)
+"badPDA.ml" 21 918 978 "badPDA.ml" 21 918 982
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badPDA.ml" 19 816 835 "badPDA.ml" 19 816 839
+)
+"badPDA.ml" 21 918 949 "badPDA.ml" 21 918 982
+call(
+  stack
+)
+type(
+  int * int
+)
+"badPDA.ml" 22 986 1005 "badPDA.ml" 22 986 1015
+type(
+  int * BadT.symbol_t * int
+)
+ident(
+  def push_first "badPDA.ml" 23 1060 1075 "badPDA.ml" 24 1132 1163
+)
+"badPDA.ml" 22 986 1019 "badPDA.ml" 22 986 1028
+type(
+  int
+)
+ident(
+  int_ref prev_stid "badPDA.ml" 4 124 186 "badPDA.ml" 4 124 195
+)
+"badPDA.ml" 22 986 1040 "badPDA.ml" 22 986 1047
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 20 874 893 "badPDA.ml" 20 874 900
+)
+"badPDA.ml" 22 986 1030 "badPDA.ml" 22 986 1047
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 22 986 1049 "badPDA.ml" 22 986 1055
+type(
+  int
+)
+ident(
+  int_ref f_stid "badPDA.ml" 21 918 937 "badPDA.ml" 21 918 943
+)
+"badPDA.ml" 22 986 1018 "badPDA.ml" 22 986 1056
+type(
+  int * BadT.symbol_t * int
+)
+"badPDA.ml" 23 1060 1075 "badPDA.ml" 23 1060 1084
+type(
+  bool
+)
+ident(
+  int_ref has_error "badPDA.ml" 4 124 155 "badPDA.ml" 4 124 164
+)
+"badPDA.ml" 23 1060 1087 "badPDA.ml" 23 1060 1097
+type(
+  int * BadT.symbol_t * int
+)
+ident(
+  int_ref push_first "badPDA.ml" 22 986 1005 "badPDA.ml" 22 986 1015
+)
+"badPDA.ml" 23 1060 1099 "badPDA.ml" 23 1060 1106
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badPDA.ml" 4 124 166 "badPDA.ml" 4 124 173
+)
+"badPDA.ml" 23 1060 1086 "badPDA.ml" 23 1060 1107
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 23 1060 1109 "badPDA.ml" 23 1060 1112
+type(
+  int list
+)
+ident(
+  int_ref fin "badPDA.ml" 4 124 175 "badPDA.ml" 4 124 178
+)
+"badPDA.ml" 23 1060 1115 "badPDA.ml" 23 1060 1122
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 20 874 893 "badPDA.ml" 20 874 900
+)
+"badPDA.ml" 23 1060 1124 "badPDA.ml" 23 1060 1128
+type(
+  int list
+)
+ident(
+  int_ref rets "badPDA.ml" 4 124 180 "badPDA.ml" 4 124 184
+)
+"badPDA.ml" 23 1060 1114 "badPDA.ml" 23 1060 1129
+type(
+  int list
+)
+"badPDA.ml" 24 1132 1147 "badPDA.ml" 24 1132 1154
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 20 874 893 "badPDA.ml" 20 874 900
+)
+"badPDA.ml" 24 1132 1156 "badPDA.ml" 24 1132 1163
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 20 874 893 "badPDA.ml" 20 874 900
+)
+"badPDA.ml" 23 1060 1075 "badPDA.ml" 24 1132 1163
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 22 986 1001 "badPDA.ml" 24 1132 1163
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 21 918 933 "badPDA.ml" 24 1132 1163
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 20 874 889 "badPDA.ml" 24 1132 1163
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 19 816 831 "badPDA.ml" 24 1132 1163
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 26 1182 1197 "badPDA.ml" 26 1182 1206
+type(
+  bool
+)
+ident(
+  int_ref has_error "badPDA.ml" 4 124 155 "badPDA.ml" 4 124 164
+)
+"badPDA.ml" 26 1182 1208 "badPDA.ml" 26 1182 1215
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badPDA.ml" 4 124 166 "badPDA.ml" 4 124 173
+)
+"badPDA.ml" 26 1182 1217 "badPDA.ml" 26 1182 1220
+type(
+  int list
+)
+ident(
+  int_ref fin "badPDA.ml" 4 124 175 "badPDA.ml" 4 124 178
+)
+"badPDA.ml" 26 1182 1222 "badPDA.ml" 26 1182 1226
+type(
+  int list
+)
+ident(
+  int_ref rets "badPDA.ml" 4 124 180 "badPDA.ml" 4 124 184
+)
+"badPDA.ml" 26 1182 1228 "badPDA.ml" 26 1182 1237
+type(
+  int
+)
+ident(
+  int_ref prev_stid "badPDA.ml" 4 124 186 "badPDA.ml" 4 124 195
+)
+"badPDA.ml" 26 1182 1239 "badPDA.ml" 26 1182 1245
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 4 124 197 "badPDA.ml" 4 124 203
+)
+"badPDA.ml" 26 1182 1197 "badPDA.ml" 26 1182 1245
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 18 762 780 "badPDA.ml" 26 1182 1245
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 13 492 505 "badPDA.ml" 26 1182 1245
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 27 1246 1258 "badPDA.ml" 27 1246 1262
+type(
+  string option
+)
+"badPDA.ml" 27 1246 1266 "badPDA.ml" 27 1246 1275
+type(
+  bool
+)
+ident(
+  int_ref has_error "badPDA.ml" 4 124 155 "badPDA.ml" 4 124 164
+)
+"badPDA.ml" 27 1246 1277 "badPDA.ml" 27 1246 1284
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badPDA.ml" 4 124 166 "badPDA.ml" 4 124 173
+)
+"badPDA.ml" 27 1246 1286 "badPDA.ml" 27 1246 1289
+type(
+  int list
+)
+ident(
+  int_ref fin "badPDA.ml" 4 124 175 "badPDA.ml" 4 124 178
+)
+"badPDA.ml" 27 1246 1291 "badPDA.ml" 27 1246 1295
+type(
+  int list
+)
+ident(
+  int_ref rets "badPDA.ml" 4 124 180 "badPDA.ml" 4 124 184
+)
+"badPDA.ml" 27 1246 1297 "badPDA.ml" 27 1246 1306
+type(
+  int
+)
+ident(
+  int_ref prev_stid "badPDA.ml" 4 124 186 "badPDA.ml" 4 124 195
+)
+"badPDA.ml" 27 1246 1308 "badPDA.ml" 27 1246 1314
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 4 124 197 "badPDA.ml" 4 124 203
+)
+"badPDA.ml" 27 1246 1266 "badPDA.ml" 27 1246 1314
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 11 412 421 "badPDA.ml" 27 1246 1315
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 28 1316 1324 "badPDA.ml" 28 1316 1325
+type(
+  Cil.instr
+)
+"badPDA.ml" 28 1316 1329 "badPDA.ml" 28 1316 1338
+type(
+  bool
+)
+ident(
+  int_ref has_error "badPDA.ml" 4 124 155 "badPDA.ml" 4 124 164
+)
+"badPDA.ml" 28 1316 1340 "badPDA.ml" 28 1316 1347
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badPDA.ml" 4 124 166 "badPDA.ml" 4 124 173
+)
+"badPDA.ml" 28 1316 1349 "badPDA.ml" 28 1316 1352
+type(
+  int list
+)
+ident(
+  int_ref fin "badPDA.ml" 4 124 175 "badPDA.ml" 4 124 178
+)
+"badPDA.ml" 28 1316 1354 "badPDA.ml" 28 1316 1358
+type(
+  int list
+)
+ident(
+  int_ref rets "badPDA.ml" 4 124 180 "badPDA.ml" 4 124 184
+)
+"badPDA.ml" 28 1316 1360 "badPDA.ml" 28 1316 1369
+type(
+  int
+)
+ident(
+  int_ref prev_stid "badPDA.ml" 4 124 186 "badPDA.ml" 4 124 195
+)
+"badPDA.ml" 28 1316 1371 "badPDA.ml" 28 1316 1377
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 4 124 197 "badPDA.ml" 4 124 203
+)
+"badPDA.ml" 28 1316 1329 "badPDA.ml" 28 1316 1377
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 8 325 331 "badPDA.ml" 28 1316 1377
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 6 243 247 "badPDA.ml" 28 1316 1377
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 29 1381 1387 "badPDA.ml" 29 1381 1396
+type(
+  bool
+)
+ident(
+  def has_error "badPDA.ml" 32 1563 1565 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 29 1381 1398 "badPDA.ml" 29 1381 1405
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def rev_ret "badPDA.ml" 32 1563 1565 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 29 1381 1407 "badPDA.ml" 29 1381 1414
+type(
+  int list
+)
+ident(
+  def finals' "badPDA.ml" 32 1563 1565 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 29 1381 1416 "badPDA.ml" 29 1381 1424
+type(
+  int list
+)
+ident(
+  def returns' "badPDA.ml" 32 1563 1565 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 29 1381 1426 "badPDA.ml" 29 1381 1436
+type(
+  int
+)
+ident(
+  def prev_stid' "badPDA.ml" 32 1563 1565 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 29 1381 1438 "badPDA.ml" 29 1381 1445
+type(
+  int
+)
+ident(
+  def stmtid' "badPDA.ml" 32 1563 1565 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 29 1381 1387 "badPDA.ml" 29 1381 1445
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 30 1448 1452 "badPDA.ml" 30 1448 1466
+type(
+  (bool * (int * BadT.symbol_t * int) list * int list * int list * int * int ->
+   Cil.instr ->
+   bool * (int * BadT.symbol_t * int) list * int list * int list * int * int) ->
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int ->
+  Cil.instr list ->
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"badPDA.ml" 30 1448 1467 "badPDA.ml" 30 1448 1490
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int ->
+  Cil.instr ->
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+ident(
+  int_ref instrs_to_transitions_h "badPDA.ml" 4 124 130 "badPDA.ml" 4 124 153
+)
+"badPDA.ml" 31 1492 1512 "badPDA.ml" 31 1492 1517
+type(
+  bool
+)
+"badPDA.ml" 31 1492 1519 "badPDA.ml" 31 1492 1521
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 31 1492 1523 "badPDA.ml" 31 1492 1529
+type(
+  int list
+)
+ident(
+  int_ref finals "badPDA.ml" 3 43 79 "badPDA.ml" 3 43 85
+)
+"badPDA.ml" 31 1492 1531 "badPDA.ml" 31 1492 1538
+type(
+  int list
+)
+ident(
+  int_ref returns "badPDA.ml" 3 43 86 "badPDA.ml" 3 43 93
+)
+"badPDA.ml" 31 1492 1540 "badPDA.ml" 31 1492 1543
+type(
+  int
+)
+ident(
+  int_ref sid "badPDA.ml" 3 43 101 "badPDA.ml" 3 43 104
+)
+"badPDA.ml" 31 1492 1545 "badPDA.ml" 31 1492 1551
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 3 43 115 "badPDA.ml" 3 43 121
+)
+"badPDA.ml" 31 1492 1511 "badPDA.ml" 31 1492 1552
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 31 1492 1553 "badPDA.ml" 31 1492 1559
+type(
+  Cil.instr list
+)
+ident(
+  int_ref instrs "badPDA.ml" 3 43 94 "badPDA.ml" 3 43 100
+)
+"badPDA.ml" 30 1448 1452 "badPDA.ml" 31 1492 1559
+call(
+  stack
+)
+type(
+  bool * (int * BadT.symbol_t * int) list * int list * int list * int * int
+)
+"badPDA.ml" 32 1563 1569 "badPDA.ml" 32 1563 1585
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def last_transitions "badPDA.ml" 35 1675 1677 "badPDA.ml" 35 1675 1747
+)
+"badPDA.ml" 33 1589 1596 "badPDA.ml" 33 1589 1605
+type(
+  bool
+)
+ident(
+  int_ref has_error "badPDA.ml" 29 1381 1387 "badPDA.ml" 29 1381 1396
+)
+"badPDA.ml" 33 1589 1611 "badPDA.ml" 33 1589 1613
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 34 1614 1623 "badPDA.ml" 34 1614 1650
+type(
+  int -> int list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref BadUtil.epsilon_transitions
+)
+"badPDA.ml" 34 1614 1651 "badPDA.ml" 34 1614 1661
+type(
+  int
+)
+ident(
+  int_ref prev_stid' "badPDA.ml" 29 1381 1426 "badPDA.ml" 29 1381 1436
+)
+"badPDA.ml" 34 1614 1662 "badPDA.ml" 34 1614 1671
+type(
+  int list
+)
+ident(
+  int_ref succ_sids "badPDA.ml" 3 43 105 "badPDA.ml" 3 43 114
+)
+"badPDA.ml" 34 1614 1623 "badPDA.ml" 34 1614 1671
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 33 1589 1593 "badPDA.ml" 34 1614 1671
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 35 1675 1678 "badPDA.ml" 35 1675 1693
+type(
+  (int * BadT.symbol_t * int) list ->
+  (int * BadT.symbol_t * int) list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.rev_append
+)
+"badPDA.ml" 35 1675 1694 "badPDA.ml" 35 1675 1701
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref rev_ret "badPDA.ml" 29 1381 1398 "badPDA.ml" 29 1381 1405
+)
+"badPDA.ml" 35 1675 1702 "badPDA.ml" 35 1675 1718
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref last_transitions "badPDA.ml" 32 1563 1569 "badPDA.ml" 32 1563 1585
+)
+"badPDA.ml" 35 1675 1677 "badPDA.ml" 35 1675 1719
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 35 1675 1721 "badPDA.ml" 35 1675 1728
+type(
+  int list
+)
+ident(
+  int_ref finals' "badPDA.ml" 29 1381 1407 "badPDA.ml" 29 1381 1414
+)
+"badPDA.ml" 35 1675 1730 "badPDA.ml" 35 1675 1738
+type(
+  int list
+)
+ident(
+  int_ref returns' "badPDA.ml" 29 1381 1416 "badPDA.ml" 29 1381 1424
+)
+"badPDA.ml" 35 1675 1740 "badPDA.ml" 35 1675 1747
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 29 1381 1438 "badPDA.ml" 29 1381 1445
+)
+"badPDA.ml" 35 1675 1677 "badPDA.ml" 35 1675 1747
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 32 1563 1565 "badPDA.ml" 35 1675 1747
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 29 1381 1383 "badPDA.ml" 35 1675 1747
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 4 124 126 "badPDA.ml" 35 1675 1747
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 41 1944 1948 "badPDA.ml" 41 1944 1967
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  int list ->
+  Cil.stmt ->
+  int -> (int * BadT.symbol_t * int) list * int list * int list * int
+)
+ident(
+  def stmt_to_transitions "badPDA.ml" 103 4382 4382 "badPDA.ml" 1 0 -1
+)
+"badPDA.ml" 41 1944 1968 "badPDA.ml" 41 1944 1977
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def fdec_hash "badPDA.ml" 41 1944 1978 "badPDA.ml" 99 4251 4324
+)
+"badPDA.ml" 41 1944 1978 "badPDA.ml" 41 1944 1984
+type(
+  int list
+)
+ident(
+  def finals "badPDA.ml" 41 1944 1985 "badPDA.ml" 99 4251 4324
+)
+"badPDA.ml" 41 1944 1985 "badPDA.ml" 41 1944 1992
+type(
+  int list
+)
+ident(
+  def returns "badPDA.ml" 41 1944 1993 "badPDA.ml" 99 4251 4324
+)
+"badPDA.ml" 41 1944 1993 "badPDA.ml" 41 1944 1997
+type(
+  Cil.stmt
+)
+ident(
+  def stmt "badPDA.ml" 41 1944 1998 "badPDA.ml" 99 4251 4324
+)
+"badPDA.ml" 41 1944 1998 "badPDA.ml" 41 1944 2004
+type(
+  int
+)
+ident(
+  def stmtid "badPDA.ml" 42 2007 2009 "badPDA.ml" 99 4251 4324
+)
+"badPDA.ml" 42 2007 2013 "badPDA.ml" 42 2007 2028
+type(
+  Cil.block -> unit
+)
+ident(
+  def print_bstmt_ids "badPDA.ml" 48 2232 2234 "badPDA.ml" 99 4251 4324
+)
+"badPDA.ml" 42 2007 2029 "badPDA.ml" 42 2007 2034
+type(
+  Cil.block
+)
+ident(
+  def block "badPDA.ml" 43 2037 2041 "badPDA.ml" 47 2222 2228
+)
+"badPDA.ml" 43 2037 2045 "badPDA.ml" 43 2037 2046
+type(
+  unit
+)
+"badPDA.ml" 43 2037 2049 "badPDA.ml" 43 2037 2061
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badPDA.ml" 43 2037 2062 "badPDA.ml" 43 2037 2066
+type(
+  string
+)
+"badPDA.ml" 43 2037 2049 "badPDA.ml" 43 2037 2066
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 44 2070 2078 "badPDA.ml" 44 2070 2079
+type(
+  unit
+)
+"badPDA.ml" 44 2070 2082 "badPDA.ml" 44 2070 2091
+type(
+  (Cil.stmt -> unit) -> Cil.stmt list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"badPDA.ml" 44 2070 2097 "badPDA.ml" 44 2070 2101
+type(
+  Cil.stmt
+)
+ident(
+  def stmt "badPDA.ml" 44 2070 2105 "badPDA.ml" 44 2070 2145
+)
+"badPDA.ml" 44 2070 2105 "badPDA.ml" 44 2070 2114
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badPDA.ml" 44 2070 2115 "badPDA.ml" 44 2070 2119
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "badPDA.ml" 44 2070 2097 "badPDA.ml" 44 2070 2101
+)
+"badPDA.ml" 44 2070 2115 "badPDA.ml" 44 2070 2127
+type(
+  int
+)
+"badPDA.ml" 44 2070 2105 "badPDA.ml" 44 2070 2127
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 44 2070 2129 "badPDA.ml" 44 2070 2141
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badPDA.ml" 44 2070 2142 "badPDA.ml" 44 2070 2145
+type(
+  string
+)
+"badPDA.ml" 44 2070 2129 "badPDA.ml" 44 2070 2145
+call(
+  tail
+)
+type(
+  unit
+)
+"badPDA.ml" 44 2070 2105 "badPDA.ml" 44 2070 2145
+type(
+  unit
+)
+"badPDA.ml" 44 2070 2092 "badPDA.ml" 44 2070 2146
+type(
+  Cil.stmt -> unit
+)
+"badPDA.ml" 45 2147 2169 "badPDA.ml" 45 2147 2174
+type(
+  Cil.block
+)
+ident(
+  int_ref block "badPDA.ml" 42 2007 2029 "badPDA.ml" 42 2007 2034
+)
+"badPDA.ml" 45 2147 2169 "badPDA.ml" 45 2147 2185
+type(
+  Cil.stmt list
+)
+"badPDA.ml" 44 2070 2082 "badPDA.ml" 45 2147 2185
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 46 2189 2197 "badPDA.ml" 46 2189 2198
+type(
+  unit
+)
+"badPDA.ml" 46 2189 2201 "badPDA.ml" 46 2189 2214
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badPDA.ml" 46 2189 2215 "badPDA.ml" 46 2189 2218
+type(
+  string
+)
+"badPDA.ml" 46 2189 2201 "badPDA.ml" 46 2189 2218
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 47 2222 2226 "badPDA.ml" 47 2222 2228
+type(
+  unit
+)
+"badPDA.ml" 46 2189 2193 "badPDA.ml" 47 2222 2228
+type(
+  unit
+)
+"badPDA.ml" 44 2070 2074 "badPDA.ml" 47 2222 2228
+type(
+  unit
+)
+"badPDA.ml" 43 2037 2041 "badPDA.ml" 47 2222 2228
+type(
+  unit
+)
+"badPDA.ml" 48 2232 2238 "badPDA.ml" 48 2232 2241
+type(
+  int
+)
+ident(
+  def sid "badPDA.ml" 49 2260 2262 "badPDA.ml" 99 4251 4324
+)
+"badPDA.ml" 48 2232 2244 "badPDA.ml" 48 2232 2248
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "badPDA.ml" 41 1944 1993 "badPDA.ml" 41 1944 1997
+)
+"badPDA.ml" 48 2232 2244 "badPDA.ml" 48 2232 2256
+type(
+  int
+)
+"badPDA.ml" 49 2260 2266 "badPDA.ml" 49 2260 2275
+type(
+  int list
+)
+ident(
+  def succ_sids "badPDA.ml" 53 2384 2386 "badPDA.ml" 99 4251 4324
+)
+"badPDA.ml" 49 2260 2278 "badPDA.ml" 49 2260 2299
+type(
+  Cil.stmt list -> int list
+)
+ident(
+  ext_ref BadUtil.stmts_to_sids
+)
+"badPDA.ml" 49 2260 2300 "badPDA.ml" 49 2260 2304
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "badPDA.ml" 41 1944 1993 "badPDA.ml" 41 1944 1997
+)
+"badPDA.ml" 49 2260 2300 "badPDA.ml" 49 2260 2314
+type(
+  Cil.stmt list
+)
+"badPDA.ml" 49 2260 2278 "badPDA.ml" 49 2260 2314
+call(
+  stack
+)
+type(
+  int list
+)
+"badPDA.ml" 53 2384 2392 "badPDA.ml" 53 2384 2396
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "badPDA.ml" 41 1944 1993 "badPDA.ml" 41 1944 1997
+)
+"badPDA.ml" 53 2384 2392 "badPDA.ml" 53 2384 2406
+type(
+  Cil.stmtkind
+)
+"badPDA.ml" 54 2412 2423 "badPDA.ml" 54 2412 2424
+type(
+  Cil.location
+)
+type(
+  Cil.block
+)
+type(
+  Cil.block
+)
+type(
+  Cil.exp
+)
+"badPDA.ml" 54 2412 2416 "badPDA.ml" 54 2412 2424
+type(
+  Cil.stmtkind
+)
+"badPDA.ml" 60 2588 2600 "badPDA.ml" 60 2588 2609
+type(
+  int list
+)
+ident(
+  int_ref succ_sids "badPDA.ml" 49 2260 2266 "badPDA.ml" 49 2260 2275
+)
+"badPDA.ml" 61 2615 2625 "badPDA.ml" 61 2615 2633
+type(
+  int
+)
+ident(
+  def else_sid "badPDA.ml" 62 2649 2658 "badPDA.ml" 63 2720 2752
+)
+"badPDA.ml" 61 2615 2635 "badPDA.ml" 61 2615 2643
+type(
+  int
+)
+ident(
+  def then_sid "badPDA.ml" 62 2649 2658 "badPDA.ml" 63 2720 2752
+)
+"badPDA.ml" 61 2615 2623 "badPDA.ml" 61 2615 2645
+type(
+  int list
+)
+"badPDA.ml" 62 2649 2661 "badPDA.ml" 62 2649 2664
+type(
+  int
+)
+ident(
+  int_ref sid "badPDA.ml" 48 2232 2238 "badPDA.ml" 48 2232 2241
+)
+"badPDA.ml" 62 2649 2666 "badPDA.ml" 62 2649 2676
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 62 2649 2678 "badPDA.ml" 62 2649 2686
+type(
+  int
+)
+ident(
+  int_ref else_sid "badPDA.ml" 61 2615 2625 "badPDA.ml" 61 2615 2633
+)
+"badPDA.ml" 62 2649 2660 "badPDA.ml" 62 2649 2687
+type(
+  int * BadT.symbol_t * int
+)
+"badPDA.ml" 62 2649 2690 "badPDA.ml" 62 2649 2693
+type(
+  int
+)
+ident(
+  int_ref sid "badPDA.ml" 48 2232 2238 "badPDA.ml" 48 2232 2241
+)
+"badPDA.ml" 62 2649 2695 "badPDA.ml" 62 2649 2704
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 62 2649 2706 "badPDA.ml" 62 2649 2714
+type(
+  int
+)
+ident(
+  int_ref then_sid "badPDA.ml" 61 2615 2635 "badPDA.ml" 61 2615 2643
+)
+"badPDA.ml" 62 2649 2689 "badPDA.ml" 62 2649 2715
+type(
+  int * BadT.symbol_t * int
+)
+"badPDA.ml" 62 2649 2658 "badPDA.ml" 62 2649 2717
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 63 2720 2729 "badPDA.ml" 63 2720 2735
+type(
+  int list
+)
+ident(
+  int_ref finals "badPDA.ml" 41 1944 1978 "badPDA.ml" 41 1944 1984
+)
+"badPDA.ml" 63 2720 2737 "badPDA.ml" 63 2720 2744
+type(
+  int list
+)
+ident(
+  int_ref returns "badPDA.ml" 41 1944 1985 "badPDA.ml" 41 1944 1992
+)
+"badPDA.ml" 63 2720 2746 "badPDA.ml" 63 2720 2752
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 41 1944 1998 "badPDA.ml" 41 1944 2004
+)
+"badPDA.ml" 62 2649 2658 "badPDA.ml" 63 2720 2752
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 64 2753 2761 "badPDA.ml" 64 2753 2762
+type(
+  int list
+)
+"badPDA.ml" 64 2753 2766 "badPDA.ml" 64 2753 2778
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 60 2588 2593 "badPDA.ml" 64 2753 2779
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 65 2780 2794 "badPDA.ml" 65 2780 2800
+type(
+  Cil.instr list
+)
+ident(
+  def instrs "badPDA.ml" 71 2967 2972 "badPDA.ml" 71 2967 3046
+)
+"badPDA.ml" 65 2780 2784 "badPDA.ml" 65 2780 2800
+type(
+  Cil.stmtkind
+)
+"badPDA.ml" 71 2967 2972 "badPDA.ml" 71 2967 2993
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  int list ->
+  Cil.instr list ->
+  int ->
+  int list ->
+  int -> (int * BadT.symbol_t * int) list * int list * int list * int
+)
+ident(
+  int_ref instrs_to_transitions "badPDA.ml" 3 43 47 "badPDA.ml" 3 43 68
+)
+"badPDA.ml" 71 2967 2994 "badPDA.ml" 71 2967 3003
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badPDA.ml" 41 1944 1968 "badPDA.ml" 41 1944 1977
+)
+"badPDA.ml" 71 2967 3004 "badPDA.ml" 71 2967 3010
+type(
+  int list
+)
+ident(
+  int_ref finals "badPDA.ml" 41 1944 1978 "badPDA.ml" 41 1944 1984
+)
+"badPDA.ml" 71 2967 3011 "badPDA.ml" 71 2967 3018
+type(
+  int list
+)
+ident(
+  int_ref returns "badPDA.ml" 41 1944 1985 "badPDA.ml" 41 1944 1992
+)
+"badPDA.ml" 71 2967 3019 "badPDA.ml" 71 2967 3025
+type(
+  Cil.instr list
+)
+ident(
+  int_ref instrs "badPDA.ml" 65 2780 2794 "badPDA.ml" 65 2780 2800
+)
+"badPDA.ml" 71 2967 3026 "badPDA.ml" 71 2967 3029
+type(
+  int
+)
+ident(
+  int_ref sid "badPDA.ml" 48 2232 2238 "badPDA.ml" 48 2232 2241
+)
+"badPDA.ml" 71 2967 3030 "badPDA.ml" 71 2967 3039
+type(
+  int list
+)
+ident(
+  int_ref succ_sids "badPDA.ml" 49 2260 2266 "badPDA.ml" 49 2260 2275
+)
+"badPDA.ml" 71 2967 3040 "badPDA.ml" 71 2967 3046
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 41 1944 1998 "badPDA.ml" 41 1944 2004
+)
+"badPDA.ml" 71 2967 2972 "badPDA.ml" 71 2967 3046
+call(
+  tail
+)
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 72 3047 3061 "badPDA.ml" 72 3047 3066
+type(
+  Cil.block
+)
+ident(
+  def block "badPDA.ml" 82 3417 3422 "badPDA.ml" 82 3417 3490
+)
+"badPDA.ml" 72 3047 3051 "badPDA.ml" 72 3047 3066
+type(
+  Cil.stmtkind
+)
+"badPDA.ml" 82 3417 3423 "badPDA.ml" 82 3417 3450
+type(
+  int -> int list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref BadUtil.epsilon_transitions
+)
+"badPDA.ml" 82 3417 3451 "badPDA.ml" 82 3417 3454
+type(
+  int
+)
+ident(
+  int_ref sid "badPDA.ml" 48 2232 2238 "badPDA.ml" 48 2232 2241
+)
+"badPDA.ml" 82 3417 3455 "badPDA.ml" 82 3417 3464
+type(
+  int list
+)
+ident(
+  int_ref succ_sids "badPDA.ml" 49 2260 2266 "badPDA.ml" 49 2260 2275
+)
+"badPDA.ml" 82 3417 3422 "badPDA.ml" 82 3417 3465
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 82 3417 3467 "badPDA.ml" 82 3417 3473
+type(
+  int list
+)
+ident(
+  int_ref finals "badPDA.ml" 41 1944 1978 "badPDA.ml" 41 1944 1984
+)
+"badPDA.ml" 82 3417 3475 "badPDA.ml" 82 3417 3482
+type(
+  int list
+)
+ident(
+  int_ref returns "badPDA.ml" 41 1944 1985 "badPDA.ml" 41 1944 1992
+)
+"badPDA.ml" 82 3417 3484 "badPDA.ml" 82 3417 3490
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 41 1944 1998 "badPDA.ml" 41 1944 2004
+)
+"badPDA.ml" 82 3417 3422 "badPDA.ml" 82 3417 3490
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 83 3491 3506 "badPDA.ml" 83 3491 3507
+type(
+  Cil.location
+)
+type(
+  Cil.stmt list
+)
+type(
+  Cil.block
+)
+type(
+  Cil.exp
+)
+"badPDA.ml" 83 3491 3495 "badPDA.ml" 83 3491 3507
+type(
+  Cil.stmtkind
+)
+"badPDA.ml" 83 3491 3511 "badPDA.ml" 83 3491 3519
+type(
+  string -> (int * BadT.symbol_t * int) list * int list * int list * int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"badPDA.ml" 83 3491 3520 "badPDA.ml" 83 3491 3556
+type(
+  string
+)
+"badPDA.ml" 83 3491 3511 "badPDA.ml" 83 3491 3556
+call(
+  tail
+)
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 84 3557 3571 "badPDA.ml" 84 3557 3576
+type(
+  Cil.block
+)
+ident(
+  def block "badPDA.ml" 97 4167 4172 "badPDA.ml" 97 4167 4240
+)
+"badPDA.ml" 84 3557 3578 "badPDA.ml" 84 3557 3579
+type(
+  Cil.location
+)
+"badPDA.ml" 84 3557 3581 "badPDA.ml" 84 3557 3593
+type(
+  Cil.stmt option
+)
+ident(
+  def some_st_stmt "badPDA.ml" 97 4167 4172 "badPDA.ml" 97 4167 4240
+)
+"badPDA.ml" 84 3557 3595 "badPDA.ml" 84 3557 3607
+type(
+  Cil.stmt option
+)
+ident(
+  def some_br_stmt "badPDA.ml" 97 4167 4172 "badPDA.ml" 97 4167 4240
+)
+"badPDA.ml" 84 3557 3561 "badPDA.ml" 84 3557 3608
+type(
+  Cil.stmtkind
+)
+"badPDA.ml" 97 4167 4173 "badPDA.ml" 97 4167 4200
+type(
+  int -> int list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref BadUtil.epsilon_transitions
+)
+"badPDA.ml" 97 4167 4201 "badPDA.ml" 97 4167 4204
+type(
+  int
+)
+ident(
+  int_ref sid "badPDA.ml" 48 2232 2238 "badPDA.ml" 48 2232 2241
+)
+"badPDA.ml" 97 4167 4205 "badPDA.ml" 97 4167 4214
+type(
+  int list
+)
+ident(
+  int_ref succ_sids "badPDA.ml" 49 2260 2266 "badPDA.ml" 49 2260 2275
+)
+"badPDA.ml" 97 4167 4172 "badPDA.ml" 97 4167 4215
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 97 4167 4217 "badPDA.ml" 97 4167 4223
+type(
+  int list
+)
+ident(
+  int_ref finals "badPDA.ml" 41 1944 1978 "badPDA.ml" 41 1944 1984
+)
+"badPDA.ml" 97 4167 4225 "badPDA.ml" 97 4167 4232
+type(
+  int list
+)
+ident(
+  int_ref returns "badPDA.ml" 41 1944 1985 "badPDA.ml" 41 1944 1992
+)
+"badPDA.ml" 97 4167 4234 "badPDA.ml" 97 4167 4240
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 41 1944 1998 "badPDA.ml" 41 1944 2004
+)
+"badPDA.ml" 97 4167 4172 "badPDA.ml" 97 4167 4240
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 98 4241 4245 "badPDA.ml" 98 4241 4246
+type(
+  Cil.stmtkind
+)
+"badPDA.ml" 99 4251 4257 "badPDA.ml" 99 4251 4284
+type(
+  int -> int list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref BadUtil.epsilon_transitions
+)
+"badPDA.ml" 99 4251 4285 "badPDA.ml" 99 4251 4288
+type(
+  int
+)
+ident(
+  int_ref sid "badPDA.ml" 48 2232 2238 "badPDA.ml" 48 2232 2241
+)
+"badPDA.ml" 99 4251 4289 "badPDA.ml" 99 4251 4298
+type(
+  int list
+)
+ident(
+  int_ref succ_sids "badPDA.ml" 49 2260 2266 "badPDA.ml" 49 2260 2275
+)
+"badPDA.ml" 99 4251 4256 "badPDA.ml" 99 4251 4299
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 99 4251 4301 "badPDA.ml" 99 4251 4307
+type(
+  int list
+)
+ident(
+  int_ref finals "badPDA.ml" 41 1944 1978 "badPDA.ml" 41 1944 1984
+)
+"badPDA.ml" 99 4251 4309 "badPDA.ml" 99 4251 4316
+type(
+  int list
+)
+ident(
+  int_ref returns "badPDA.ml" 41 1944 1985 "badPDA.ml" 41 1944 1992
+)
+"badPDA.ml" 99 4251 4318 "badPDA.ml" 99 4251 4324
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 41 1944 1998 "badPDA.ml" 41 1944 2004
+)
+"badPDA.ml" 99 4251 4256 "badPDA.ml" 99 4251 4324
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 53 2384 2386 "badPDA.ml" 99 4251 4324
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 49 2260 2262 "badPDA.ml" 99 4251 4324
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 48 2232 2234 "badPDA.ml" 99 4251 4324
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 42 2007 2009 "badPDA.ml" 99 4251 4324
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 103 4382 4386 "badPDA.ml" 103 4382 4407
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  int list ->
+  Cil.fundec ->
+  int -> (int * BadT.symbol_t * int) list * int list * int list * int
+)
+ident(
+  def fundec_to_transitions "badPDA.ml" 115 4941 4941 "badPDA.ml" 1 0 -1
+)
+"badPDA.ml" 103 4382 4408 "badPDA.ml" 103 4382 4417
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def fdec_hash "badPDA.ml" 103 4382 4418 "badPDA.ml" 111 4816 4888
+)
+"badPDA.ml" 103 4382 4418 "badPDA.ml" 103 4382 4424
+type(
+  int list
+)
+ident(
+  def finals "badPDA.ml" 103 4382 4425 "badPDA.ml" 111 4816 4888
+)
+"badPDA.ml" 103 4382 4425 "badPDA.ml" 103 4382 4432
+type(
+  int list
+)
+ident(
+  def returns "badPDA.ml" 103 4382 4433 "badPDA.ml" 111 4816 4888
+)
+"badPDA.ml" 103 4382 4433 "badPDA.ml" 103 4382 4437
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "badPDA.ml" 103 4382 4438 "badPDA.ml" 111 4816 4888
+)
+"badPDA.ml" 103 4382 4438 "badPDA.ml" 103 4382 4444
+type(
+  int
+)
+ident(
+  def stmtid "badPDA.ml" 104 4447 4449 "badPDA.ml" 111 4816 4888
+)
+"badPDA.ml" 104 4447 4453 "badPDA.ml" 104 4447 4476
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int ->
+  Cil.stmt ->
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+ident(
+  def fundec_to_transitions_h "badPDA.ml" 108 4648 4650 "badPDA.ml" 111 4816 4888
+)
+"badPDA.ml" 104 4447 4478 "badPDA.ml" 104 4447 4485
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  def rev_ret "badPDA.ml" 104 4447 4505 "badPDA.ml" 107 4607 4644
+)
+"badPDA.ml" 104 4447 4487 "badPDA.ml" 104 4447 4491
+type(
+  int list
+)
+ident(
+  def fins "badPDA.ml" 104 4447 4505 "badPDA.ml" 107 4607 4644
+)
+"badPDA.ml" 104 4447 4493 "badPDA.ml" 104 4447 4497
+type(
+  int list
+)
+ident(
+  def rets "badPDA.ml" 104 4447 4505 "badPDA.ml" 107 4607 4644
+)
+"badPDA.ml" 104 4447 4499 "badPDA.ml" 104 4447 4503
+type(
+  int
+)
+ident(
+  def stid "badPDA.ml" 104 4447 4505 "badPDA.ml" 107 4607 4644
+)
+"badPDA.ml" 104 4447 4477 "badPDA.ml" 104 4447 4504
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"badPDA.ml" 104 4447 4505 "badPDA.ml" 104 4447 4509
+type(
+  Cil.stmt
+)
+ident(
+  def stmt "badPDA.ml" 105 4512 4516 "badPDA.ml" 107 4607 4644
+)
+"badPDA.ml" 105 4512 4520 "badPDA.ml" 105 4512 4523
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def trs "badPDA.ml" 107 4607 4611 "badPDA.ml" 107 4607 4644
+)
+"badPDA.ml" 105 4512 4525 "badPDA.ml" 105 4512 4530
+type(
+  int list
+)
+ident(
+  def fins' "badPDA.ml" 107 4607 4611 "badPDA.ml" 107 4607 4644
+)
+"badPDA.ml" 105 4512 4532 "badPDA.ml" 105 4512 4537
+type(
+  int list
+)
+ident(
+  def rets' "badPDA.ml" 107 4607 4611 "badPDA.ml" 107 4607 4644
+)
+"badPDA.ml" 105 4512 4539 "badPDA.ml" 105 4512 4544
+type(
+  int
+)
+ident(
+  def stid' "badPDA.ml" 107 4607 4611 "badPDA.ml" 107 4607 4644
+)
+"badPDA.ml" 105 4512 4520 "badPDA.ml" 105 4512 4544
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 106 4548 4554 "badPDA.ml" 106 4548 4573
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  int list ->
+  Cil.stmt ->
+  int -> (int * BadT.symbol_t * int) list * int list * int list * int
+)
+ident(
+  int_ref stmt_to_transitions "badPDA.ml" 41 1944 1948 "badPDA.ml" 41 1944 1967
+)
+"badPDA.ml" 106 4548 4574 "badPDA.ml" 106 4548 4583
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badPDA.ml" 103 4382 4408 "badPDA.ml" 103 4382 4417
+)
+"badPDA.ml" 106 4548 4584 "badPDA.ml" 106 4548 4588
+type(
+  int list
+)
+ident(
+  int_ref fins "badPDA.ml" 104 4447 4487 "badPDA.ml" 104 4447 4491
+)
+"badPDA.ml" 106 4548 4589 "badPDA.ml" 106 4548 4593
+type(
+  int list
+)
+ident(
+  int_ref rets "badPDA.ml" 104 4447 4493 "badPDA.ml" 104 4447 4497
+)
+"badPDA.ml" 106 4548 4594 "badPDA.ml" 106 4548 4598
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "badPDA.ml" 104 4447 4505 "badPDA.ml" 104 4447 4509
+)
+"badPDA.ml" 106 4548 4599 "badPDA.ml" 106 4548 4603
+type(
+  int
+)
+ident(
+  int_ref stid "badPDA.ml" 104 4447 4499 "badPDA.ml" 104 4447 4503
+)
+"badPDA.ml" 106 4548 4554 "badPDA.ml" 106 4548 4603
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 107 4607 4611 "badPDA.ml" 107 4607 4614
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref trs "badPDA.ml" 105 4512 4520 "badPDA.ml" 105 4512 4523
+)
+"badPDA.ml" 107 4607 4616 "badPDA.ml" 107 4607 4623
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  int_ref rev_ret "badPDA.ml" 104 4447 4478 "badPDA.ml" 104 4447 4485
+)
+"badPDA.ml" 107 4607 4611 "badPDA.ml" 107 4607 4623
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badPDA.ml" 107 4607 4625 "badPDA.ml" 107 4607 4630
+type(
+  int list
+)
+ident(
+  int_ref fins' "badPDA.ml" 105 4512 4525 "badPDA.ml" 105 4512 4530
+)
+"badPDA.ml" 107 4607 4632 "badPDA.ml" 107 4607 4637
+type(
+  int list
+)
+ident(
+  int_ref rets' "badPDA.ml" 105 4512 4532 "badPDA.ml" 105 4512 4537
+)
+"badPDA.ml" 107 4607 4639 "badPDA.ml" 107 4607 4644
+type(
+  int
+)
+ident(
+  int_ref stid' "badPDA.ml" 105 4512 4539 "badPDA.ml" 105 4512 4544
+)
+"badPDA.ml" 107 4607 4611 "badPDA.ml" 107 4607 4644
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"badPDA.ml" 105 4512 4516 "badPDA.ml" 107 4607 4644
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"badPDA.ml" 108 4648 4654 "badPDA.ml" 108 4648 4670
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  def rev_transitionss "badPDA.ml" 111 4816 4818 "badPDA.ml" 111 4816 4888
+)
+"badPDA.ml" 108 4648 4672 "badPDA.ml" 108 4648 4679
+type(
+  int list
+)
+ident(
+  def finals' "badPDA.ml" 111 4816 4818 "badPDA.ml" 111 4816 4888
+)
+"badPDA.ml" 108 4648 4681 "badPDA.ml" 108 4648 4689
+type(
+  int list
+)
+ident(
+  def returns' "badPDA.ml" 111 4816 4818 "badPDA.ml" 111 4816 4888
+)
+"badPDA.ml" 108 4648 4691 "badPDA.ml" 108 4648 4698
+type(
+  int
+)
+ident(
+  def stmtid' "badPDA.ml" 111 4816 4818 "badPDA.ml" 111 4816 4888
+)
+"badPDA.ml" 108 4648 4654 "badPDA.ml" 108 4648 4698
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"badPDA.ml" 109 4701 4705 "badPDA.ml" 109 4701 4719
+type(
+  ((int * BadT.symbol_t * int) list list * int list * int list * int ->
+   Cil.stmt ->
+   (int * BadT.symbol_t * int) list list * int list * int list * int) ->
+  (int * BadT.symbol_t * int) list list * int list * int list * int ->
+  Cil.stmt list ->
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"badPDA.ml" 109 4701 4720 "badPDA.ml" 109 4701 4743
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int ->
+  Cil.stmt ->
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+ident(
+  int_ref fundec_to_transitions_h "badPDA.ml" 104 4447 4453 "badPDA.ml" 104 4447 4476
+)
+"badPDA.ml" 109 4701 4745 "badPDA.ml" 109 4701 4747
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badPDA.ml" 109 4701 4749 "badPDA.ml" 109 4701 4755
+type(
+  int list
+)
+ident(
+  int_ref finals "badPDA.ml" 103 4382 4418 "badPDA.ml" 103 4382 4424
+)
+"badPDA.ml" 109 4701 4757 "badPDA.ml" 109 4701 4764
+type(
+  int list
+)
+ident(
+  int_ref returns "badPDA.ml" 103 4382 4425 "badPDA.ml" 103 4382 4432
+)
+"badPDA.ml" 109 4701 4766 "badPDA.ml" 109 4701 4772
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 103 4382 4438 "badPDA.ml" 103 4382 4444
+)
+"badPDA.ml" 109 4701 4744 "badPDA.ml" 109 4701 4773
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"badPDA.ml" 110 4775 4794 "badPDA.ml" 110 4775 4798
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badPDA.ml" 103 4382 4433 "badPDA.ml" 103 4382 4437
+)
+"badPDA.ml" 110 4775 4794 "badPDA.ml" 110 4775 4812
+type(
+  Cil.stmt list
+)
+"badPDA.ml" 109 4701 4705 "badPDA.ml" 110 4775 4812
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"badPDA.ml" 111 4816 4819 "badPDA.ml" 111 4816 4831
+type(
+  (int * BadT.symbol_t * int) list list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.flatten
+)
+"badPDA.ml" 111 4816 4833 "badPDA.ml" 111 4816 4841
+type(
+  (int * BadT.symbol_t * int) list list ->
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  ext_ref List.rev
+)
+"badPDA.ml" 111 4816 4842 "badPDA.ml" 111 4816 4858
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  int_ref rev_transitionss "badPDA.ml" 108 4648 4654 "badPDA.ml" 108 4648 4670
+)
+"badPDA.ml" 111 4816 4832 "badPDA.ml" 111 4816 4859
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badPDA.ml" 111 4816 4819 "badPDA.ml" 111 4816 4859
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 111 4816 4861 "badPDA.ml" 111 4816 4868
+type(
+  int list
+)
+ident(
+  int_ref finals' "badPDA.ml" 108 4648 4672 "badPDA.ml" 108 4648 4679
+)
+"badPDA.ml" 111 4816 4870 "badPDA.ml" 111 4816 4878
+type(
+  int list
+)
+ident(
+  int_ref returns' "badPDA.ml" 108 4648 4681 "badPDA.ml" 108 4648 4689
+)
+"badPDA.ml" 111 4816 4880 "badPDA.ml" 111 4816 4887
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 108 4648 4691 "badPDA.ml" 108 4648 4698
+)
+"badPDA.ml" 111 4816 4818 "badPDA.ml" 111 4816 4888
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 108 4648 4650 "badPDA.ml" 111 4816 4888
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 104 4447 4449 "badPDA.ml" 111 4816 4888
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 115 4941 4945 "badPDA.ml" 115 4941 4968
+type(
+  int list ->
+  Cil.fundec list ->
+  int ->
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list * int
+)
+ident(
+  def epsilon_pop_transitions "badPDA.ml" 126 5407 5407 "badPDA.ml" 1 0 -1
+)
+"badPDA.ml" 115 4941 4969 "badPDA.ml" 115 4941 4976
+type(
+  int list
+)
+ident(
+  def returns "badPDA.ml" 115 4941 4977 "badPDA.ml" 122 5301 5342
+)
+"badPDA.ml" 115 4941 4977 "badPDA.ml" 115 4941 4984
+type(
+  Cil.fundec list
+)
+ident(
+  def fundecs "badPDA.ml" 115 4941 4985 "badPDA.ml" 122 5301 5342
+)
+"badPDA.ml" 115 4941 4985 "badPDA.ml" 115 4941 4991
+type(
+  int
+)
+ident(
+  def stmtid "badPDA.ml" 116 4994 4996 "badPDA.ml" 122 5301 5342
+)
+"badPDA.ml" 116 4994 5000 "badPDA.ml" 116 4994 5007
+type(
+  int
+)
+ident(
+  def stmtid' "badPDA.ml" 117 5025 5027 "badPDA.ml" 122 5301 5342
+)
+"badPDA.ml" 116 4994 5010 "badPDA.ml" 116 4994 5014
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"badPDA.ml" 116 4994 5015 "badPDA.ml" 116 4994 5021
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 115 4941 4985 "badPDA.ml" 115 4941 4991
+)
+"badPDA.ml" 116 4994 5010 "badPDA.ml" 116 4994 5021
+type(
+  int
+)
+"badPDA.ml" 117 5025 5031 "badPDA.ml" 117 5025 5044
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def last_epsilons "badPDA.ml" 120 5198 5200 "badPDA.ml" 122 5301 5342
+)
+"badPDA.ml" 117 5025 5047 "badPDA.ml" 117 5025 5061
+type(
+  ((int * BadT.symbol_t * int) list ->
+   Cil.fundec -> (int * BadT.symbol_t * int) list) ->
+  (int * BadT.symbol_t * int) list ->
+  Cil.fundec list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"badPDA.ml" 117 5025 5067 "badPDA.ml" 117 5025 5070
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def ret "badPDA.ml" 117 5025 5071 "badPDA.ml" 119 5139 5182
+)
+"badPDA.ml" 117 5025 5071 "badPDA.ml" 117 5025 5075
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "badPDA.ml" 118 5079 5083 "badPDA.ml" 119 5139 5182
+)
+"badPDA.ml" 118 5079 5087 "badPDA.ml" 118 5079 5088
+type(
+  int
+)
+"badPDA.ml" 118 5079 5090 "badPDA.ml" 118 5079 5099
+type(
+  int
+)
+ident(
+  def last_stid "badPDA.ml" 119 5139 5143 "badPDA.ml" 119 5139 5182
+)
+"badPDA.ml" 118 5079 5087 "badPDA.ml" 118 5079 5099
+type(
+  int * int
+)
+"badPDA.ml" 118 5079 5102 "badPDA.ml" 118 5079 5130
+type(
+  Cil.fundec -> int * int
+)
+ident(
+  ext_ref BadUtil.first_and_last_stids
+)
+"badPDA.ml" 118 5079 5131 "badPDA.ml" 118 5079 5135
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badPDA.ml" 117 5025 5071 "badPDA.ml" 117 5025 5075
+)
+"badPDA.ml" 118 5079 5102 "badPDA.ml" 118 5079 5135
+call(
+  stack
+)
+type(
+  int * int
+)
+"badPDA.ml" 119 5139 5144 "badPDA.ml" 119 5139 5153
+type(
+  int
+)
+ident(
+  int_ref last_stid "badPDA.ml" 118 5079 5090 "badPDA.ml" 118 5079 5099
+)
+"badPDA.ml" 119 5139 5155 "badPDA.ml" 119 5139 5167
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 119 5139 5169 "badPDA.ml" 119 5139 5176
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 116 4994 5000 "badPDA.ml" 116 4994 5007
+)
+"badPDA.ml" 119 5139 5143 "badPDA.ml" 119 5139 5177
+type(
+  int * BadT.symbol_t * int
+)
+"badPDA.ml" 119 5139 5179 "badPDA.ml" 119 5139 5182
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref ret "badPDA.ml" 117 5025 5067 "badPDA.ml" 117 5025 5070
+)
+"badPDA.ml" 119 5139 5143 "badPDA.ml" 119 5139 5182
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 118 5079 5083 "badPDA.ml" 119 5139 5182
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 117 5025 5062 "badPDA.ml" 119 5139 5183
+type(
+  (int * BadT.symbol_t * int) list ->
+  Cil.fundec -> (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 119 5139 5184 "badPDA.ml" 119 5139 5186
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 119 5139 5187 "badPDA.ml" 119 5139 5194
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fundecs "badPDA.ml" 115 4941 4977 "badPDA.ml" 115 4941 4984
+)
+"badPDA.ml" 117 5025 5047 "badPDA.ml" 119 5139 5194
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 120 5198 5204 "badPDA.ml" 120 5198 5219
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def pop_transitions "badPDA.ml" 122 5301 5303 "badPDA.ml" 122 5301 5342
+)
+"badPDA.ml" 120 5198 5222 "badPDA.ml" 120 5198 5234
+type(
+  (int -> int * BadT.symbol_t * int) ->
+  int list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.rev_map
+)
+"badPDA.ml" 120 5198 5240 "badPDA.ml" 120 5198 5246
+type(
+  int
+)
+ident(
+  def return "badPDA.ml" 121 5250 5254 "badPDA.ml" 121 5250 5288
+)
+"badPDA.ml" 121 5250 5255 "badPDA.ml" 121 5250 5262
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 116 4994 5000 "badPDA.ml" 116 4994 5007
+)
+"badPDA.ml" 121 5250 5273 "badPDA.ml" 121 5250 5279
+type(
+  int
+)
+ident(
+  int_ref return "badPDA.ml" 120 5198 5240 "badPDA.ml" 120 5198 5246
+)
+"badPDA.ml" 121 5250 5264 "badPDA.ml" 121 5250 5279
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 121 5250 5281 "badPDA.ml" 121 5250 5287
+type(
+  int
+)
+ident(
+  int_ref return "badPDA.ml" 120 5198 5240 "badPDA.ml" 120 5198 5246
+)
+"badPDA.ml" 121 5250 5254 "badPDA.ml" 121 5250 5288
+type(
+  int * BadT.symbol_t * int
+)
+"badPDA.ml" 120 5198 5235 "badPDA.ml" 121 5250 5289
+type(
+  int -> int * BadT.symbol_t * int
+)
+"badPDA.ml" 121 5250 5290 "badPDA.ml" 121 5250 5297
+type(
+  int list
+)
+ident(
+  int_ref returns "badPDA.ml" 115 4941 4969 "badPDA.ml" 115 4941 4976
+)
+"badPDA.ml" 120 5198 5222 "badPDA.ml" 121 5250 5297
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 122 5301 5303 "badPDA.ml" 122 5301 5316
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref last_epsilons "badPDA.ml" 117 5025 5031 "badPDA.ml" 117 5025 5044
+)
+"badPDA.ml" 122 5301 5318 "badPDA.ml" 122 5301 5333
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref pop_transitions "badPDA.ml" 120 5198 5204 "badPDA.ml" 120 5198 5219
+)
+"badPDA.ml" 122 5301 5335 "badPDA.ml" 122 5301 5342
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 116 4994 5000 "badPDA.ml" 116 4994 5007
+)
+"badPDA.ml" 122 5301 5303 "badPDA.ml" 122 5301 5342
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list * int
+)
+"badPDA.ml" 120 5198 5200 "badPDA.ml" 122 5301 5342
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list * int
+)
+"badPDA.ml" 117 5025 5027 "badPDA.ml" 122 5301 5342
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list * int
+)
+"badPDA.ml" 116 4994 4996 "badPDA.ml" 122 5301 5342
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list * int
+)
+"badPDA.ml" 126 5407 5411 "badPDA.ml" 126 5407 5436
+type(
+  'a list ->
+  int list ->
+  int ->
+  ('a * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+ident(
+  def epsilon_final_transitions "badPDA.ml" 137 5894 5894 "badPDA.ml" 1 0 -1
+)
+"badPDA.ml" 126 5407 5437 "badPDA.ml" 126 5407 5443
+type(
+  'a list
+)
+ident(
+  def finals "badPDA.ml" 126 5407 5444 "badPDA.ml" 132 5707 5755
+)
+"badPDA.ml" 126 5407 5444 "badPDA.ml" 126 5407 5451
+type(
+  int list
+)
+ident(
+  def returns "badPDA.ml" 126 5407 5452 "badPDA.ml" 132 5707 5755
+)
+"badPDA.ml" 126 5407 5452 "badPDA.ml" 126 5407 5458
+type(
+  int
+)
+ident(
+  def stmtid "badPDA.ml" 127 5461 5463 "badPDA.ml" 132 5707 5755
+)
+"badPDA.ml" 127 5461 5467 "badPDA.ml" 127 5461 5474
+type(
+  int
+)
+ident(
+  def stmtid' "badPDA.ml" 128 5492 5494 "badPDA.ml" 132 5707 5755
+)
+"badPDA.ml" 127 5461 5477 "badPDA.ml" 127 5461 5481
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"badPDA.ml" 127 5461 5482 "badPDA.ml" 127 5461 5488
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 126 5407 5452 "badPDA.ml" 126 5407 5458
+)
+"badPDA.ml" 127 5461 5477 "badPDA.ml" 127 5461 5488
+type(
+  int
+)
+"badPDA.ml" 128 5492 5498 "badPDA.ml" 128 5492 5512
+type(
+  ('a * BadT.symbol_t * int) list
+)
+ident(
+  def final_epsilons "badPDA.ml" 130 5588 5590 "badPDA.ml" 132 5707 5755
+)
+"badPDA.ml" 128 5492 5515 "badPDA.ml" 128 5492 5527
+type(
+  ('a -> 'a * BadT.symbol_t * int) ->
+  'a list -> ('a * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.rev_map
+)
+"badPDA.ml" 128 5492 5533 "badPDA.ml" 128 5492 5538
+type(
+  'a
+)
+ident(
+  def final "badPDA.ml" 129 5542 5546 "badPDA.ml" 129 5542 5576
+)
+"badPDA.ml" 129 5542 5547 "badPDA.ml" 129 5542 5552
+type(
+  'a
+)
+ident(
+  int_ref final "badPDA.ml" 128 5492 5533 "badPDA.ml" 128 5492 5538
+)
+"badPDA.ml" 129 5542 5554 "badPDA.ml" 129 5542 5566
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 129 5542 5568 "badPDA.ml" 129 5542 5575
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 127 5461 5467 "badPDA.ml" 127 5461 5474
+)
+"badPDA.ml" 129 5542 5546 "badPDA.ml" 129 5542 5576
+type(
+  'a * BadT.symbol_t * int
+)
+"badPDA.ml" 128 5492 5528 "badPDA.ml" 129 5542 5577
+type(
+  'a -> 'a * BadT.symbol_t * int
+)
+"badPDA.ml" 129 5542 5578 "badPDA.ml" 129 5542 5584
+type(
+  'a list
+)
+ident(
+  int_ref finals "badPDA.ml" 126 5407 5437 "badPDA.ml" 126 5407 5443
+)
+"badPDA.ml" 128 5492 5515 "badPDA.ml" 129 5542 5584
+call(
+  stack
+)
+type(
+  ('a * BadT.symbol_t * int) list
+)
+"badPDA.ml" 130 5588 5594 "badPDA.ml" 130 5588 5604
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def final_pops "badPDA.ml" 132 5707 5709 "badPDA.ml" 132 5707 5755
+)
+"badPDA.ml" 130 5588 5607 "badPDA.ml" 130 5588 5621
+type(
+  ((int * BadT.symbol_t * int) list ->
+   int -> (int * BadT.symbol_t * int) list) ->
+  (int * BadT.symbol_t * int) list ->
+  int list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"badPDA.ml" 130 5588 5627 "badPDA.ml" 130 5588 5630
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def ret "badPDA.ml" 130 5588 5631 "badPDA.ml" 131 5641 5685
+)
+"badPDA.ml" 130 5588 5631 "badPDA.ml" 130 5588 5637
+type(
+  int
+)
+ident(
+  def return "badPDA.ml" 131 5641 5645 "badPDA.ml" 131 5641 5685
+)
+"badPDA.ml" 131 5641 5646 "badPDA.ml" 131 5641 5653
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 127 5461 5467 "badPDA.ml" 127 5461 5474
+)
+"badPDA.ml" 131 5641 5664 "badPDA.ml" 131 5641 5670
+type(
+  int
+)
+ident(
+  int_ref return "badPDA.ml" 130 5588 5631 "badPDA.ml" 130 5588 5637
+)
+"badPDA.ml" 131 5641 5655 "badPDA.ml" 131 5641 5670
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 131 5641 5672 "badPDA.ml" 131 5641 5679
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 127 5461 5467 "badPDA.ml" 127 5461 5474
+)
+"badPDA.ml" 131 5641 5645 "badPDA.ml" 131 5641 5680
+type(
+  int * BadT.symbol_t * int
+)
+"badPDA.ml" 131 5641 5682 "badPDA.ml" 131 5641 5685
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref ret "badPDA.ml" 130 5588 5627 "badPDA.ml" 130 5588 5630
+)
+"badPDA.ml" 131 5641 5645 "badPDA.ml" 131 5641 5685
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 130 5588 5622 "badPDA.ml" 131 5641 5686
+type(
+  (int * BadT.symbol_t * int) list -> int -> (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 131 5641 5687 "badPDA.ml" 131 5641 5689
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 131 5641 5691 "badPDA.ml" 131 5641 5693
+type(
+  int
+)
+"badPDA.ml" 131 5641 5695 "badPDA.ml" 131 5641 5702
+type(
+  int list
+)
+ident(
+  int_ref returns "badPDA.ml" 126 5407 5444 "badPDA.ml" 126 5407 5451
+)
+"badPDA.ml" 131 5641 5690 "badPDA.ml" 131 5641 5703
+type(
+  int list
+)
+"badPDA.ml" 130 5588 5607 "badPDA.ml" 131 5641 5703
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 132 5707 5709 "badPDA.ml" 132 5707 5723
+type(
+  ('a * BadT.symbol_t * int) list
+)
+ident(
+  int_ref final_epsilons "badPDA.ml" 128 5492 5498 "badPDA.ml" 128 5492 5512
+)
+"badPDA.ml" 132 5707 5725 "badPDA.ml" 132 5707 5735
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref final_pops "badPDA.ml" 130 5588 5594 "badPDA.ml" 130 5588 5604
+)
+"badPDA.ml" 132 5707 5738 "badPDA.ml" 132 5707 5745
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 127 5461 5467 "badPDA.ml" 127 5461 5474
+)
+"badPDA.ml" 132 5707 5737 "badPDA.ml" 132 5707 5746
+type(
+  int list
+)
+"badPDA.ml" 132 5707 5748 "badPDA.ml" 132 5707 5755
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 127 5461 5467 "badPDA.ml" 127 5461 5474
+)
+"badPDA.ml" 132 5707 5709 "badPDA.ml" 132 5707 5755
+type(
+  ('a * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"badPDA.ml" 130 5588 5590 "badPDA.ml" 132 5707 5755
+type(
+  ('a * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"badPDA.ml" 128 5492 5494 "badPDA.ml" 132 5707 5755
+type(
+  ('a * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"badPDA.ml" 127 5461 5463 "badPDA.ml" 132 5707 5755
+type(
+  ('a * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"badPDA.ml" 137 5894 5898 "badPDA.ml" 137 5894 5917
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  Cil.fundec list -> int -> (int * BadT.symbol_t * int) list * int list * int
+)
+ident(
+  def compute_transitions "badPDA.ml" 155 6704 6704 "badPDA.ml" 1 0 -1
+)
+"badPDA.ml" 137 5894 5918 "badPDA.ml" 137 5894 5927
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  def fdec_hash "badPDA.ml" 137 5894 5928 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 137 5894 5928 "badPDA.ml" 137 5894 5935
+type(
+  Cil.fundec list
+)
+ident(
+  def fundecs "badPDA.ml" 137 5894 5936 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 137 5894 5936 "badPDA.ml" 137 5894 5942
+type(
+  int
+)
+ident(
+  def stmtid "badPDA.ml" 138 5945 5947 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 138 5945 5951 "badPDA.ml" 138 5945 5972
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int ->
+  Cil.fundec ->
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+ident(
+  def compute_transitions_h "badPDA.ml" 142 6146 6148 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 138 5945 5974 "badPDA.ml" 138 5945 5977
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  def res "badPDA.ml" 138 5945 5995 "badPDA.ml" 141 6103 6142
+)
+"badPDA.ml" 138 5945 5979 "badPDA.ml" 138 5945 5982
+type(
+  int list
+)
+ident(
+  def fin "badPDA.ml" 138 5945 5995 "badPDA.ml" 141 6103 6142
+)
+"badPDA.ml" 138 5945 5984 "badPDA.ml" 138 5945 5987
+type(
+  int list
+)
+ident(
+  def ret "badPDA.ml" 138 5945 5995 "badPDA.ml" 141 6103 6142
+)
+"badPDA.ml" 138 5945 5989 "badPDA.ml" 138 5945 5993
+type(
+  int
+)
+ident(
+  def stid "badPDA.ml" 138 5945 5995 "badPDA.ml" 141 6103 6142
+)
+"badPDA.ml" 138 5945 5973 "badPDA.ml" 138 5945 5994
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"badPDA.ml" 138 5945 5995 "badPDA.ml" 138 5945 5999
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "badPDA.ml" 139 6002 6006 "badPDA.ml" 141 6103 6142
+)
+"badPDA.ml" 139 6002 6010 "badPDA.ml" 139 6002 6021
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def transitions "badPDA.ml" 141 6103 6107 "badPDA.ml" 141 6103 6142
+)
+"badPDA.ml" 139 6002 6023 "badPDA.ml" 139 6002 6027
+type(
+  int list
+)
+ident(
+  def fin' "badPDA.ml" 141 6103 6107 "badPDA.ml" 141 6103 6142
+)
+"badPDA.ml" 139 6002 6029 "badPDA.ml" 139 6002 6033
+type(
+  int list
+)
+ident(
+  def ret' "badPDA.ml" 141 6103 6107 "badPDA.ml" 141 6103 6142
+)
+"badPDA.ml" 139 6002 6035 "badPDA.ml" 139 6002 6040
+type(
+  int
+)
+ident(
+  def stid' "badPDA.ml" 141 6103 6107 "badPDA.ml" 141 6103 6142
+)
+"badPDA.ml" 139 6002 6010 "badPDA.ml" 139 6002 6040
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 140 6044 6050 "badPDA.ml" 140 6044 6071
+type(
+  (string, Cil.fundec) Hashtbl.t ->
+  int list ->
+  int list ->
+  Cil.fundec ->
+  int -> (int * BadT.symbol_t * int) list * int list * int list * int
+)
+ident(
+  int_ref fundec_to_transitions "badPDA.ml" 103 4382 4386 "badPDA.ml" 103 4382 4407
+)
+"badPDA.ml" 140 6044 6072 "badPDA.ml" 140 6044 6081
+type(
+  (string, Cil.fundec) Hashtbl.t
+)
+ident(
+  int_ref fdec_hash "badPDA.ml" 137 5894 5918 "badPDA.ml" 137 5894 5927
+)
+"badPDA.ml" 140 6044 6082 "badPDA.ml" 140 6044 6085
+type(
+  int list
+)
+ident(
+  int_ref fin "badPDA.ml" 138 5945 5979 "badPDA.ml" 138 5945 5982
+)
+"badPDA.ml" 140 6044 6086 "badPDA.ml" 140 6044 6089
+type(
+  int list
+)
+ident(
+  int_ref ret "badPDA.ml" 138 5945 5984 "badPDA.ml" 138 5945 5987
+)
+"badPDA.ml" 140 6044 6090 "badPDA.ml" 140 6044 6094
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "badPDA.ml" 138 5945 5995 "badPDA.ml" 138 5945 5999
+)
+"badPDA.ml" 140 6044 6095 "badPDA.ml" 140 6044 6099
+type(
+  int
+)
+ident(
+  int_ref stid "badPDA.ml" 138 5945 5989 "badPDA.ml" 138 5945 5993
+)
+"badPDA.ml" 140 6044 6050 "badPDA.ml" 140 6044 6099
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * int list * int list * int
+)
+"badPDA.ml" 141 6103 6107 "badPDA.ml" 141 6103 6118
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref transitions "badPDA.ml" 139 6002 6010 "badPDA.ml" 139 6002 6021
+)
+"badPDA.ml" 141 6103 6120 "badPDA.ml" 141 6103 6123
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  int_ref res "badPDA.ml" 138 5945 5974 "badPDA.ml" 138 5945 5977
+)
+"badPDA.ml" 141 6103 6107 "badPDA.ml" 141 6103 6123
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badPDA.ml" 141 6103 6125 "badPDA.ml" 141 6103 6129
+type(
+  int list
+)
+ident(
+  int_ref fin' "badPDA.ml" 139 6002 6023 "badPDA.ml" 139 6002 6027
+)
+"badPDA.ml" 141 6103 6131 "badPDA.ml" 141 6103 6135
+type(
+  int list
+)
+ident(
+  int_ref ret' "badPDA.ml" 139 6002 6029 "badPDA.ml" 139 6002 6033
+)
+"badPDA.ml" 141 6103 6137 "badPDA.ml" 141 6103 6142
+type(
+  int
+)
+ident(
+  int_ref stid' "badPDA.ml" 139 6002 6035 "badPDA.ml" 139 6002 6040
+)
+"badPDA.ml" 141 6103 6107 "badPDA.ml" 141 6103 6142
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"badPDA.ml" 139 6002 6006 "badPDA.ml" 141 6103 6142
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"badPDA.ml" 142 6146 6152 "badPDA.ml" 142 6146 6164
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  def transitionss "badPDA.ml" 144 6267 6269 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 142 6146 6166 "badPDA.ml" 142 6146 6172
+type(
+  int list
+)
+ident(
+  def finals "badPDA.ml" 144 6267 6269 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 142 6146 6174 "badPDA.ml" 142 6146 6181
+type(
+  int list
+)
+ident(
+  def returns "badPDA.ml" 144 6267 6269 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 142 6146 6183 "badPDA.ml" 142 6146 6190
+type(
+  int
+)
+ident(
+  def stmtid' "badPDA.ml" 144 6267 6269 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 142 6146 6152 "badPDA.ml" 142 6146 6190
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"badPDA.ml" 143 6194 6198 "badPDA.ml" 143 6194 6212
+type(
+  ((int * BadT.symbol_t * int) list list * int list * int list * int ->
+   Cil.fundec ->
+   (int * BadT.symbol_t * int) list list * int list * int list * int) ->
+  (int * BadT.symbol_t * int) list list * int list * int list * int ->
+  Cil.fundec list ->
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"badPDA.ml" 143 6194 6213 "badPDA.ml" 143 6194 6234
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int ->
+  Cil.fundec ->
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+ident(
+  int_ref compute_transitions_h "badPDA.ml" 138 5945 5951 "badPDA.ml" 138 5945 5972
+)
+"badPDA.ml" 143 6194 6236 "badPDA.ml" 143 6194 6238
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badPDA.ml" 143 6194 6240 "badPDA.ml" 143 6194 6242
+type(
+  int list
+)
+"badPDA.ml" 143 6194 6244 "badPDA.ml" 143 6194 6246
+type(
+  int list
+)
+"badPDA.ml" 143 6194 6248 "badPDA.ml" 143 6194 6254
+type(
+  int
+)
+ident(
+  int_ref stmtid "badPDA.ml" 137 5894 5936 "badPDA.ml" 137 5894 5942
+)
+"badPDA.ml" 143 6194 6235 "badPDA.ml" 143 6194 6255
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"badPDA.ml" 143 6194 6256 "badPDA.ml" 143 6194 6263
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fundecs "badPDA.ml" 137 5894 5928 "badPDA.ml" 137 5894 5935
+)
+"badPDA.ml" 143 6194 6198 "badPDA.ml" 143 6194 6263
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list list * int list * int list * int
+)
+"badPDA.ml" 144 6267 6273 "badPDA.ml" 144 6267 6286
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def last_epsilons "badPDA.ml" 146 6371 6373 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 144 6267 6288 "badPDA.ml" 144 6267 6303
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def pop_transitions "badPDA.ml" 146 6371 6373 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 144 6267 6305 "badPDA.ml" 144 6267 6313
+type(
+  int
+)
+ident(
+  def stmtid'' "badPDA.ml" 146 6371 6373 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 144 6267 6273 "badPDA.ml" 144 6267 6313
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list * int
+)
+"badPDA.ml" 145 6316 6320 "badPDA.ml" 145 6316 6343
+type(
+  int list ->
+  Cil.fundec list ->
+  int ->
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list * int
+)
+ident(
+  int_ref epsilon_pop_transitions "badPDA.ml" 115 4941 4945 "badPDA.ml" 115 4941 4968
+)
+"badPDA.ml" 145 6316 6344 "badPDA.ml" 145 6316 6351
+type(
+  int list
+)
+ident(
+  int_ref returns "badPDA.ml" 142 6146 6174 "badPDA.ml" 142 6146 6181
+)
+"badPDA.ml" 145 6316 6352 "badPDA.ml" 145 6316 6359
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fundecs "badPDA.ml" 137 5894 5928 "badPDA.ml" 137 5894 5935
+)
+"badPDA.ml" 145 6316 6360 "badPDA.ml" 145 6316 6367
+type(
+  int
+)
+ident(
+  int_ref stmtid' "badPDA.ml" 142 6146 6183 "badPDA.ml" 142 6146 6190
+)
+"badPDA.ml" 145 6316 6320 "badPDA.ml" 145 6316 6367
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list * int
+)
+"badPDA.ml" 146 6371 6377 "badPDA.ml" 146 6371 6391
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def final_epsilons "badPDA.ml" 148 6485 6487 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 146 6371 6393 "badPDA.ml" 146 6371 6403
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def final_pops "badPDA.ml" 148 6485 6487 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 146 6371 6405 "badPDA.ml" 146 6371 6412
+type(
+  int list
+)
+ident(
+  def finals' "badPDA.ml" 148 6485 6487 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 146 6371 6414 "badPDA.ml" 146 6371 6425
+type(
+  int
+)
+ident(
+  def last_stmtid "badPDA.ml" 148 6485 6487 "badPDA.ml" 150 6582 6604
+)
+"badPDA.ml" 146 6371 6377 "badPDA.ml" 146 6371 6425
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"badPDA.ml" 147 6428 6432 "badPDA.ml" 147 6428 6457
+type(
+  int list ->
+  int list ->
+  int ->
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+ident(
+  int_ref epsilon_final_transitions "badPDA.ml" 126 5407 5411 "badPDA.ml" 126 5407 5436
+)
+"badPDA.ml" 147 6428 6458 "badPDA.ml" 147 6428 6464
+type(
+  int list
+)
+ident(
+  int_ref finals "badPDA.ml" 142 6146 6166 "badPDA.ml" 142 6146 6172
+)
+"badPDA.ml" 147 6428 6465 "badPDA.ml" 147 6428 6472
+type(
+  int list
+)
+ident(
+  int_ref returns "badPDA.ml" 142 6146 6174 "badPDA.ml" 142 6146 6181
+)
+"badPDA.ml" 147 6428 6473 "badPDA.ml" 147 6428 6481
+type(
+  int
+)
+ident(
+  int_ref stmtid'' "badPDA.ml" 144 6267 6305 "badPDA.ml" 144 6267 6313
+)
+"badPDA.ml" 147 6428 6432 "badPDA.ml" 147 6428 6481
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list * (int * BadT.symbol_t * int) list *
+  int list * int
+)
+"badPDA.ml" 148 6485 6487 "badPDA.ml" 148 6485 6499
+type(
+  (int * BadT.symbol_t * int) list list -> (int * BadT.symbol_t * int) list
+)
+ident(
+  ext_ref List.flatten
+)
+"badPDA.ml" 149 6501 6506 "badPDA.ml" 149 6501 6520
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref final_epsilons "badPDA.ml" 146 6371 6377 "badPDA.ml" 146 6371 6391
+)
+"badPDA.ml" 149 6501 6522 "badPDA.ml" 149 6501 6532
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref final_pops "badPDA.ml" 146 6371 6393 "badPDA.ml" 146 6371 6403
+)
+"badPDA.ml" 149 6501 6534 "badPDA.ml" 149 6501 6547
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref last_epsilons "badPDA.ml" 144 6267 6273 "badPDA.ml" 144 6267 6286
+)
+"badPDA.ml" 149 6501 6549 "badPDA.ml" 149 6501 6564
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref pop_transitions "badPDA.ml" 144 6267 6288 "badPDA.ml" 144 6267 6303
+)
+"badPDA.ml" 149 6501 6566 "badPDA.ml" 149 6501 6578
+type(
+  (int * BadT.symbol_t * int) list list
+)
+ident(
+  int_ref transitionss "badPDA.ml" 142 6146 6152 "badPDA.ml" 142 6146 6164
+)
+"badPDA.ml" 149 6501 6549 "badPDA.ml" 149 6501 6578
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badPDA.ml" 149 6501 6534 "badPDA.ml" 149 6501 6578
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badPDA.ml" 149 6501 6522 "badPDA.ml" 149 6501 6578
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badPDA.ml" 149 6501 6505 "badPDA.ml" 149 6501 6579
+type(
+  (int * BadT.symbol_t * int) list list
+)
+"badPDA.ml" 148 6485 6487 "badPDA.ml" 149 6501 6579
+call(
+  stack
+)
+type(
+  (int * BadT.symbol_t * int) list
+)
+"badPDA.ml" 150 6582 6584 "badPDA.ml" 150 6582 6591
+type(
+  int list
+)
+ident(
+  int_ref finals' "badPDA.ml" 146 6371 6405 "badPDA.ml" 146 6371 6412
+)
+"badPDA.ml" 150 6582 6593 "badPDA.ml" 150 6582 6604
+type(
+  int
+)
+ident(
+  int_ref last_stmtid "badPDA.ml" 146 6371 6414 "badPDA.ml" 146 6371 6425
+)
+"badPDA.ml" 148 6485 6487 "badPDA.ml" 150 6582 6604
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badPDA.ml" 146 6371 6373 "badPDA.ml" 150 6582 6604
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badPDA.ml" 144 6267 6269 "badPDA.ml" 150 6582 6604
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badPDA.ml" 142 6146 6148 "badPDA.ml" 150 6582 6604
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badPDA.ml" 138 5945 5947 "badPDA.ml" 150 6582 6604
+type(
+  (int * BadT.symbol_t * int) list * int list * int
+)
+"badPDA.ml" 155 6704 6708 "badPDA.ml" 155 6704 6717
+type(
+  'a -> int list -> int list -> (int * BadT.symbol_t * int) list -> unit
+)
+ident(
+  def print_pda "badPDA.ml" 176 7718 7722 "badPDA.ml" 1 0 -1
+)
+"badPDA.ml" 155 6704 6718 "badPDA.ml" 155 6704 6728
+type(
+  'a
+)
+ident(
+  def max_stmtid "badPDA.ml" 155 6704 6729 "badPDA.ml" 176 7718 7722
+)
+"badPDA.ml" 155 6704 6729 "badPDA.ml" 155 6704 6743
+type(
+  int list
+)
+ident(
+  def initial_states "badPDA.ml" 155 6704 6744 "badPDA.ml" 176 7718 7722
+)
+"badPDA.ml" 155 6704 6744 "badPDA.ml" 155 6704 6756
+type(
+  int list
+)
+ident(
+  def final_states "badPDA.ml" 155 6704 6757 "badPDA.ml" 176 7718 7722
+)
+"badPDA.ml" 155 6704 6757 "badPDA.ml" 155 6704 6768
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  def transitions "badPDA.ml" 156 6771 6773 "badPDA.ml" 176 7718 7722
+)
+"badPDA.ml" 156 6771 6777 "badPDA.ml" 156 6771 6778
+type(
+  unit
+)
+"badPDA.ml" 156 6771 6781 "badPDA.ml" 156 6771 6794
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badPDA.ml" 156 6771 6795 "badPDA.ml" 156 6771 6814
+type(
+  string
+)
+"badPDA.ml" 156 6771 6781 "badPDA.ml" 156 6771 6814
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 157 6818 6824 "badPDA.ml" 157 6818 6825
+type(
+  unit
+)
+"badPDA.ml" 157 6818 6836 "badPDA.ml" 157 6818 6847
+type(
+  int list -> int
+)
+ident(
+  ext_ref List.length
+)
+"badPDA.ml" 157 6818 6848 "badPDA.ml" 157 6818 6862
+type(
+  int list
+)
+ident(
+  int_ref initial_states "badPDA.ml" 155 6704 6729 "badPDA.ml" 155 6704 6743
+)
+"badPDA.ml" 157 6818 6836 "badPDA.ml" 157 6818 6862
+call(
+  stack
+)
+type(
+  int
+)
+"badPDA.ml" 157 6818 6863 "badPDA.ml" 157 6818 6864
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"badPDA.ml" 157 6818 6865 "badPDA.ml" 157 6818 6866
+type(
+  int
+)
+"badPDA.ml" 157 6818 6835 "badPDA.ml" 157 6818 6867
+type(
+  bool
+)
+"badPDA.ml" 157 6818 6828 "badPDA.ml" 157 6818 6867
+type(
+  unit
+)
+"badPDA.ml" 158 6871 6877 "badPDA.ml" 158 6871 6878
+type(
+  unit
+)
+"badPDA.ml" 158 6871 6881 "badPDA.ml" 158 6871 6890
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badPDA.ml" 158 6871 6892 "badPDA.ml" 158 6871 6899
+type(
+  int list -> int
+)
+ident(
+  ext_ref List.hd
+)
+"badPDA.ml" 158 6871 6900 "badPDA.ml" 158 6871 6914
+type(
+  int list
+)
+ident(
+  int_ref initial_states "badPDA.ml" 155 6704 6729 "badPDA.ml" 155 6704 6743
+)
+"badPDA.ml" 158 6871 6891 "badPDA.ml" 158 6871 6915
+call(
+  stack
+)
+type(
+  int
+)
+"badPDA.ml" 158 6871 6881 "badPDA.ml" 158 6871 6915
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 158 6871 6917 "badPDA.ml" 158 6871 6930
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"badPDA.ml" 158 6871 6931 "badPDA.ml" 158 6871 6933
+type(
+  unit
+)
+"badPDA.ml" 158 6871 6917 "badPDA.ml" 158 6871 6933
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 158 6871 6881 "badPDA.ml" 158 6871 6933
+type(
+  unit
+)
+"badPDA.ml" 159 6937 6943 "badPDA.ml" 159 6937 6944
+type(
+  unit
+)
+"badPDA.ml" 159 6937 6947 "badPDA.ml" 159 6937 6960
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badPDA.ml" 159 6937 6961 "badPDA.ml" 159 6937 6979
+type(
+  string
+)
+"badPDA.ml" 159 6937 6947 "badPDA.ml" 159 6937 6979
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 160 6983 6989 "badPDA.ml" 160 6983 6990
+type(
+  unit
+)
+"badPDA.ml" 160 6983 6999 "badPDA.ml" 160 6983 7011
+type(
+  int list
+)
+ident(
+  int_ref final_states "badPDA.ml" 155 6704 6744 "badPDA.ml" 155 6704 6756
+)
+"badPDA.ml" 161 7017 7029 "badPDA.ml" 161 7017 7031
+type(
+  int list
+)
+"badPDA.ml" 161 7017 7035 "badPDA.ml" 161 7017 7048
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"badPDA.ml" 161 7017 7049 "badPDA.ml" 161 7017 7051
+type(
+  unit
+)
+"badPDA.ml" 161 7017 7035 "badPDA.ml" 161 7017 7051
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 162 7052 7065 "badPDA.ml" 162 7052 7066
+type(
+  int
+)
+ident(
+  def f "badPDA.ml" 162 7052 7071 "badPDA.ml" 162 7052 7100
+)
+"badPDA.ml" 162 7052 7064 "badPDA.ml" 162 7052 7067
+type(
+  int list
+)
+"badPDA.ml" 162 7052 7071 "badPDA.ml" 162 7052 7080
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badPDA.ml" 162 7052 7081 "badPDA.ml" 162 7052 7082
+type(
+  int
+)
+ident(
+  int_ref f "badPDA.ml" 162 7052 7065 "badPDA.ml" 162 7052 7066
+)
+"badPDA.ml" 162 7052 7071 "badPDA.ml" 162 7052 7082
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 162 7052 7084 "badPDA.ml" 162 7052 7097
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"badPDA.ml" 162 7052 7098 "badPDA.ml" 162 7052 7100
+type(
+  unit
+)
+"badPDA.ml" 162 7052 7084 "badPDA.ml" 162 7052 7100
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 162 7052 7071 "badPDA.ml" 162 7052 7100
+type(
+  unit
+)
+"badPDA.ml" 163 7101 7113 "badPDA.ml" 163 7101 7114
+type(
+  int
+)
+ident(
+  def f "badPDA.ml" 163 7101 7122 "badPDA.ml" 165 7214 7251
+)
+"badPDA.ml" 163 7101 7116 "badPDA.ml" 163 7101 7118
+type(
+  int list
+)
+ident(
+  def fs "badPDA.ml" 163 7101 7122 "badPDA.ml" 165 7214 7251
+)
+"badPDA.ml" 163 7101 7113 "badPDA.ml" 163 7101 7118
+type(
+  int list
+)
+"badPDA.ml" 163 7101 7122 "badPDA.ml" 163 7101 7131
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badPDA.ml" 163 7101 7132 "badPDA.ml" 163 7101 7133
+type(
+  int
+)
+ident(
+  int_ref f "badPDA.ml" 163 7101 7113 "badPDA.ml" 163 7101 7114
+)
+"badPDA.ml" 163 7101 7122 "badPDA.ml" 163 7101 7133
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 164 7136 7157 "badPDA.ml" 164 7136 7166
+type(
+  (int -> unit) -> int list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"badPDA.ml" 164 7136 7172 "badPDA.ml" 164 7136 7174
+type(
+  int
+)
+ident(
+  def ff "badPDA.ml" 164 7136 7178 "badPDA.ml" 164 7136 7208
+)
+"badPDA.ml" 164 7136 7178 "badPDA.ml" 164 7136 7190
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badPDA.ml" 164 7136 7191 "badPDA.ml" 164 7136 7194
+type(
+  string
+)
+"badPDA.ml" 164 7136 7178 "badPDA.ml" 164 7136 7194
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 164 7136 7196 "badPDA.ml" 164 7136 7205
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badPDA.ml" 164 7136 7206 "badPDA.ml" 164 7136 7208
+type(
+  int
+)
+ident(
+  int_ref ff "badPDA.ml" 164 7136 7172 "badPDA.ml" 164 7136 7174
+)
+"badPDA.ml" 164 7136 7196 "badPDA.ml" 164 7136 7208
+call(
+  tail
+)
+type(
+  unit
+)
+"badPDA.ml" 164 7136 7178 "badPDA.ml" 164 7136 7208
+type(
+  unit
+)
+"badPDA.ml" 164 7136 7167 "badPDA.ml" 164 7136 7209
+type(
+  int -> unit
+)
+"badPDA.ml" 164 7136 7210 "badPDA.ml" 164 7136 7212
+type(
+  int list
+)
+ident(
+  int_ref fs "badPDA.ml" 163 7101 7116 "badPDA.ml" 163 7101 7118
+)
+"badPDA.ml" 164 7136 7157 "badPDA.ml" 164 7136 7212
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 165 7214 7235 "badPDA.ml" 165 7214 7248
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"badPDA.ml" 165 7214 7249 "badPDA.ml" 165 7214 7251
+type(
+  unit
+)
+"badPDA.ml" 165 7214 7235 "badPDA.ml" 165 7214 7251
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 164 7136 7157 "badPDA.ml" 165 7214 7251
+type(
+  unit
+)
+"badPDA.ml" 163 7101 7122 "badPDA.ml" 165 7214 7251
+type(
+  unit
+)
+"badPDA.ml" 160 6983 6993 "badPDA.ml" 165 7214 7251
+type(
+  unit
+)
+"badPDA.ml" 166 7255 7261 "badPDA.ml" 166 7255 7262
+type(
+  unit
+)
+"badPDA.ml" 166 7255 7265 "badPDA.ml" 166 7255 7278
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badPDA.ml" 166 7255 7279 "badPDA.ml" 166 7255 7296
+type(
+  string
+)
+"badPDA.ml" 166 7255 7265 "badPDA.ml" 166 7255 7296
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 167 7300 7306 "badPDA.ml" 167 7300 7317
+type(
+  int * BadT.symbol_t * int -> unit
+)
+ident(
+  def print_pda_h "badPDA.ml" 175 7671 7673 "badPDA.ml" 176 7718 7722
+)
+"badPDA.ml" 167 7300 7319 "badPDA.ml" 167 7300 7320
+type(
+  int
+)
+ident(
+  def f "badPDA.ml" 168 7330 7334 "badPDA.ml" 174 7596 7667
+)
+"badPDA.ml" 167 7300 7322 "badPDA.ml" 167 7300 7323
+type(
+  BadT.symbol_t
+)
+ident(
+  def l "badPDA.ml" 168 7330 7334 "badPDA.ml" 174 7596 7667
+)
+"badPDA.ml" 167 7300 7325 "badPDA.ml" 167 7300 7326
+type(
+  int
+)
+ident(
+  def t "badPDA.ml" 168 7330 7334 "badPDA.ml" 174 7596 7667
+)
+"badPDA.ml" 167 7300 7318 "badPDA.ml" 167 7300 7327
+type(
+  int * BadT.symbol_t * int
+)
+"badPDA.ml" 168 7330 7335 "badPDA.ml" 168 7330 7344
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badPDA.ml" 168 7330 7345 "badPDA.ml" 168 7330 7346
+type(
+  int
+)
+ident(
+  int_ref f "badPDA.ml" 167 7300 7319 "badPDA.ml" 167 7300 7320
+)
+"badPDA.ml" 168 7330 7335 "badPDA.ml" 168 7330 7346
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 168 7330 7348 "badPDA.ml" 168 7330 7360
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badPDA.ml" 168 7330 7361 "badPDA.ml" 168 7330 7364
+type(
+  string
+)
+"badPDA.ml" 168 7330 7348 "badPDA.ml" 168 7330 7364
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 168 7330 7366 "badPDA.ml" 168 7330 7375
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badPDA.ml" 168 7330 7376 "badPDA.ml" 168 7330 7377
+type(
+  int
+)
+ident(
+  int_ref t "badPDA.ml" 167 7300 7325 "badPDA.ml" 167 7300 7326
+)
+"badPDA.ml" 168 7330 7366 "badPDA.ml" 168 7330 7377
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 169 7379 7390 "badPDA.ml" 169 7379 7391
+type(
+  BadT.symbol_t
+)
+ident(
+  int_ref l "badPDA.ml" 167 7300 7322 "badPDA.ml" 167 7300 7323
+)
+"badPDA.ml" 170 7397 7404 "badPDA.ml" 170 7397 7416
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 170 7397 7420 "badPDA.ml" 170 7397 7433
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badPDA.ml" 170 7397 7434 "badPDA.ml" 170 7397 7440
+type(
+  string
+)
+"badPDA.ml" 170 7397 7420 "badPDA.ml" 170 7397 7440
+call(
+  tail
+)
+type(
+  unit
+)
+"badPDA.ml" 171 7441 7448 "badPDA.ml" 171 7441 7457
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 171 7441 7461 "badPDA.ml" 171 7441 7474
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badPDA.ml" 171 7441 7475 "badPDA.ml" 171 7441 7481
+type(
+  string
+)
+"badPDA.ml" 171 7441 7461 "badPDA.ml" 171 7441 7481
+call(
+  tail
+)
+type(
+  unit
+)
+"badPDA.ml" 172 7482 7489 "badPDA.ml" 172 7482 7499
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 172 7482 7503 "badPDA.ml" 172 7482 7516
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"badPDA.ml" 172 7482 7517 "badPDA.ml" 172 7482 7523
+type(
+  string
+)
+"badPDA.ml" 172 7482 7503 "badPDA.ml" 172 7482 7523
+call(
+  tail
+)
+type(
+  unit
+)
+"badPDA.ml" 173 7524 7541 "badPDA.ml" 173 7524 7542
+type(
+  int
+)
+ident(
+  def s "badPDA.ml" 173 7524 7546 "badPDA.ml" 173 7524 7595
+)
+"badPDA.ml" 173 7524 7531 "badPDA.ml" 173 7524 7542
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 173 7524 7546 "badPDA.ml" 173 7524 7558
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badPDA.ml" 173 7524 7559 "badPDA.ml" 173 7524 7564
+type(
+  string
+)
+"badPDA.ml" 173 7524 7546 "badPDA.ml" 173 7524 7564
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 173 7524 7566 "badPDA.ml" 173 7524 7575
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badPDA.ml" 173 7524 7576 "badPDA.ml" 173 7524 7577
+type(
+  int
+)
+ident(
+  int_ref s "badPDA.ml" 173 7524 7541 "badPDA.ml" 173 7524 7542
+)
+"badPDA.ml" 173 7524 7566 "badPDA.ml" 173 7524 7577
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 173 7524 7579 "badPDA.ml" 173 7524 7592
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"badPDA.ml" 173 7524 7593 "badPDA.ml" 173 7524 7595
+type(
+  unit
+)
+"badPDA.ml" 173 7524 7579 "badPDA.ml" 173 7524 7595
+call(
+  tail
+)
+type(
+  unit
+)
+"badPDA.ml" 173 7524 7566 "badPDA.ml" 173 7524 7595
+type(
+  unit
+)
+"badPDA.ml" 173 7524 7546 "badPDA.ml" 173 7524 7595
+type(
+  unit
+)
+"badPDA.ml" 174 7596 7612 "badPDA.ml" 174 7596 7613
+type(
+  int
+)
+ident(
+  def s "badPDA.ml" 174 7596 7617 "badPDA.ml" 174 7596 7666
+)
+"badPDA.ml" 174 7596 7603 "badPDA.ml" 174 7596 7613
+type(
+  BadT.symbol_t
+)
+"badPDA.ml" 174 7596 7617 "badPDA.ml" 174 7596 7629
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"badPDA.ml" 174 7596 7630 "badPDA.ml" 174 7596 7635
+type(
+  string
+)
+"badPDA.ml" 174 7596 7617 "badPDA.ml" 174 7596 7635
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 174 7596 7637 "badPDA.ml" 174 7596 7646
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"badPDA.ml" 174 7596 7647 "badPDA.ml" 174 7596 7648
+type(
+  int
+)
+ident(
+  int_ref s "badPDA.ml" 174 7596 7612 "badPDA.ml" 174 7596 7613
+)
+"badPDA.ml" 174 7596 7637 "badPDA.ml" 174 7596 7648
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 174 7596 7650 "badPDA.ml" 174 7596 7663
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"badPDA.ml" 174 7596 7664 "badPDA.ml" 174 7596 7666
+type(
+  unit
+)
+"badPDA.ml" 174 7596 7650 "badPDA.ml" 174 7596 7666
+call(
+  tail
+)
+type(
+  unit
+)
+"badPDA.ml" 174 7596 7637 "badPDA.ml" 174 7596 7666
+type(
+  unit
+)
+"badPDA.ml" 174 7596 7617 "badPDA.ml" 174 7596 7666
+type(
+  unit
+)
+"badPDA.ml" 169 7379 7384 "badPDA.ml" 174 7596 7666
+type(
+  unit
+)
+"badPDA.ml" 168 7330 7366 "badPDA.ml" 174 7596 7666
+type(
+  unit
+)
+"badPDA.ml" 168 7330 7348 "badPDA.ml" 174 7596 7666
+type(
+  unit
+)
+"badPDA.ml" 168 7330 7334 "badPDA.ml" 174 7596 7667
+type(
+  unit
+)
+"badPDA.ml" 175 7671 7677 "badPDA.ml" 175 7671 7678
+type(
+  unit
+)
+"badPDA.ml" 175 7671 7681 "badPDA.ml" 175 7671 7690
+type(
+  (int * BadT.symbol_t * int -> unit) ->
+  (int * BadT.symbol_t * int) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"badPDA.ml" 175 7671 7691 "badPDA.ml" 175 7671 7702
+type(
+  int * BadT.symbol_t * int -> unit
+)
+ident(
+  int_ref print_pda_h "badPDA.ml" 167 7300 7306 "badPDA.ml" 167 7300 7317
+)
+"badPDA.ml" 175 7671 7703 "badPDA.ml" 175 7671 7714
+type(
+  (int * BadT.symbol_t * int) list
+)
+ident(
+  int_ref transitions "badPDA.ml" 155 6704 6757 "badPDA.ml" 155 6704 6768
+)
+"badPDA.ml" 175 7671 7681 "badPDA.ml" 175 7671 7714
+call(
+  stack
+)
+type(
+  unit
+)
+"badPDA.ml" 176 7718 7720 "badPDA.ml" 176 7718 7722
+type(
+  unit
+)
+"badPDA.ml" 175 7671 7673 "badPDA.ml" 176 7718 7722
+type(
+  unit
+)
+"badPDA.ml" 167 7300 7302 "badPDA.ml" 176 7718 7722
+type(
+  unit
+)
+"badPDA.ml" 166 7255 7257 "badPDA.ml" 176 7718 7722
+type(
+  unit
+)
+"badPDA.ml" 160 6983 6985 "badPDA.ml" 176 7718 7722
+type(
+  unit
+)
+"badPDA.ml" 159 6937 6939 "badPDA.ml" 176 7718 7722
+type(
+  unit
+)
+"badPDA.ml" 158 6871 6873 "badPDA.ml" 176 7718 7722
+type(
+  unit
+)
+"badPDA.ml" 157 6818 6820 "badPDA.ml" 176 7718 7722
+type(
+  unit
+)
+"badPDA.ml" 156 6771 6773 "badPDA.ml" 176 7718 7722
+type(
+  unit
+)
