@@ -9,7 +9,10 @@ if [ -d output ]; then
   rm -rf output
 fi
 mkdir output
-cp template.graphml output/witness.graphml
+#cp template.graphml output/witness.graphml
+genWitness/genWitness $1 > witness.graphml
+sed -i 's/_call[0-9]//g' witness.graphml
+mv witness.graphml output
 date2=$(date +"%s")
 diff=$(($date2-$date1))
 echo -e "\n*** Witness Generation: $(($diff / 60)) minutes and $(($diff % 60)) seconds elapsed."

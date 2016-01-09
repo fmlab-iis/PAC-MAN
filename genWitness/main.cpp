@@ -29,6 +29,8 @@ int main(int argc, char** argv)
   if (ifs) {
     string s;
     vector<Node> nodes; // Store all the nodes
+    vector<tuple<int, bool, string>> funcSeq; // XXX Store the function sequence 
+                                     // XXX bool = 0 : entry, 1: return 
     map<string, pair<int, int>> functions; // Store all the functions
     vector<string> ext; // Store external function names
     int sink_id = 0; // same as violation
@@ -137,7 +139,7 @@ int main(int argc, char** argv)
       }
     }
     // Set the scope of each called functions
-    traverse(nodes, functions, entry_id, nodes.size()-1, "main", -1);
+    traverse(nodes, funcSeq, functions, entry_id, nodes.size()-1, "main", -1);
 
 #ifdef DEBUG
     for (auto i = nodes.begin(); i != nodes.end(); i++) {
@@ -149,9 +151,16 @@ int main(int argc, char** argv)
     }
     cout << "\n\n\n============= HUMAN READABLE ============\n";
     printGraph(nodes, functions, entry_id, nodes.size()-1);
+    for (auto i = funcSeq.begin(); i != funcSeq.end(); i++) {
+      cout << get<0>(*i) << "   ";
+      if (get<1>(*i)) cout << "return";
+      else cout << "entrance";
+      cout << "   " << get<2>(*i) << endl;
+    }
 #else
     printMisc(filename);
-    printGraph(nodes, functions, entry_id, nodes.size()-1);
+    // printGraph(nodes, functions, entry_id, nodes.size()-1);
+    printFuncSeq(funcSeq);
     cout << "</graph>\n</graphml>";
 #endif
   }

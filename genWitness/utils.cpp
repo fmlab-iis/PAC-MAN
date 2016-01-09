@@ -70,7 +70,37 @@ void printGraph(vector<Node>& nodes, map<string, pair<int, int>>& f, int b, int 
   }
 }
 
-void traverse(vector<Node>& nodes, map<string, pair<int, int>>& f, int b, int e, string s, int p) {
+void printFuncSeq(vector<tuple<int, bool, string>>& funcSeq) {
+  vector<string> funcName;
+  cout << "<node id=\"ENTRY\">\n"
+       << "<data key=\"entry\">true</data>\n"
+       << "</node>\n";
+  cout << "<edge source=\"ENTRY\" target=\"" << get<0>(funcSeq[0]) << "\"/>\n";
+  for (size_t i = 0; i < funcSeq.size()-1; i++) {
+    cout << "<node id=\"" << get<0>(funcSeq[i]) << "\"/>\n";
+    cout << "<edge source=\"" << get<0>(funcSeq[i]) << "\" target=\"" << get<0>(funcSeq[i+1]) << "\">\n";
+    if (get<1>(funcSeq[i]) == 0) {
+      cout << "<data key=\"enterFunction\">" << get<2>(funcSeq[i]) << "</data>\n"
+           << "</edge>\n";
+      funcName.push_back(get<2>(funcSeq[i]));
+    }
+    else {
+      cout << "<data key=\"returnFrom\">" << funcName.back() << "</data>\n"
+           << "</edge>\n";
+      funcName.pop_back();
+    }
+  }
+  cout << "<node id=\"" << get<0>(funcSeq.back()) << "\"/>\n";
+  cout << "<edge source=\"" << get<0>(funcSeq.back()) << "\" target=\"ERROR\">\n";
+  cout << "<data key=\"returnFrom\">" << funcName.back() << "</data>\n"
+       << "</edge>\n";
+  funcName.pop_back();
+  cout << "<node id=\"ERROR\">\n"
+       << "<data key=\"violation\">true</data>\n"
+       << "</node>\n";
+}
+
+void traverse(vector<Node>& nodes, vector<tuple<int, bool, string>>& funcSeq, map<string, pair<int, int>>& f, int b, int e, string s, int p) {
   for (int i = b; i <= e; i++) {
     if (!nodes[i].isExtern()) {
       nodes[i].setScope(s);
@@ -78,12 +108,15 @@ void traverse(vector<Node>& nodes, map<string, pair<int, int>>& f, int b, int e,
         string n = nodes[i].getFunc();
         int bn = f[n].first, en = f[n].second;
         if (n.find("VERIFIER") == string::npos) {
+          funcSeq.push_back(make_tuple(nodes[i].getId(), 0, n));
           nodes[i].setNext(bn);
-          traverse(nodes, f, bn, en, n, i);
+          traverse(nodes, funcSeq, f, bn, en, n, i);
         }
       }
       else if (nodes[i].isFuncReturn()) {
         nodes[i].setNext(p+1);
+        string n = nodes[i].getFunc();
+        funcSeq.push_back(make_tuple(nodes[i].getId(),1, n));
       }
     }
   }
